@@ -25,18 +25,9 @@ const siteConfig = {
   tagline: "",
   url: "https://droxey.github.io" /* your website url */,
   baseUrl: "/docs/" /* base url for your project */,
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
-  // Used for publishing and more
   projectName: "docs",
   organizationName: "droxey",
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
 
-  // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "home", label: "Docs" },
     { blog: true, label: "Blog" },
@@ -46,12 +37,10 @@ const siteConfig = {
   // If you have users set above, you add it here:
   users,
 
-  /* path to images for header/footer */
   headerIcon: "img/droxey-blue.png",
   footerIcon: "img/safari-pinned-tab.svg",
   favicon: "img/favicon/favicon.ico",
 
-  /* colors for website */
   colors: {
     primaryColor: "#6a8494",
     secondaryColor: "#2C3D47"
@@ -69,11 +58,8 @@ const siteConfig = {
     ]
   },*/
 
-  // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
-    "&copy; " +
-    new Date().getFullYear() +
-    " &emdash; written with &hearts; by @droxey",
+    "[ © " + new Date().getFullYear() + " ⸺ written with ♥ by @droxey ]",
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
@@ -82,13 +68,21 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags
   scripts: ["https://buttons.github.io/buttons.js"],
+  stylesheets: [],
 
   /* On page navigation for the current documentation page */
   onPageNav: "separate",
 
-  /* Open Graph and Twitter card images */
+  twitter: true,
+  twitterUsername: "droxey",
+  twitterImage: "img/droxey.png",
+
   ogImage: "img/droxey.png",
-  twitterImage: "img/droxey.png"
+
+  cleanUrl: true,
+  disableTitleTagline: true,
+  gaTrackingId: "UA-111535249-1",
+  scrollToTop: true
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

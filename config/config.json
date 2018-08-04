@@ -1,7 +1,7 @@
 {
   "title": "droxey-ghdocs",
   "githubRepoOwner": "droxey",
-  "githubRepoName": "wiki",
+  "githubRepoName": "docs",
   "githubRepoPath": "wiki",
   "updateDocsInterval": 300000,
   "menuItems": [

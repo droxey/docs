@@ -1,0 +1,173 @@
+{
+  "title": "droxey-ghdocs",
+  "githubRepoOwner": "droxey",
+  "githubRepoName": "wiki",
+  "githubRepoPath": "wiki",
+  "updateDocsInterval": 300000,
+  "menuItems": [
+    {
+      "menuTitle": "About",
+      "menuLink": "/about"
+    },
+    {
+      "menuTitle": "Contact",
+      "menuLink": "/contact"
+    }
+  ],
+  "addAnchors": true,
+  "layoutFile": "material.html",
+  "docs": [
+    {
+      "title": "MongoDB Tips and Tricks",
+      "file": "wiki/code/mongo/mongo.md"
+    },
+    {
+      "title": "Karma",
+      "file": "wiki/code/node/karma.md"
+    },
+    {
+      "title": "Yarn",
+      "file": "wiki/code/node/yarn.md"
+    },
+    {
+      "title": "NPM",
+      "file": "wiki/code/node/npm.md"
+    },
+    {
+      "title": "Anaconda: Conda Commands",
+      "file": "wiki/code/python/anaconda/conda-commands.md"
+    },
+    {
+      "title": "Anaconda: ZSH Integration",
+      "file": "wiki/code/python/anaconda/zsh/integration.md"
+    },
+    {
+      "title": "Django: Quick Install",
+      "file": "wiki/code/python/django/quick-install.md"
+    },
+    {
+      "title": "Flask: Introduction",
+      "file": "wiki/code/python/flask/intro-guide.md"
+    },
+    {
+      "title": "Pipenv",
+      "file": "wiki/code/python/pipenv.md"
+    },
+    {
+      "title": "CS: Introduction to Sorting Algortihms",
+      "file": "wiki/compsci/algorithms/intro-algortihms.md"
+    },
+    {
+      "title": "CS: Interview Review",
+      "file": "wiki/compsci/interviewing/cs-review.md"
+    },
+    {
+      "title": "CS: Perils of the Floating Point",
+      "file": "wiki/compsci/theory/perils-floating-point.md"
+    },
+    {
+      "title": "Docker: Postgres and Volumes",
+      "file": "wiki/devops/docker/postgres-and-volumes.md"
+    },
+    {
+      "title": "Docker: Ubuntu Bionic Setup",
+      "file": "wiki/devops/docker/ubuntu-bionic-setup.md"
+    },
+    {
+      "title": "Dokku: Common Commands",
+      "file": "wiki/devops/dokku/dokku-commands.md"
+    },
+    {
+      "title": "Heroku: Deploy a Bot",
+      "file": "wiki/devops/heroku/deploy-a-bot.md"
+    },
+    {
+      "title": "Raspberry Pi: Zero W Setup",
+      "file": "wiki/electronics/raspberry-pi/pi-zero-w-setup.md"
+    },
+    {
+      "title": "Security: Keybase + GitCrypt Setup",
+      "file": "wiki/security/keybase-gitcrypt.md"
+    },
+    {
+      "title": "Teach: JS Lesson Plans - Callbacks",
+      "file": "wiki/teach/js/callbacks.md"
+    },
+    {
+      "title": "Teach: SDLC Lesson Plans - Requirements",
+      "file": "wiki/teach/sdlc/requirements.md"
+    },
+    {
+      "title": "Git: Common Issues",
+      "file": "wiki/tools/git/common-issues.md"
+    },
+    {
+      "title": "Git: Feature Branches",
+      "file": "wiki/tools/git/feature-branches.md"
+    },
+    {
+      "title": "GitFlow",
+      "file": "wiki/tools/git/git-flow.md"
+    },
+    {
+      "title": "Git Hooks",
+      "file": "wiki/tools/git/git-hooks.md"
+    },
+    {
+      "title": "Git: Setup",
+      "file": "wiki/tools/git/setup.md"
+    },
+    {
+      "title": "Git: Submitting Homework",
+      "file": "wiki/tools/git/submitting-homework.md"
+    },
+    {
+      "title": "Jupyter Notebook: Tips and Tricks",
+      "file": "wiki/tools/jupyter/jupyter.md"
+    },
+    {
+      "title": "Terminal: Basic Commands",
+      "file": "wiki/tools/terminal/basic-commands.md"
+    },
+    {
+      "title": "Terminal: SCP",
+      "file": "wiki/tools/terminal/scp-copy-files.md"
+    },
+    {
+      "title": "VSCode: Awesome Data Extensions",
+      "file": "wiki/tools/vscode/awesome-data-extensions.md"
+    },
+    {
+      "title": "VSCode: Know Your Tools",
+      "file": "wiki/tools/vscode/scp-copy-files.md"
+    },
+    {
+      "title": "GitHub Docs: Introduction",
+      "file": "wiki/project-docs/githubdocs/Introduction.md"
+    },
+    {
+      "title": "GitHub Docs: How it works",
+      "file": "wiki/project-docs/githubdocs/How it works.md"
+    },
+    {
+      "title": "GitHub Docs: Installation",
+      "file": "wiki/project-docs/githubdocs/Installation.md"
+    },
+    {
+      "title": "GitHub Docs: Github repository",
+      "file": "wiki/project-docs/githubdocs/Github repository.md"
+    },
+    {
+      "title": "GitHub Docs: Local files",
+      "file": "wiki/project-docs/githubdocs/Local files.md"
+    },
+    {
+      "title": "GitHub Docs: Configuration",
+      "file": "wiki/project-docs/githubdocs/Configuration.md"
+    },
+    {
+      "title": "GitHub Docs: Theming",
+      "file": "wiki/project-docs/githubdocs/Theming.md"
+    }
+  ]
+}

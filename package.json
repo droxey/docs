@@ -1,5 +1,5 @@
 {
-  "name": "githubdocs",
+  "name": "droxey-docs",
   "version": "0.0.7",
   "description": "Easily build a searchable documentation Single Page Application (SPA) using markdown files in your Github Repo or local files.",
   "private": false,
@@ -9,7 +9,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrvautin/githubdocs.git"
+    "url": "git+https://github.com/droxey/docs.git"
   },
   "keywords": [
     "knowledge base",
@@ -24,10 +24,10 @@
     "SPA",
     "single page application"
   ],
-  "author": "Mark Moffat",
+  "author": "Dani Roxberry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrvautin/githubdocs/issues"
+    "url": "https://github.com/droxey/docs/issues"
   },
   "dependencies": {
     "async": "^2.5.0",

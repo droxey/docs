@@ -1,0 +1,33 @@
+<h1>Defining a Git Hook</h1>
+<h2>Hook Creation</h2>
+<ol>
+<li>
+<p>Navigate in the Terminal to the desired repository.</p>
+</li>
+<li>
+<p>Create the hook. In this example, we create a local <code>post-merge</code> git hook that will run every time we execute <code>git pull</code> from this repository:</p>
+<pre><code class="language-bash">$ nano .git/hooks/post-merge
+</code></pre>
+</li>
+<li>
+<p>Paste the following code, uncomment one of the hook types (<code>Post-Merge</code> or <code>Post-Receive</code>), and update as required:</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+# Post-Merge Hooks:
+# changed_files=&quot;$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)&quot;
+
+# Post-Receive Hooks:
+# changed_files=&quot;$(git diff --name-only HEAD^ HEAD)&quot;
+
+check_run() { echo &quot;$changed_files&quot; | grep --quiet &quot;$1&quot; &amp;&amp; eval &quot;$2&quot; }
+
+# Example usage: used to run `npm install` if package.json changed.
+# check_run package.json &quot;npm install&quot;
+</code></pre>
+</li>
+<li>
+<p>Make the file executable:</p>
+<pre><code class="language-bash">chmod +x .git/hooks/post-merge
+</code></pre>
+</li>
+</ol>

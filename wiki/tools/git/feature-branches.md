@@ -1,6 +1,3 @@
-<!-- TITLE: Git Workflow: Feature Branches -->
-<!-- SUBTITLE: How to use feature branches to collaborate via git. -->
-
 # Git Workflow: Feature Branches
 
 ### Successful teams follow 3 easy rules to integrate git into their daily workflow:

@@ -1,6 +1,3 @@
-<!-- TITLE: Headless Pi Zero W Setup -->
-<!-- SUBTITLE: Setting up Pi Zero OTG -->
-
 # Headless Pi Zero W Setup
 
 ## Headless Configuration (no keyboard, mouse, or monitor)

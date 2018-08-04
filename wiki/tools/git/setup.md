@@ -1,6 +1,3 @@
-<!-- TITLE: Git Started With Git -->
-<!-- SUBTITLE: Cheat Sheet for First Time git Users -->
-
 # Source Control: How I Learned to Stop Worrying, and Love Git
 
 ## Objectives

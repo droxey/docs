@@ -1,5 +1,6 @@
-<!-- TITLE: Karma Step by Step -->
-<!-- SUBTITLE: Mocha and Karma installation guide. -->
+# Karma Step by Step
+
+## Mocha and Karma Installation Guide
 
 Follow these instructions to get `mocha` and `karma` running on your machine!
 

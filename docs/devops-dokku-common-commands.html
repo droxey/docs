@@ -1,0 +1,21 @@
+<h1>Dokku Commands</h1>
+<h2>Example Deployment</h2>
+<h3>Configure Host</h3>
+<pre><code class="language-bash">$ dokku apps:create ruby-rails-sample
+$ sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git
+$ dokku postgres:create rails-database
+$ dokku postgres:link rails-database ruby-rails-sample
+</code></pre>
+<h3>Configure Local Repository</h3>
+<pre><code class="language-bash">$ git clone git@github.com:heroku/ruby-rails-sample.git &amp;&amp; cd ruby-rails-sample
+$ git remote add dokku ssh://dokku@lab.outputs.io:9922/ruby-rails-sample
+</code></pre>
+<h3>Deploy</h3>
+<pre><code class="language-bash">$ git push dokku master
+</code></pre>
+<h2>Skip Deployment</h2>
+<pre><code class="language-bash">$ dokku config:set ruby-rails-sample DOKKU_SKIP_DEPLOY=true
+</code></pre>
+<h2>Re-Deployment</h2>
+<pre><code class="language-bash">dokku ps:rebuild ruby-rails-sample
+</code></pre>

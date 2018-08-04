@@ -1,5 +1,4 @@
-<!-- TITLE: MongoDB -->
-<!-- SUBTITLE: Tips and Tricks -->
+# MongoDB Tips and Tricks
 
 ## Drop DB from Command Line
 

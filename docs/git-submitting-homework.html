@@ -1,0 +1,50 @@
+<h1>Submitting Homework on GitHub</h1>
+<h2>Prerequisites</h2>
+<ol>
+<li>Sign up for an account on GitHub. Choose your username wisely! You'll be professionally associated with this account.</li>
+<li>Set up Git on your local machine according to <a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md">this guide</a>.</li>
+</ol>
+<h2>Step by Step</h2>
+<p><strong>‼️ IMPORTANT: $ denotes a command that must be entered into Terminal/Git Bash.</strong></p>
+<ol>
+<li>
+<p>In your browser, create a new repo on GitHub: <a href="https://github.com/new">Create a New Repository</a>.</p>
+<ul>
+<li>Give it a sensible name and descripition.</li>
+<li>Leave the rest of the settings as default, unless you know what you're doing!</li>
+</ul>
+</li>
+<li>
+<p>In <code>Terminal.app</code> or <code>Git Bash</code>, navigate to the directory in which you store all your repos.</p>
+<p>In class, we configured it to <code>~/dev/repos</code>.</p>
+<pre><code class="language-bash">$ cd ~/dev/repos
+</code></pre>
+</li>
+<li>
+<p>Clone the repository to your <code>~/dev/repos</code> directory:</p>
+<pre><code class="language-bash">$ git clone git@github.com:droxey/my-homework-assignment.git
+</code></pre>
+</li>
+<li>
+<p>Open the repository:</p>
+<pre><code class="language-bash">$ cd my-homework-assignment &amp;&amp; open .
+</code></pre>
+</li>
+<li>
+<p>If you are <strong>beginning your assignment</strong>, create any required files and folders in this directory, then <strong>commit and push your progress incrementally</strong> to take advantage of the version control features Git provides.</p>
+<p><strong>If you've already completed your assignment</strong> before reading this guide, simply <strong>move your completed assignment files to the newly opened window</strong>.</p>
+</li>
+<li>
+<p>In <code>Terminal.app</code> or <code>Git Bash</code>, add, commit, and push your files to your new GitHub repository:</p>
+<pre><code class="language-bash">$ git add .
+$ git commit -m &quot;Assignment #1 solution.&quot;
+$ git push origin master
+</code></pre>
+</li>
+<li>
+<p>In your browser, refresh your GitHub repository page to verify your <code>git push</code>.</p>
+</li>
+<li>
+<p>Make sure to include this repository URL when submitting your assignment. The TAs will use the files and code you provide in this repository in order to grade your homework and give feedback.</p>
+</li>
+</ol>

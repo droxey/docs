@@ -1,0 +1,21 @@
+<h1>Headless Pi Zero W Setup</h1>
+<h2>Headless Configuration (no keyboard, mouse, or monitor)</h2>
+<blockquote>
+<p>More details - http://blog.gbaman.info/?p=791</p>
+</blockquote>
+<p>For this method, alongside your Pi Zero, MicroUSB cable and MicroSD card, only an additional computer is required, which can be running Windows (with Bonjour, iTunes or Quicktime installed), macOS, or Linux (with Avahi Daemon installed, for example Ubuntu has it built in).</p>
+<ol>
+<li><strong>Format the SD card</strong> with <code>SDFormatter.app</code>.</li>
+<li><strong>Flash Raspbian</strong> onto the SD card via <code>Etcher.app</code>.</li>
+<li>Once the OS is flashed, <strong>open the boot partition</strong>, and <strong>add to the bottom</strong> of <code>config.txt</code>: <code>dtoverlay=dwc2</code>, then <strong>save</strong>.</li>
+<li>In the <strong>root of the SD card</strong>, <code>touch ssh</code> to <strong>enable SSH</strong>.</li>
+<li>Finally, <strong>open</strong> <code>cmdline.txt</code>. <strong><em>Be careful with this file, it is very picky with its formatting!</em></strong> Each parameter is seperated by a single space (it does not use newlines). <strong>Insert</strong> <code>modules-load=dwc2,g_ether</code> <strong>after</strong> <code>rootwait</code>.</li>
+<li><strong>Eject the SD card</strong> from your computer, then <strong>put it in your Raspberry Pi Zero</strong>. <strong>Connect the pi via USB</strong> to your computer. It will take up to 90 seconds to boot up (shorter on subsequent boots).</li>
+<li>It should then <strong>appear as a USB Ethernet device</strong> in <code>System Preferences</code> -&gt; <code>Network</code>.</li>
+<li>You can <strong>SSH into it</strong> using <code>raspberrypi.local</code> as the address: <code>ssh -p 22 pi@raspberrypi.local</code>.</li>
+</ol>
+<h2>Security</h2>
+<ol>
+<li><strong>Update the password</strong> by running <code>passwd</code>.</li>
+<li>On your host machine, run <code>ssh-copy-id -i ~/.ssh/id_rsa.pub pi@raspberrypi.local -p 22</code> to <strong>enable key-based authentication</strong>.</li>
+</ol>

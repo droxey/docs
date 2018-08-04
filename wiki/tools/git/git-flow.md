@@ -1,6 +1,3 @@
-<!-- TITLE: Git Flow 101 -->
-<!-- SUBTITLE: Everything you need to get started with Git Flow on macOS. -->
-
 # Flowing with Git
 
 ## Introduction

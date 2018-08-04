@@ -1,6 +1,3 @@
-<!-- TITLE: Keybase + Git-Crypt -->
-<!-- SUBTITLE: Integrate keybase.io with the popular git-crypt implementation. -->
-
 # Keybase + Git Crypt
 
 ```bash

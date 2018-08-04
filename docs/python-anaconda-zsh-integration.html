@@ -1,0 +1,33 @@
+<h1>conda + zsh + oh-my-zsh integration</h1>
+<h2>Purpose</h2>
+<p>On macOS and Linux, Anaconda defaults to inserting required PATH variables in <code>~/.bash_profile</code>.</p>
+<h2>Intended Audience</h2>
+<ul>
+<li>You have changed your default shell from <code>bash</code> to <code>zsh</code>.</li>
+<li>You are running macOS or Linux.</li>
+<li>You receive this error after installing Anaconda and running <code>conda --version</code>: `<pre><code class="language-bash">$ conda --version
+zsh: command not found: conda
+</code></pre>
+</li>
+</ul>
+<h2>The Fix</h2>
+<ol>
+<li>Open <code>~/.zshrc</code> in your editor of choice.</li>
+<li>Scroll to the bottom of the file.</li>
+<li>Paste this line at the bottom: <code>export PATH=$HOME/anaconda3/bin:$PATH</code> and save.</li>
+<li>Run <code>source ~/.zshrc</code> in your Terminal.</li>
+<li><code>conda --version</code> should now return the running Anaconda version:</li>
+</ol>
+<pre><code class="language-bash">$ conda --version
+conda 4.4.8
+</code></pre>
+<h2>Plugins</h2>
+<p>In the same folder as this README, an Anaconda oh-my-zsh plugin is available. Ensure you have oh-my-zsh installed, then follow these steps to add the custom conda plugin:</p>
+<ol>
+<li>In Terminal, paste <code>cd $HOME/.oh-my-zsh/custom/plugins &amp;&amp; mkdir conda &amp;&amp; cd conda</code>.
+NOTE: An error that says: <code>cd: no such file or directory: ~/.oh-my-zsh/custom/plugins</code> may indicate that you need to create this directory first.</li>
+<li>Add <code>conda_auto_env.sh</code> and <code>conda.plugin.zsh</code> files to the new <code>conda</code> directory.</li>
+<li>Edit <code>~/.zshrc</code>. Add <code>conda</code> to the list of plugins, then save.</li>
+<li>Run <code>source ~/.zshrc</code> (or restart Terminal) for the change to take affect.</li>
+<li>You now have access to a few convienence commands to administrate your Anaconda environments: <code>workon</code>, <code>workoff</code>, <code>rmvirtualenv</code>, and <code>cdvirtualenv</code>!</li>
+</ol>

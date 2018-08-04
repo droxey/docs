@@ -1,6 +1,3 @@
-<!-- TITLE: Helpful Dokku Commands -->
-<!-- SUBTITLE: Tips and Tricks for Dokku -->
-
 # Dokku Commands
 
 ## Example Deployment

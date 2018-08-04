@@ -1,6 +1,3 @@
-<!-- TITLE: Yarn -->
-<!-- SUBTITLE: Cheat Sheet for Yarn -->
-
 # Guide to Yarn
 
 ## Installation on Ubuntu

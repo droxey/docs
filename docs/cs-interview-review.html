@@ -1,0 +1,74 @@
+<h1>Interview Review</h1>
+<h2>Swift</h2>
+<p>Safe, fast, expressive replacement for Obj-C. Automatic memory management. Easier to read and maintain.</p>
+<h3>Collection Types</h3>
+<p><code>Array</code>: Stores collection of data of the same type.
+<code>Set</code>:  Distinct values, no duplicates. Order not guaranteed.
+<code>Dictionary</code> KVC model. Order not guaranteed.</p>
+<h3>Functions</h3>
+<p><code>func</code> to declare.</p>
+<h3>Let vs Var</h3>
+<p><code>let</code> = constant.
+<code>var</code> =  variable.</p>
+<h2>Ruby</h2>
+<ul>
+<li>
+<p>Root class: <code>Object</code></p>
+</li>
+<li>
+<p>Modules serve as a mechanism for <strong>namespaces</strong>.  Provide mechanism for multiple inheritance via <strong>mix-ins</strong>. <strong>Cannot be instantiated</strong> like classes can.</p>
+</li>
+<li>
+<p>Method Invokation: <strong>dot operator</strong>, <strong>Object#send</strong> method, or <strong>method(:foo).call</strong></p>
+</li>
+<li>
+<p><code>Procs</code> are <strong>anonymous methods</strong> (or nameless functions) containing code. They can be placed inside a variable and <strong>passed around</strong> like any other object or scalar value. They are created by <strong>Proc.new</strong>, <strong>lambda</strong>, and <strong>blocks</strong> (invoked by the yield keyword).</p>
+</li>
+<li>
+<p><code>self</code> <em>always</em> refers to the current object. Keep in mind <strong>classes are also objects</strong> in ruby.</p>
+<ul>
+<li>at the <em>class level</em>, self is the <strong>class</strong>, <code>AClass</code>.</li>
+</ul>
+<ul>
+<li>at the <em>instance level</em>, self is the <strong>instance in context</strong>,  aka the instance of <code>AClass</code> at memory location 0x28190.</li>
+</ul>
+</li>
+<li>
+<p>Explain this ruby idiom: <code>a ||= b</code></p>
+<pre><code class="language-ruby"># a = b when a == false
+# otherwise a remains unchanged
+a || a = b # (Kudos to Markus Prinz)
+</code></pre>
+</li>
+</ul>
+<h2>CS</h2>
+<h3>4 Tenets of OOP</h3>
+<ul>
+<li>Encapsulation</li>
+<li>Abstraction</li>
+<li>Inheritance: properties of parent class passed on to child classes</li>
+<li>Polymorphism: ability of an object to take on multiple forms</li>
+</ul>
+<h3>Method vs Constructor</h3>
+<p><code>Constructor</code>: Used to initialize the instance of a class.  Doesn’t have a return type.
+<code>Method</code>: Used to perform some function or operation. Has a return type.</p>
+<h3>Object</h3>
+<p>An instance of a class. An object is first declared then instantiated.</p>
+<h3>Array vs List</h3>
+<p><code>Array</code>: Immutable. Fixed # of elements. Must copy to add more.
+<code>List</code>: Mutable. Can add more elements. Often knows the item before (tail) and the item after (head)</p>
+<h3>Class vs Interface</h3>
+<ul>
+<li>Interface: Cannot be instantiated. No constructors. Only abstract methods.  Can extend multiple interfaces.</li>
+<li>Class: Implements an interface. Classes hold <strong>data</strong>, have <strong>methods</strong> that interact with that data, and are used to <strong>instantiate objects</strong>.</li>
+</ul>
+<h3>Access Control</h3>
+<ul>
+<li>
+<ul>
+<li><em>Public</em>: Enforce <strong>no access control</strong>. Can be called in any scope.</li>
+<li><em>Protected:</em> only accessible to <strong>other objects of the same class</strong>.</li>
+<li><em>Private:</em> only accessible within the <strong>context of the current object</strong>.</li>
+</ul>
+</li>
+</ul>

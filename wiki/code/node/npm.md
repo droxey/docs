@@ -1,6 +1,3 @@
-<!-- TITLE: NPM -->
-<!-- SUBTITLE: Tips, Tricks, and Notable Packages from the Node Package Manager -->
-
 # Node Package Manager
 
 ## Tips

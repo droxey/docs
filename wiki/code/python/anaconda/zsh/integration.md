@@ -1,6 +1,3 @@
-<!-- TITLE: Anaconda and oh-my-zsh Integration -->
-<!-- SUBTITLE: Configure oh-my-zsh to Support Anaconda Commands. -->
-
 # conda + zsh + oh-my-zsh integration
 
 ## Purpose

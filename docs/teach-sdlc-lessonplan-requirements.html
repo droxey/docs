@@ -1,0 +1,121 @@
+<h1>Writing Requirements: An Engineering Perspective</h1>
+<blockquote>
+<p>The hardest single part of building a software system is deciding precisely what to build. -<em>Frederick Brooks</em></p>
+</blockquote>
+<h2>Well Written Requirements...</h2>
+<ul>
+<li>
+<p>Represent a complete, unambiguous description of  <em>what</em> we're creating, rather than <em>how</em> we create it.</p>
+</li>
+<li>
+<p>Embody an abstract, high-level implementation roadmap, facilitating a contract between developers and stakeholders.</p>
+</li>
+<li>
+<p>Are proportionate to the size or complexity of the project and/or development team. Smaller projects contain shorter requirements, whereas larger or more difficult projects require more description.</p>
+</li>
+<li>
+<p>Assist in the breakdown and estimation of development tasks.</p>
+</li>
+<li>
+<p>Reveal the cost -- and requisite resources -- to complete the project.</p>
+</li>
+<li>
+<p>Yield basic input required for the design process.</p>
+</li>
+<li>
+<p>Omit details regarding...</p>
+<ul>
+<li>
+<p>The design, or how to accomplish the requirements.</p>
+</li>
+<li>
+<p>Any project-related metadata such as the scheduling of individual resources or the formation of tasks.</p>
+</li>
+<li>
+<p>Testing models which describe specific test cases that articulate the verification of fulfilled requirements.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Define project completion criteria.</p>
+</li>
+<li>
+<p>Enforce the following operational paradigm: <strong><em>if it's not in the requirements, we're not doing it!</em></strong></p>
+</li>
+</ul>
+<h2>A Living Document</h2>
+<p>Often described as <strong>living documentation</strong>, the writing and updating of requirements enable the following:</p>
+<ul>
+<li>
+<p><strong>Shared Vision</strong>: Different stakeholders often have opposing ideas regarding what the end product accomplishes. The act of producing requirements documents naturally generates discussion of the end product, ultimately resulting in a single source of truth to reference during the implementation phase.</p>
+</li>
+<li>
+<p><strong>Proactive Problem Solving</strong>: Anticipating and identifying potential issues early ensures time, energy, and development resources are utilized wisely.</p>
+</li>
+<li>
+<p><strong>Define Success</strong>: By defining the criteria used to evaluate if the implementation is complete.</p>
+</li>
+</ul>
+<h2>Intended Audience</h2>
+<p>Many stakeholders will consult a requirements documentation as the project's single source of truth, including:</p>
+<ul>
+<li>Product Managers</li>
+<li>Project Managers</li>
+<li>System Engineers</li>
+<li>System Maintainers</li>
+<li>QA Departments</li>
+<li>Customers / Clients</li>
+</ul>
+<h2>Gathering Requirements</h2>
+<p>At a high level, customers and clients easily articulate their needs. However, an effective requirements gatherer further explores provided high-level details, defining the granularity necessary in order to effectively design software and de-mystify the problem set.</p>
+<p>To gather effective requirements, one should focus on:</p>
+<ul>
+<li>
+<p>Wearing many hats, effectively representing concern for multiple roles -- user, administrator, or salesperson are common examples.</p>
+</li>
+<li>
+<p>Asking lots of questions! Listening is crucial. Be ready to repeat back what you hear, and iterate until both parties agree on the description.</p>
+</li>
+<li>
+<p>Imagine how the product will be used. Doodle some pictures. Storyboard the steps of each interaction. Prototype difficult technologies.</p>
+</li>
+<li>
+<p>Model use cases.</p>
+</li>
+</ul>
+<h2>Functional Requirements</h2>
+<p>Excellent <em>functional requirements</em> consider an in-depth, specific account of each interaction or function in the System.</p>
+<p>For example:</p>
+<ul>
+<li>
+<p>What inputs should the System allow?</p>
+</li>
+<li>
+<p>What outputs represent the System's response to input? To user actions? To external events?</p>
+</li>
+<li>
+<p>What additional services does the System provide?</p>
+</li>
+</ul>
+<h2>Non-Functional Requirements</h2>
+<p>Attributes of the System -- or the environment containing it -- are referred to as <em>non-functional requirements.</em> Failure to capture URPS details can render perfectly written and deployed software utterly useless!</p>
+<p><strong>URPS</strong> stands for...</p>
+<ul>
+<li>
+<p><strong>Usability</strong>: Is the software easy to learn and run? Does it require power-users, or can anyone use it? Will users require training? How much time will that take?</p>
+</li>
+<li>
+<p><strong>Reliability</strong>: Does the software consistently perform the same action every time? Is it available? Does the System return accurate output? Are there bugs? How many bugs are acceptable? What types of bugs do we consider show-stoppers?</p>
+</li>
+<li>
+<p><strong>Performance</strong>: Does the System complete it's work quickly and efficiently at runtime? How long does it take the System to respond to input? Does it use system resources (cpu, disk, memory, bandwidth) with care? How many users can take advantage of the System at once?</p>
+</li>
+<li>
+<p><strong>Supportability</strong>: Is it easy to maintain the software? How difficult is it to implement a new feature, or fix an existing bug? Does it inform stakeholders when an error occurs? Is it written in a language or framework that many other developers utilize? What standards are enforced in the code?</p>
+</li>
+</ul>
+<h2>Review and Approval</h2>
+<p>Walk through each requirement with stakeholders before making it official. Team members, users, customers, and clients can help identify any remaining ambiguity or confusion.</p>
+<p>Update the document when feedback is received, and make sure to inform interested parties!</p>
+<p>Final approval (and any updates) should be delivered in writing and subsequently  signed off on by whichever party receives the end product.</p>
+<p>Once the customer submits signed approval, you can rest easy knowing this document represents all truth in your project going forward.</p>

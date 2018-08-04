@@ -1,0 +1,268 @@
+<h1>Source Control: How I Learned to Stop Worrying, and Love Git</h1>
+<h2>Objectives</h2>
+<p>This document will provide a guide for the following topics:</p>
+<ul>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#intro-to-git-warmup-activity-15-minutes">Intro to Git: Warmup Activity (15 Minutes)</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#installing-git">Installing Git</a>
+<ul>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#macos">macOS</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#windows-10">Windows 10</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#linux">Linux</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#configuring-git">Configuring Git</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#verifying-your-installation">Verifying Your Installation</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#generating-and-configuring-ssh-keys">Generating and Configuring SSH Keys</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#cloning-a-remote-repository-to-your-local-machine">Cloning a Remote Repository to Your Local Machine</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#updating-your-local-repository-when-new-content-is-available">Updating Your Local Repository When New Content is Available</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#adding-committing-and-pushing-local-changes-to-remote-repositories">Adding, Committing, and Pushing Local Changes to Remote Repositories</a></li>
+<li><a href="https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#more-practiceadditional-educational-resources">More Practice/Additional Educational Resources</a></li>
+</ul>
+<h2>Intro to Git: Warmup Activity (15 Minutes)</h2>
+<p>Before setting Git up on your development machine, consider attempting the 'Try Git' challenge!
+This will allow you to get a feel for using git in a guided setting, before you run the commands on your machine.</p>
+<p><strong>Highly recommended: <a href="https://try.github.io/levels/1/challenges/1">Interactive: Learn Git Online</a></strong></p>
+<h2>Installing Git</h2>
+<p><strong>‼️ IMPORTANT: $ denotes a command that must be pasted into <code>Terminal</code>/<code>Git Bash</code>.</strong></p>
+<h3>macOS</h3>
+<ol>
+<li>
+<p>Hold down ⌘ and press the Spacebar to invoke Spotlight.</p>
+</li>
+<li>
+<p>Type <code>Terminal.app</code>.</p>
+</li>
+<li>
+<p>In <code>Terminal.app</code>, run the following command to install <a href="https://brew.sh">Homebrew</a>:</p>
+<pre><code class="language-bash">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+</li>
+<li>
+<p>Once Homebrew is installed, run <code>brew install git</code> to install the latest version of git.</p>
+</li>
+</ol>
+<h3>Windows 10</h3>
+<ol>
+<li>Navigate to <a href="https://git-scm.com/download/win">Git: Download Windows Package</a> in your browser.</li>
+<li>If prompted, save the file.</li>
+<li>Navigate to the directory you saved the file in, and double-click to launch the installer.</li>
+<li>Hit <strong>Next &gt;</strong> on each screen to select the default settings and complete the installation.</li>
+</ol>
+<h3>Linux</h3>
+<h4>Debian/Ubuntu:</h4>
+<ol>
+<li>
+<p>Install Git via <code>apt</code> by running:</p>
+<pre><code class="language-bash">$ sudo apt-get update
+$ sudo apt-get install git-all
+</code></pre>
+</li>
+</ol>
+<h4>Red Hat/CentOS:</h4>
+<ol>
+<li>
+<p>Install Git via <code>dnf</code> by running:</p>
+<pre><code class="language-bash">$ sudo dnf -y update
+$ sudo dnf install -y git
+</code></pre>
+</li>
+</ol>
+<h2>Verifying Your Installation</h2>
+<ol>
+<li>
+<p>To verify git is installed correctly, open <code>Terminal</code> (macOS/Linux) or <code>Git Bash</code> (Windows).</p>
+</li>
+<li>
+<p>Run <code>git --version</code> within the new <a href="https://en.wikipedia.org/wiki/Shell_(computing)">shell</a>:</p>
+<pre><code class="language-bash">$ git --version
+git version 2.15.1
+</code></pre>
+</li>
+</ol>
+<h2>Configuring Git</h2>
+<ol>
+<li>Configure your global username and email address.</li>
+</ol>
+<p><strong>‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.</strong></p>
+<pre><code>```bash
+$ git config --global user.name &quot;Dani Roxberry&quot;
+$ git config --global user.email &quot;dani@bitoriented.com&quot;
+```
+</code></pre>
+<ol>
+<li>
+<p>Optional. Configure additional, helpful settings:</p>
+<ul>
+<li>
+<p>[<strong>macOS/Linux</strong>] Set the default text editor to VSCode:</p>
+<pre><code class="language-bash">$ git config --global core.editor code
+</code></pre>
+</li>
+<li>
+<p>[<strong>Windows</strong>] On a Windows system, if you want to use a different text editor, you must specify the full path to its executable file:</p>
+<pre><code class="language-bash">$ git config --global core.editor &quot;&lt;FULL PATH TO VSCODE EXE IN QUOTES&gt;&quot;
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Double-check your settings:</p>
+<pre><code class="language-bash">$ git config --list
+
+credential.helper=osxkeychain
+user.name=Dani Roxberry
+user.email=dani@bitoriented.com
+url.ssh://git@github.com/.insteadof=https://github.com/
+mergetool.keepbackup=false
+core.excludesfile=/Users/dani/.gitignore_global
+core.editor=code
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+</code></pre>
+</li>
+</ol>
+<h2>Generating and Configuring SSH Keys</h2>
+<ol>
+<li>
+<p>Run the following commands.</p>
+<p><strong>‼️ IMPORTANT: DO NOT ENTER A PASSWORD WHEN PROMPTED</strong>. Just hit enter.</p>
+<pre><code class="language-bash">$ ssh-keygen -t rsa -C &quot;your.email@example.com&quot; -b 4096
+$ cat ~/.ssh/id_rsa.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+SJSGSCeSeLnOg543Hyqh3OcAENvugks8ygkoOkEA4g652gK0ES7CjjpBy4GS/XnaUWiD9iaoE4soE8dqhe/psCoiU+QxGmkjNapLtQAOu1W2v/SEh3Jao+rtfop0S+Ak96fiOVgUgupFAN1FXV1iYdpwyk7rR3Kv/T2M9Ce06Bk5KupdgNzF7Eg/tmFx8H2yVmeQ2J3MWM948ZvWmbBwtbcDRQ6ZtnXSoEof1Wg8agzyisq0Yoi3rXqAIxr1Hevs4g79Lrf65548yTfqZqyljSFA/h4VntXsZYKIWoXti5uPstrwRF6oaH8dm1l74jLAKC/XlqnsqVkRWn/Updj+x8g3+EdtFiWpUwEIMWWDbjPk0HHTfOS06716Hcji0hg4Kfipe03QjhD8Vqp/snaYCb8R3OSZOK1H3Zj9n1JgHhOoFYzk0gstV9DGRmrm2ywrQh3Q7fs23pzrZARGBhRHwk5XfFQl85D7oJffBbfpqjDdyzcHYOAo3mlDfwkfl1nHxynWrwCk+0KKD0zLVsqtkSVlNfQv2JqSSc6ox6vktO7RWKg5/T0b9r0fnNcYfGBVnoJDulJPJr7ynSUDRi2hX5WpMDomylUahVYN/VlAZBwvuWdOM0h3ZUsQEPjauN0k+mY3nQVTIa0hWl1vszTddcxLZKK5mJsvlnL7HMBQxQ== dani@bitoriented.com
+</code></pre>
+</li>
+<li>
+<p>With your mouse, highlight the entire <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">public key</a>, beginning with <code>ssh-rsa</code> and ending with your email address. Copy the highlighted public key to the clipboard.</p>
+</li>
+<li>
+<p>Add the key to <a href="http://ucb.bootcampcontent.com/profile/keys"><strong>GitLab</strong></a>:</p>
+<ul>
+<li>
+<p>Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.</p>
+</li>
+<li>
+<p><strong>Make sure you copied the entire key starting with <code>ssh-rsa</code> and ending with your email.</strong></p>
+</li>
+<li>
+<p>Test your setup by running <code>ssh -T git@example.com</code> (replacing <code>example.com</code> with your GitLab domain) and verifying that you receive a <code>Welcome to GitLab</code> message.</p>
+<ul>
+<li>
+<p>Test using our Class Repository with this command: <code>ssh -T git@ucb.bootcampcontent.com</code></p>
+</li>
+<li>
+<p>You should receive the following output:</p>
+<pre><code class="language-bash">$ ssh -T git@ucb.bootcampcontent.com
+
+Welcome to GitLab, Dani Roxberry!
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Add the key to <a href="https://github.com/settings/ssh/new"><strong>GitHub</strong></a>:</p>
+<ul>
+<li>
+<p>Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.</p>
+</li>
+<li>
+<p><strong>Make sure you copied the entire key starting with <code>ssh-rsa</code> and ending with your email.</strong></p>
+</li>
+<li>
+<p>Test your setup by running <code>ssh -T git@github.com</code>:</p>
+<pre><code class="language-bash">$ ssh -T git@github.com
+
+Hi droxey! You've successfully authenticated, but GitHub does not provide shell access.
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h2>Cloning a Remote Repository to Your Local Machine</h2>
+<pre><code class="language-bash">$ git clone git@ucb.bootcampcontent.com:UCB-Coding-Bootcamp/UCBSAN201802DATA3-Class-Repository-DATA.git
+
+Cloning into 'UCBSAN201802DATA3-Class-Repository-DATA'...
+remote: Counting objects: 110, done.
+remote: Compressing objects: 100% (96/96), done.
+remote: Total 110 (delta 10), reused 0 (delta 0)
+Receiving objects: 100% (110/110), 50.72 MiB | 2.69 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+</code></pre>
+<h2>Updating Your Local Repository When New Content is Available</h2>
+<pre><code class="language-bash">$ git pull origin master
+</code></pre>
+<h2>Adding, Committing, and Pushing Local Changes to Remote Repositories</h2>
+<pre><code class="language-bash">$ cd ~/dev/repos/my-new-repo
+$ git add .
+$ git commit -m &quot;A good, descriptive commit message.&quot;
+$ git push origin master
+</code></pre>
+<h2>Get Advanced with Git</h2>
+<p><code>COMING SOON!</code></p>
+<h2>More Practice/Additional Educational Resources</h2>
+<h3>Fundamentals</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics">Getting Started: Git Overview</a></li>
+</ul>
+<h3>eBooks</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git: Free eBook (HTML/PDF/EPUB/MOBI)</a></li>
+</ul>
+<h3>Videos</h3>
+<p>Quick overview of Git in video format. Each video is approximately 5 minutes long.</p>
+<ul>
+<li><a href="https://git-scm.com/video/what-is-version-control">Git Basics: Episode 1 - What is Version Control? (VIDEO)</a></li>
+<li><a href="https://git-scm.com/video/what-is-git">Git Basics: Episode 2 - What is Git? (VIDEO)</a></li>
+<li><a href="https://git-scm.com/video/get-going">Git Basics: Episode 3 - Get Going with Git (VIDEO)</a></li>
+<li><a href="https://git-scm.com/video/quick-wins">Git Basics: Episode 4 - Quick Wins with Git (VIDEO)</a></li>
+</ul>
+<h3>GitHub</h3>
+<ul>
+<li><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf">Cheat Sheet (PDF)</a>
+<ul>
+<li>Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference</li>
+</ul>
+</li>
+</ul>
+<h3>GUIs</h3>
+<h4>Free</h4>
+<ul>
+<li>
+<p><a href="https://desktop.github.com/">GitHub Desktop</a></p>
+<ul>
+<li>macOS / Windows: A desktop, GUI based Git and GitHub client.</li>
+</ul>
+</li>
+<li>
+<p><a href="https//www.gitkraken.com">GitKraken</a></p>
+<ul>
+<li>macOS / Windows / Linux: The legendary Git GUI client.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://code.visualstudio.com/docs/editor/versioncontrol">VSCode: Version Control</a></p>
+<ul>
+<li>Handy documentation for the default Git integration that ships with VSCode.</li>
+</ul>
+</li>
+</ul>
+<h4>Paid</h4>
+<ul>
+<li><a href="https://www.git-tower.com/mac/">Tower 2</a>
+<ul>
+<li>macOS / Windows: Version control with Git made easy in a beautiful, efficient, and powerful app.</li>
+</ul>
+</li>
+</ul>
+<h3>Repositories of Note</h3>
+<ul>
+<li><a href="https://github.com/git/git">git/git</a>
+<ul>
+<li>The Git source code on GitHub</li>
+</ul>
+</li>
+</ul>

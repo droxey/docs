@@ -1,6 +1,3 @@
-<!-- TITLE: Howto: Submit Homework -->
-<!-- SUBTITLE: Guide for Homework Submission on GitHub -->
-
 # Submitting Homework on GitHub
 
 ## Prerequisites

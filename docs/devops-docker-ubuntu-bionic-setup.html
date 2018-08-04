@@ -1,9 +1,6 @@
-# Ubuntu Bionic and Docker Installation
-
-## Install from Ubuntu Repository
-
-```bash
-$ sudo apt install docker.io
+<h1>Ubuntu Bionic and Docker Installation</h1>
+<h2>Install from Ubuntu Repository</h2>
+<pre><code class="language-bash">$ sudo apt install docker.io
 $ sudo systemctl start docker
 $ sudo systemctl enable docker
 $ docker --version
@@ -13,7 +10,7 @@ $ sudo systemctl stop docker
 $ nano /etc/docker/daemon.json
 
 {
-  "storage-driver": "overlay2"
+  &quot;storage-driver&quot;: &quot;overlay2&quot;
 }
 
 $ sudo systemctl start docker
@@ -21,24 +18,17 @@ $ docker info
 
 $ docker run hello-world
 $ docker run -it ubuntu bash
-```
-
-## Install Tools
-
-### Certbot
-
-```bash
-$ sudo apt-get install software-properties-common
+</code></pre>
+<h2>Install Tools</h2>
+<h3>Certbot</h3>
+<pre><code class="language-bash">$ sudo apt-get install software-properties-common
 $ sudo add-apt-repository ppa:certbot/certbot
 $ sudo apt-get update
 $ sudo apt-get install certbot -y
 
-```
-
-#### Create SSL Cert
-
-```bash
-root@lab:~  sudo certbot certonly --standalone -d lab.outputs.io
+</code></pre>
+<h4>Create SSL Cert</h4>
+<pre><code class="language-bash">root@lab:~  sudo certbot certonly --standalone -d lab.outputs.io
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 Plugins selected: Authenticator standalone, Installer None
 Enter email address (used for urgent renewal and security notices) (Enter 'c' to
@@ -73,7 +63,7 @@ IMPORTANT NOTES:
    Your cert will expire on 2018-08-02. To obtain a new or tweaked
    version of this certificate in the future, simply run certbot
    again. To non-interactively renew *all* of your certificates, run
-   "certbot renew"
+   &quot;certbot renew&quot;
  - Your account credentials have been saved in your Certbot
    configuration directory at /etc/letsencrypt. You should make a
    secure backup of this folder now. This configuration directory will
@@ -83,12 +73,9 @@ IMPORTANT NOTES:
 
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
-```
-
-#### Automate Renewal
-
-```bash
-$ sudo certbot renew --dry-run
+</code></pre>
+<h4>Automate Renewal</h4>
+<pre><code class="language-bash">$ sudo certbot renew --dry-run
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
 -------------------------------------------------------------------------------
@@ -123,12 +110,9 @@ IMPORTANT NOTES:
    secure backup of this folder now. This configuration directory will
    also contain certificates and private keys obtained by Certbot so
    making regular backups of this folder is ideal.
-```
-
-### Adjust Firewall (iptables)
-
-```bash
-$ nano /etc/iptables.conf
+</code></pre>
+<h3>Adjust Firewall (iptables)</h3>
+<pre><code class="language-bash">$ nano /etc/iptables.conf
 
 *filter
 :INPUT ACCEPT [0:0]
@@ -157,10 +141,8 @@ $ nano /etc/iptables.conf
 -A FILTERS -j REJECT --reject-with icmp-host-prohibited
 
 COMMIT
-```
-
-```bash
-$ iptables-restore -n /etc/iptables.conf
+</code></pre>
+<pre><code class="language-bash">$ iptables-restore -n /etc/iptables.conf
 $ nano /etc/systemd/system/iptables.service
 
 [Unit]
@@ -173,17 +155,11 @@ ExecStart=/sbin/iptables-restore -n /etc/iptables.conf
 
 [Install]
 WantedBy=multi-user.target
-```
-
-```bash
-$ sudo systemctl enable --now iptables
+</code></pre>
+<pre><code class="language-bash">$ sudo systemctl enable --now iptables
 $ sudo systemctl restart iptables
-```
-
-## Install Portainer
-
-```bash
-$ docker volume create portainer_data
+</code></pre>
+<h2>Install Portainer</h2>
+<pre><code class="language-bash">$ docker volume create portainer_data
 $ docker run -d -p 9000:9000 portainer/portainer -n portainer -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data --ssl --sslcert /etc/letsencrypt/live/lab.outputs.io/fullchain.pem --sslkey /etc/letsencrypt/live/lab.outputs.io/privkey.pem
-```
-
+</code></pre>

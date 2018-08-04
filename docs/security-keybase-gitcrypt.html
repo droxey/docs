@@ -1,0 +1,13 @@
+<h1>Keybase + Git Crypt</h1>
+<pre><code class="language-bash">$ export KEYBASE_IO_FRIEND=&quot;another user's keybase username.&quot;;
+$ keybase track KEYBASE_IO_FRIEND
+$ keybase pgp pull KEYBASE_IO_FRIEND
+$ gpg --edit-key KEYBASE_IO_FRIEND
+</code></pre>
+<p>At the <code>gpg</code> prompt, invoke <code>lsign</code> and `save:</p>
+<pre><code class="language-gpg">gpg&gt; lsign
+</code></pre>
+<pre><code class="language-gpg">gpg&gt; save
+</code></pre>
+<pre><code class="language-bash">$ git-crypt add-gpg-user KEYBASE_IO_FRIEND
+</code></pre>

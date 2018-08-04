@@ -1,6 +1,3 @@
-<!-- TITLE: Writing Requirements: An Engineering Perspective -->
-<!-- SUBTITLE: Tips and Tricks to Produce Effective Requirements Documents -->
-
 # Writing Requirements: An Engineering Perspective
 
 > The hardest single part of building a software system is deciding precisely what to build. -_Frederick Brooks_

@@ -17,6 +17,14 @@ Please email [dani@outputs.io](mailto:dani@outputs.io) for access.
 
 Visit the [GitHub repository](https://github.com/droxey/wiki) to view the source of this website.
 
+To build from source, simply run:
+
+```bash
+$ npm install
+$ node githubdocs build
+$ node githubdocs serve
+```
+
 ## Connect
 
 * [Portfolio: Dani Roxberry](https://droxey.com)

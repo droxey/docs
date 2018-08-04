@@ -47,14 +47,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/safari-pinned-tab.svg",
+  headerIcon: "img/droxey-blue.png",
   footerIcon: "img/safari-pinned-tab.svg",
   favicon: "img/favicon/favicon.ico",
 
   /* colors for website */
   colors: {
-    primaryColor: "#2E8555",
-    secondaryColor: "#205C3B"
+    primaryColor: "#6a8494",
+    secondaryColor: "#2C3D47"
   },
 
   /* custom fonts for website */

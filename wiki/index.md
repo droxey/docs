@@ -10,14 +10,6 @@ Simply **search for a topic** in the **search box above** to get started!
 
 Visit the [GitHub repository](https://github.com/droxey/wiki) to view the source of this website.
 
-To build from source, simply run:
-
-```bash
-$ npm install
-$ node githubdocs build
-$ node githubdocs serve
-```
-
 ## Contributions
 
 Please email [dani@outputs.io](mailto:dani@outputs.io) for access.

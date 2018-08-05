@@ -54,6 +54,7 @@
             var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
             if (isDeployed) {
                 window.$docsify.basePath = 'https://droxey.com/docs/';
+                window.$docsify.routerMode = 'hash';
             }
         </script>
         <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

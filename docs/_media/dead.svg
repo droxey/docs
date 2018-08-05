@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="260px" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="safari-pinned-tab" transform="translate(12.000000, 4.000000)" fill="#940F0F" fill-rule="nonzero">
+            <g id="Group" transform="translate(112.000000, 126.000000) scale(-1, 1) rotate(-180.000000) translate(-112.000000, -126.000000) ">
+                <path d="M84,245 L84,238 L77,238 L70,238 L70,231 L70,224 L63,224 L56,224 L56,217 L56,210 L28,210 L0,210 L0,203 L0,196 L7,196 L14,196 L14,175 L14,154 L21,154 L28,154 L28,161 L28,168 L35,168 L42,168 L42,175 L42,182 L49,182 L56,182 L56,189 L56,196 L63,196 L70,196 L70,182 L70,168 L63,168 L56,168 L56,147 L56,126 L63,126 L70,126 L70,98 L70,70 L77,70 L84,70 L84,35 L84,0 L91,0 L98,0 L98,35 L98,70 L91,70 L84,70 L84,91 L84,112 L105,112 L126,112 L126,119 L126,126 L133,126 L140,126 L140,140 L140,154 L147,154 L154,154 L154,140 L154,126 L161,126 L168,126 L168,119 L168,112 L182,112 L196,112 L196,91 L196,70 L189,70 L182,70 L182,63 L182,56 L175,56 L168,56 L168,49 L168,42 L147,42 L126,42 L126,49 L126,56 L119,56 L112,56 L112,49 L112,42 L119,42 L126,42 L126,35 L126,28 L133,28 L140,28 L140,14 L140,0 L147,0 L154,0 L154,14 L154,28 L161,28 L168,28 L168,35 L168,42 L175,42 L182,42 L182,49 L182,56 L189,56 L196,56 L196,63 L196,70 L203,70 L210,70 L210,98 L210,126 L217,126 L224,126 L224,154 L224,182 L217,182 L210,182 L210,210 L210,238 L203,238 L196,238 L196,245 L196,252 L140,252 L84,252 L84,245 Z M140,189 L140,182 L147,182 L154,182 L154,175 L154,168 L147,168 L140,168 L140,175 L140,182 L112,182 L84,182 L84,189 L84,196 L112,196 L140,196 L140,189 Z M196,189 L196,182 L189,182 L182,182 L182,189 L182,196 L189,196 L196,196 L196,189 Z" id="Shape"></path>
+                <polygon id="Shape" points="140 105 140 98 147 98 154 98 154 105 154 112 147 112 140 112"></polygon>
+                <polygon id="Shape" points="126 77 126 70 147 70 168 70 168 77 168 84 147 84 126 84"></polygon>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(109.000000, 99.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="8">
+            <path d="M0,0 L20.380613,20.380613" id="Line"></path>
+            <path d="M0,0 L20.380613,20.380613" id="Line-Copy" transform="translate(10.500000, 10.500000) scale(-1, 1) translate(-10.500000, -10.500000) "></path>
+        </g>
+        <g id="Group-2" transform="translate(187.000000, 99.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="8">
+            <path d="M0,0 L20.380613,20.380613" id="Line"></path>
+            <path d="M0,0 L20.380613,20.380613" id="Line-Copy" transform="translate(10.500000, 10.500000) scale(-1, 1) translate(-10.500000, -10.500000) "></path>
+        </g>
+    </g>
+</svg>

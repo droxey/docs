@@ -68,12 +68,13 @@
                 themeable: {
                     readyTransition: true,
                     responsiveTables: true,
-                }
+                },
+
+                routerMode: "history"
             };
 
             var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
             if (isDeployed) {
-
                 window.$docsify = {
                     basePath: 'https://droxey.com/docs/',
                     ga: 'UA-111535249-1'

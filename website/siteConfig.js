@@ -102,7 +102,7 @@ const siteConfig = {
   },
 
   headerLinks: [
-    { doc: "home", label: "Docs" },
+    { doc: "index", label: "Docs" },
     { blog: true, label: "Blog" },
     { search: true }
   ]

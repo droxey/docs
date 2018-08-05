@@ -27,6 +27,8 @@
     </head>
     <body>
         <div data-app id="app"></div>
+        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+        <script src="https://unpkg.com/docsify-themeable"></script>
         <script>
             window.$docsify = {
                 name: '[@droxey+docs]',
@@ -53,17 +55,18 @@
                     readyTransition: true,
                     responsiveTables: true,
                 }
-
-                //routerMode: 'history'
             };
-
+        </script>
+        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+        <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+        <script>
             var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
             if (isDeployed) {
                 window.$docsify.basePath = 'https://droxey.com/docs/';
-                //window.$docsify.routerMode = 'hash';
+                window.$docsify = {
+                    ga: 'UA-111535249-1'
+                }
             }
         </script>
-        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-        <script src="https://unpkg.com/docsify-themeable"></script>
     </body>
 </html>

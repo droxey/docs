@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     </head>
     <body>
-        <div id="app"></div>
+        <div data-app id="app"></div>
         <script>
             window.$docsify = {
                 name: '[@droxey+docs]',
@@ -30,15 +30,19 @@
                 basePath: '',
                 logo: '/docs/_media/droxey.png',
                 themeColor: '#3F51B5',
+                el: '#app',
 
                 maxLevel: 5,
                 subMaxLevel: 1,
 
                 coverPage: true,
+                onlyCover: true,
+
                 notFoundPage: true,
                 loadSidebar: true,
 
-                autoHeader: false,
+                auto2top: true,
+                autoHeader: true,
                 noEmoji: false,
                 routerMode: 'history'
             };

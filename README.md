@@ -1,4 +1,4 @@
-# @droxey/docs
+# [ @droxey+docs ]
 
 ![CircleCI](https://img.shields.io/circleci/project/droxey/docs/master.svg?style=flat-square) [![node](https://img.shields.io/node/v/package.svg?style=flat-square)]() [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
@@ -6,30 +6,11 @@
 
 ## How to Use This Website
 
-Simply **search for a topic** in the **search box above** to get started!
+Click [here](https://droxey.com/docs/) to view the documentation site.
 
 ## Source Code
 
-Visit the [GitHub repository](https://github.com/droxey/wiki) to view the source of this website.
-
-To build from source, simply:
-
-1. Install dependencies and copy `.env` settings. Replace `github_username` in `.env` with your GitHub username:
-
-    ```bash
-    $ cd website && npm install
-    $ cp .env.example .env && code .env
-    ```
-
-1. Test locally:
-    ```bash
-    $ yarn start
-    ```
-
-1. Publish on GitHub Pages:
-    ```bash
-    $ yarn publish-gh-pages
-    ```
+Visit the [GitHub repository](https://github.com/droxey/docs) to view the source of this website.
 
 ## Contributions
 

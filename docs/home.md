@@ -1,11 +1,6 @@
-<!-- TITLE: docs.outputs.io -->
-<!-- SUBTITLE: My brain: open sourced, in markdown format. -->
+# [ @droxey+docs ]
 
-# Home
-
-**[@droxey](https://droxey.com)**'s dev documentation - fully searchable and regularly updated!
-
-It's **my brain: open sourced, in markdown format.**
+**[@droxey](https://droxey.com)**'s dev documentation; **my brain: open sourced, in markdown format.**
 
 ## Table of Contents
 

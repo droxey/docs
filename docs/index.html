@@ -19,6 +19,11 @@
         <link rel="icon" type="image/png" href="https://s3.outputs.io/img/icon/favicon/favicon-32x32.png" sizes="32x32">
 
         <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+        <style type="text/css">
+            .sidebar {
+                padding-top: 0;
+            }
+        </style>
     </head>
     <body>
         <div data-app id="app"></div>
@@ -27,15 +32,15 @@
                 name: '[@droxey+docs]',
                 repo: 'https://github.com/droxey/docs',
                 homepage: 'home.md',
-                basePath: '',
-                logo: '/docs/_media/droxey.png',
+                basePath: '/',
+                logo: '_media/droxey-blue.png',
                 themeColor: '#3F51B5',
                 el: '#app',
 
                 maxLevel: 5,
                 subMaxLevel: 1,
 
-                coverPage: true,
+                coverPage: false,
                 onlyCover: false,
 
                 notFoundPage: true,

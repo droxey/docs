@@ -1,5 +1,7 @@
 # @droxey/docs
 
+![CircleCI](https://img.shields.io/circleci/project/droxey/docs/master.svg?style=flat-square) [![node](https://img.shields.io/node/v/package.svg?style=flat-square)]() [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 **[@droxey](https://droxey.com)**'s dev documentation - fully searchable and regularly updated! It's **my brain: open sourced, in markdown format.**
 
 ## How to Use This Website

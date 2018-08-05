@@ -116,25 +116,7 @@
         <script>
             window.onload = function () {
                 setTimeout(function () {
-                    var b = baffle('#main h1 a.anchor span', {
-                        characters: [
-                            '\u2588',
-                            '\u2593',
-                            '\u2592',
-                            '\u2591',
-                            '\u2588',
-                            '\u2593',
-                            '\u2592',
-                            '\u2591',
-                            '\u2588',
-                            '\u2593',
-                            '\u2592',
-                            '\u2591',
-                            '\u003c',
-                            '\u003e',
-                            '\u002f'
-                        ]
-                    });
+                    var b = baffle('#main h1 a.anchor span');
                     b.start()
                         .set({ speed: 80 })
                         .text(currentText => currentText)

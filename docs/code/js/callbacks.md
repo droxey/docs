@@ -114,7 +114,7 @@ shoutItOut("Dani")();
 
 * Let's see that first hand, so we can better understand what that means for us as software developers!
 
-* Open up the [demo site](http://localhost:8899) in Chrome.
+* Open up the [demo site](https://droxey.com/teach-callbacks/) in Chrome.
 
 * Inform students that you've created a website that will respond to each button's "click event" via a `callback`.
 

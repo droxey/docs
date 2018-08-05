@@ -16,7 +16,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-120x120.png">
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-152x152.png">
         <link rel="icon" type="image/png" href="https://s3.outputs.io/img/icon/favicon/favicon-32x32.png" sizes="32x32">
-        <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
+        <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
         <style>
             :root {
                 --modular-scale: 1.4;
@@ -24,6 +24,8 @@
                 --mono-saturation: 25%;
                 --sidebar-nav-link-before-content: '';
                 --sidebar-nav-link-before-content-l3: '';
+                --base-color: white;
+                --link-color: white;
             }
 
             .sidebar-nav ul li ul.children a.section-link {
@@ -62,7 +64,7 @@
                 noEmoji: false,
 
                 search: {
-                    maxAge: 86400000, // Expiration time, the default one day
+                    maxAge: 86400000,
                     paths: 'auto',
                     placeholder: 'Type to search...',
                     noData: 'No Results!',
@@ -77,8 +79,9 @@
 
             var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
             if (isDeployed) {
-                window.$docsify.basePath = 'https://droxey.com/docs/';
+
                 window.$docsify = {
+                    basePath: 'https://droxey.com/docs/',
                     ga: 'UA-111535249-1'
                 }
             }

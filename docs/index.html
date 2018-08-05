@@ -9,6 +9,7 @@
         <meta name="description" content="droxey.com/docs">
         <meta name="keywords" content="dani, roxberry, droxey, code, documentation, github">
         <meta name="author" content="Dani Roxberry">
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6249856/7400392/css/fonts.css">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-72x72.png">
@@ -19,15 +20,44 @@
         <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
         <style>
             :root {
+                --base-font-family: "Operator A", "Operator B";
+                --base-font-weight: 400;
+                --base-color: white;
+
                 --modular-scale: 1.4;
                 --mono-hue: 205;
                 --mono-saturation: 25%;
+
                 --sidebar-nav-link-before-content: '';
                 --sidebar-nav-link-before-content-l3: '';
-                --base-color: white;
+                --sidebar-name-font-family: "Operator Mono A", "Operator Mono B";
+                --sidebar-name-font-weight: 500;
+
                 --link-color: white;
                 --search-result-heading-font-size: 1em;
                 --search-result-item-font-size: 0.9em;
+
+                --pre-font-family: "Operator Mono A", "Operator Mono B";
+
+                --heading-font-family: "Operator A", "Operator B";
+                --heading-font-style: normal;
+                --heading-font-weight: 600;
+
+                --notice-font-family: "Operator A", "Operator B";
+                --notice-font-style: italic;
+                --notice-font-weight: 400;
+
+                --blockquote-em-font-family: "Operator A", "Operator B";
+                --blockquote-em-font-style: normal;
+                --blockquote-em-font-weight: 600;
+                --blockquote-font-family: "Operator A", "Operator B";
+                --blockquote-font-style: italic;
+                --blockquote-font-weight: 400;
+
+                --code-font-family: "Operator Mono A", "Operator Mono B";
+                --code-font-size: 1em;
+                --code-font-weight: 500;
+                --code-tab-size: 2;
             }
 
             .sidebar-nav ul li ul.children a.section-link {

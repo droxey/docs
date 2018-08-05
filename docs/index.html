@@ -31,8 +31,7 @@
             window.$docsify = {
                 name: '[@droxey+docs]',
                 repo: 'https://github.com/droxey/docs',
-                homepage: 'docs/home.md',
-                basePath: '/docs/',
+                homepage: 'home.md',
                 logo: '_media/droxey-blue.png',
                 themeColor: '#3F51B5',
                 el: '#app',
@@ -49,8 +48,13 @@
                 auto2top: true,
                 autoHeader: true,
                 noEmoji: false,
-                routerMode: 'history'
+                //routerMode: 'history'
             };
+
+            var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
+            if (isDeployed) {
+                window.$docsify.basePath = 'https://droxey.com/docs/';
+            }
         </script>
         <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     </body>

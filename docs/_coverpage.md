@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/droxey-blue.png)
+![logo](_media/droxey.png)
 
 # docsify <small>3.5</small>
 

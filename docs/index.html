@@ -9,7 +9,6 @@
         <meta name="description" content="droxey.com/docs">
         <meta name="keywords" content="dani, roxberry, droxey, code, documentation, github">
         <meta name="author" content="Dani Roxberry">
-
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-72x72.png">
@@ -17,11 +16,12 @@
         <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-120x120.png">
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-152x152.png">
         <link rel="icon" type="image/png" href="https://s3.outputs.io/img/icon/favicon/favicon-32x32.png" sizes="32x32">
-
-        <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-        <style type="text/css">
-            .sidebar {
-                padding-top: 0;
+        <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
+        <style>
+            :root {
+                --modular-scale: 1.4;
+                --mono-hue: 205;
+                --mono-saturation: 25%;
             }
         </style>
     </head>
@@ -48,15 +48,22 @@
                 auto2top: true,
                 autoHeader: true,
                 noEmoji: false,
-                routerMode: 'history'
+
+                themeable: {
+                    readyTransition: true,
+                    responsiveTables: true,
+                }
+
+                //routerMode: 'history'
             };
 
             var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
             if (isDeployed) {
                 window.$docsify.basePath = 'https://droxey.com/docs/';
-                window.$docsify.routerMode = 'hash';
+                //window.$docsify.routerMode = 'hash';
             }
         </script>
-        <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+        <script src="https://unpkg.com/docsify-themeable"></script>
     </body>
 </html>

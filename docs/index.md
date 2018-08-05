@@ -1,4 +1,4 @@
-## [callbacks](docs/code/js/callbacks.md)
+### [callbacks](docs/code/js/callbacks.md)
 
 - [Lesson Plan - Callbacks](docs/code/js/callbacks.md#lesson-plan---callbacks)
   * [[1:00] Objectives](docs/code/js/callbacks.md#100-objectives)
@@ -10,15 +10,15 @@
   * [[10:00] Activity - Puck.js](docs/code/js/callbacks.md#1000-activity---puckjs)
   * [[2:00] Wrap Up and Dismiss](docs/code/js/callbacks.md#200-wrap-up-and-dismiss)
 
-## [mongo](docs/code/mongo/mongo.md)
+### [mongo](docs/code/mongo/mongo.md)
 
 - [Drop DB from Command Line](docs/code/mongo/mongo.md#drop-db-from-command-line)
 
-## [karma](docs/code/node/karma.md)
+### [karma](docs/code/node/karma.md)
 
 - [Instructions](docs/code/node/karma.md#instructions)
 
-## [npm](docs/code/node/npm.md)
+### [npm](docs/code/node/npm.md)
 
 - [Node Package Manager](docs/code/node/npm.md#node-package-manager)
   * [Tips](docs/code/node/npm.md#tips)
@@ -26,21 +26,21 @@
   * [Packages of Note](docs/code/node/npm.md#packages-of-note)
     + [node-env-run](docs/code/node/npm.md#node-env-run)
 
-## [yarn](docs/code/node/yarn.md)
+### [yarn](docs/code/node/yarn.md)
 
 - [Guide to Yarn](docs/code/node/yarn.md#guide-to-yarn)
   * [Installation on Ubuntu](docs/code/node/yarn.md#installation-on-ubuntu)
     + [Add Source and Install](docs/code/node/yarn.md#add-source-and-install)
     + [Verify Installation](docs/code/node/yarn.md#verify-installation)
 
-## [conda-commands](docs/code/python/anaconda/conda-commands.md)
+### [conda-commands](docs/code/python/anaconda/conda-commands.md)
 
 - [Commands](docs/code/python/anaconda/conda-commands.md#commands)
   * [Create an Environment](docs/code/python/anaconda/conda-commands.md#create-an-environment)
   * [Activate an Environment](docs/code/python/anaconda/conda-commands.md#activate-an-environment)
   * [Remove an Environment](docs/code/python/anaconda/conda-commands.md#remove-an-environment)
 
-## [integration](docs/code/python/anaconda/zsh/integration.md)
+### [integration](docs/code/python/anaconda/zsh/integration.md)
 
 - [conda + zsh + oh-my-zsh integration](docs/code/python/anaconda/zsh/integration.md#conda--zsh--oh-my-zsh-integration)
   * [Purpose](docs/code/python/anaconda/zsh/integration.md#purpose)
@@ -48,7 +48,7 @@
   * [The Fix](docs/code/python/anaconda/zsh/integration.md#the-fix)
   * [Plugins](docs/code/python/anaconda/zsh/integration.md#plugins)
 
-## [quick-install](docs/code/python/django/quick-install.md)
+### [quick-install](docs/code/python/django/quick-install.md)
 
 - [Django: Quick Start](docs/code/python/django/quick-install.md#django-quick-start)
   * [Installation: Step by Step](docs/code/python/django/quick-install.md#installation-step-by-step)
@@ -56,11 +56,11 @@
   * [Tutorials](docs/code/python/django/quick-install.md#tutorials)
   * [Documentation](docs/code/python/django/quick-install.md#documentation)
 
-## [intro-guide](docs/code/python/flask/intro-guide.md)
+### [intro-guide](docs/code/python/flask/intro-guide.md)
 
 - [Introduction to Flask](docs/code/python/flask/intro-guide.md#introduction-to-flask)
 
-## [pipenv](docs/code/python/pipenv.md)
+### [pipenv](docs/code/python/pipenv.md)
 
 - [Useful Commands for pipenv](docs/code/python/pipenv.md#useful-commands-for-pipenv)
   * [Basic Commands](docs/code/python/pipenv.md#basic-commands)
@@ -78,7 +78,7 @@
 
 
 
-## [intro-algorithms](docs/compsci/algorithms/intro-algorithms.md)
+### [intro-algorithms](docs/compsci/algorithms/intro-algorithms.md)
 
 - [Introduction to Algorithms](docs/compsci/algorithms/intro-algorithms.md#introduction-to-algorithms)
   * [Formal Definition](docs/compsci/algorithms/intro-algorithms.md#formal-definition)
@@ -99,7 +99,7 @@
     + [Implementation](docs/compsci/algorithms/intro-algorithms.md#implementation-4)
   * [Additional Practice](docs/compsci/algorithms/intro-algorithms.md#additional-practice)
 
-## [cs-review](docs/compsci/interviewing/cs-review.md)
+### [cs-review](docs/compsci/interviewing/cs-review.md)
 
 - [Interview Review](docs/compsci/interviewing/cs-review.md#interview-review)
   * [Swift](docs/compsci/interviewing/cs-review.md#swift)
@@ -115,7 +115,7 @@
     + [Class vs Interface](docs/compsci/interviewing/cs-review.md#class-vs-interface)
     + [Access Control](docs/compsci/interviewing/cs-review.md#access-control)
 
-## [requirements](docs/compsci/sdlc/requirements.md)
+### [requirements](docs/compsci/sdlc/requirements.md)
 
 - [Writing Requirements: An Engineering Perspective](docs/compsci/sdlc/requirements.md#writing-requirements-an-engineering-perspective)
   * [Well Written Requirements...](docs/compsci/sdlc/requirements.md#well-written-requirements)
@@ -126,7 +126,7 @@
   * [Non-Functional Requirements](docs/compsci/sdlc/requirements.md#non-functional-requirements)
   * [Review and Approval](docs/compsci/sdlc/requirements.md#review-and-approval)
 
-## [ubuntu-bionic-setup](docs/devops/docker/ubuntu-bionic-setup.md)
+### [ubuntu-bionic-setup](docs/devops/docker/ubuntu-bionic-setup.md)
 
 - [Ubuntu Bionic and Docker Installation](docs/devops/docker/ubuntu-bionic-setup.md#ubuntu-bionic-and-docker-installation)
   * [Install from Ubuntu Repository](docs/devops/docker/ubuntu-bionic-setup.md#install-from-ubuntu-repository)
@@ -137,7 +137,7 @@
     + [Adjust Firewall (iptables)](docs/devops/docker/ubuntu-bionic-setup.md#adjust-firewall-iptables)
   * [Install Portainer](docs/devops/docker/ubuntu-bionic-setup.md#install-portainer)
 
-## [dokku-commands](docs/devops/dokku/dokku-commands.md)
+### [dokku-commands](docs/devops/dokku/dokku-commands.md)
 
   * [Example Deployment](docs/devops/dokku/dokku-commands.md#example-deployment)
     + [Configure Host](docs/devops/dokku/dokku-commands.md#configure-host)
@@ -146,19 +146,19 @@
   * [Skip Deployment](docs/devops/dokku/dokku-commands.md#skip-deployment)
   * [Re-Deployment](docs/devops/dokku/dokku-commands.md#re-deployment)
 
-## [deploy-a-bot](docs/devops/heroku/deploy-a-bot.md)
+### [deploy-a-bot](docs/devops/heroku/deploy-a-bot.md)
 
 - [Deployment Guide: Heroku Bots](docs/devops/heroku/deploy-a-bot.md#deployment-guide-heroku-bots)
   * [Purpose](docs/devops/heroku/deploy-a-bot.md#purpose)
   * [Step by Step Guide](docs/devops/heroku/deploy-a-bot.md#step-by-step-guide)
 
-## [pi-zero-w-setup](docs/electronics/raspberry-pi/pi-zero-w-setup.md)
+### [pi-zero-w-setup](docs/electronics/raspberry-pi/pi-zero-w-setup.md)
 
 - [Headless Pi Zero W Setup](docs/electronics/raspberry-pi/pi-zero-w-setup.md#headless-pi-zero-w-setup)
   * [Headless Configuration (no keyboard, mouse, or monitor)](docs/electronics/raspberry-pi/pi-zero-w-setup.md#headless-configuration-no-keyboard-mouse-or-monitor)
   * [Security](docs/electronics/raspberry-pi/pi-zero-w-setup.md#security)
 
-## [home](docs/home.md)
+### [home](docs/home.md)
 
 - [docs.outputs.io](docs/home.md#docsoutputsio)
   * [How to Use This Website](docs/home.md#how-to-use-this-website)
@@ -166,12 +166,14 @@
   * [Source Code](docs/home.md#source-code)
   * [Connect](docs/home.md#connect)
 
-## [common-issues](docs/tools/git/common-issues.md)
+
+
+### [common-issues](docs/tools/git/common-issues.md)
 
 - [Windows Configuration Tips and Tricks](docs/tools/git/common-issues.md#windows-configuration-tips-and-tricks)
   * [Git Bash](docs/tools/git/common-issues.md#git-bash)
 
-## [feature-branches](docs/tools/git/feature-branches.md)
+### [feature-branches](docs/tools/git/feature-branches.md)
 
 - [Git Workflow: Feature Branches](docs/tools/git/feature-branches.md#git-workflow-feature-branches)
     + [Successful teams follow 3 easy rules to integrate git into their daily workflow:](docs/tools/git/feature-branches.md#successful-teams-follow-3-easy-rules-to-integrate-git-into-their-daily-workflow)
@@ -186,7 +188,7 @@
     + [Step 7](docs/tools/git/feature-branches.md#step-7)
   * [IMPORTANT!](docs/tools/git/feature-branches.md#important)
 
-## [git-flow](docs/tools/git/git-flow.md)
+### [git-flow](docs/tools/git/git-flow.md)
 
 - [Flowing with Git](docs/tools/git/git-flow.md#flowing-with-git)
   * [Introduction](docs/tools/git/git-flow.md#introduction)
@@ -195,16 +197,16 @@
     + [Windows](docs/tools/git/git-flow.md#windows)
     + [Linux](docs/tools/git/git-flow.md#linux)
 
-## [git-hooks](docs/tools/git/git-hooks.md)
+### [git-hooks](docs/tools/git/git-hooks.md)
 
 - [Defining a Hook](docs/tools/git/git-hooks.md#defining-a-hook)
   * [Hook Creation](docs/tools/git/git-hooks.md#hook-creation)
 
-## [keybase-gitcrypt](docs/tools/git/keybase-gitcrypt.md)
+### [keybase-gitcrypt](docs/tools/git/keybase-gitcrypt.md)
 
 - [Keybase + Git Crypt](docs/tools/git/keybase-gitcrypt.md#keybase--git-crypt)
 
-## [setup](docs/tools/git/setup.md)
+### [setup](docs/tools/git/setup.md)
 
 - [Source Control: How I Learned to Stop Worrying, and Love Git](docs/tools/git/setup.md#source-control-how-i-learned-to-stop-worrying-and-love-git)
   * [Objectives](docs/tools/git/setup.md#objectives)
@@ -232,13 +234,13 @@
       - [Paid](docs/tools/git/setup.md#paid)
     + [Repositories of Note](docs/tools/git/setup.md#repositories-of-note)
 
-## [submitting-homework](docs/tools/git/submitting-homework.md)
+### [submitting-homework](docs/tools/git/submitting-homework.md)
 
 - [Submitting Homework on GitHub](docs/tools/git/submitting-homework.md#submitting-homework-on-github)
   * [Prerequisites](docs/tools/git/submitting-homework.md#prerequisites)
   * [Step by Step](docs/tools/git/submitting-homework.md#step-by-step)
 
-## [jupyter](docs/tools/jupyter/jupyter.md)
+### [jupyter](docs/tools/jupyter/jupyter.md)
 
 - [Jupyter Notebook Tips and Tricks](docs/tools/jupyter/jupyter.md#jupyter-notebook-tips-and-tricks)
   * [Generate Config File](docs/tools/jupyter/jupyter.md#generate-config-file)
@@ -248,7 +250,7 @@
   * [View Magics](docs/tools/jupyter/jupyter.md#view-magics)
   * [Additional Resources](docs/tools/jupyter/jupyter.md#additional-resources)
 
-## [basic-commands](docs/tools/terminal/basic-commands.md)
+### [basic-commands](docs/tools/terminal/basic-commands.md)
 
 - [Commands](docs/tools/terminal/basic-commands.md#commands)
   * [Moving Around the Filesystem](docs/tools/terminal/basic-commands.md#moving-around-the-filesystem)
@@ -270,7 +272,7 @@
     + [Open File or Folder (PC)](docs/tools/terminal/basic-commands.md#open-file-or-folder-pc)
     + [Open Explorer at the Current Directory (PC)](docs/tools/terminal/basic-commands.md#open-explorer-at-the-current-directory-pc)
 
-## [scp-copy-files](docs/tools/terminal/scp-copy-files.md)
+### [scp-copy-files](docs/tools/terminal/scp-copy-files.md)
 
 - [Commands](docs/tools/terminal/scp-copy-files.md#commands)
   * [Files: Tar/Gzip a Directory](docs/tools/terminal/scp-copy-files.md#files-targzip-a-directory)
@@ -278,7 +280,7 @@
   * [SCP: Remote -> Local](docs/tools/terminal/scp-copy-files.md#scp-remote---local)
   * [SCP: Local -> Remote](docs/tools/terminal/scp-copy-files.md#scp-local---remote)
 
-## [awesome-data-extensions](docs/tools/vscode/awesome-data-extensions.md)
+### [awesome-data-extensions](docs/tools/vscode/awesome-data-extensions.md)
 
 - [Data Science Extensions for VSCode](docs/tools/vscode/awesome-data-extensions.md#data-science-extensions-for-vscode)
   * [General](docs/tools/vscode/awesome-data-extensions.md#general)
@@ -287,7 +289,7 @@
   * [Python](docs/tools/vscode/awesome-data-extensions.md#python)
   * [R](docs/tools/vscode/awesome-data-extensions.md#r)
 
-## [know-your-tools](docs/tools/vscode/know-your-tools.md)
+### [know-your-tools](docs/tools/vscode/know-your-tools.md)
 
 - [Know Your Tools: VSCode Edition](docs/tools/vscode/know-your-tools.md#know-your-tools-vscode-edition)
   * [Themes](docs/tools/vscode/know-your-tools.md#themes)

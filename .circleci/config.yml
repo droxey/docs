@@ -17,7 +17,7 @@ jobs:
           git config --global user.name "Dani Roxberry"
           echo "machine github.com login $GIT_USER password $GITHUB_TOKEN" > ~/.netrc
           sudo npm install -g markdown-index
-          markdown-index docs > docs/index.md
+          markdown-index ./docs > ./docs/index.md
           cd website && yarn install && GIT_USER=$GIT_USER yarn run publish-gh-pages
 
 workflows:

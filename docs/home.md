@@ -1,4 +1,4 @@
-# [ @droxey+docs ]
+# [ docs@droxey ]
 
 **[@droxey](https://droxey.com)**'s dev documentation; **my brain: open sourced, in markdown format.**
 

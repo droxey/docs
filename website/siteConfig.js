@@ -10,14 +10,14 @@
 
 /* List of projects/orgs using your project for the users page */
 const users = [
-  {
-    caption: "me",
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "img/safari-pinned-tab.svg",
-    infoLink: "https://www.droxey.com",
-    pinned: true
-  }
+  //   {
+  //     caption: "me",
+  //     // You will need to prepend the image path with your baseUrl
+  //     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+  //     image: "img/safari-pinned-tab.svg",
+  //     infoLink: "https://www.droxey.com",
+  //     pinned: true
+  //   }
 ];
 
 const siteConfig = {
@@ -27,18 +27,13 @@ const siteConfig = {
   baseUrl: "/docs/" /* base url for your project */,
   projectName: "docs",
   organizationName: "droxey",
-
-  headerLinks: [
-    { doc: "home", label: "Docs" },
-    { blog: true, label: "Blog" },
-    { search: true }
-  ],
+  noIndex: false,
 
   // If you have users set above, you add it here:
   users,
 
   headerIcon: "img/droxey-blue.png",
-  footerIcon: "img/safari-pinned-tab.svg",
+  footerIcon: "img/droxey.png",
   favicon: "img/favicon/favicon.ico",
 
   colors: {
@@ -67,22 +62,55 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [
+    "https://buttons.github.io/buttons.js",
+    "https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"
+  ],
+
   stylesheets: [],
 
-  /* On page navigation for the current documentation page */
+  markdownPlugins: [
+    function foo(md) {
+      md.renderer.rules.fence_custom.foo = function(
+        tokens,
+        idx,
+        options,
+        env,
+        instance
+      ) {
+        return '<div class="foo">bar</div>';
+      };
+    }
+  ],
+
+  algolia: {
+    apiKey: "85999c609db15b43dee1cdabe9da3cfa",
+    appId: "V1WJ7O74WH",
+    indexName: "github"
+  },
+
+  cleanUrl: true,
   onPageNav: "separate",
 
   twitter: true,
   twitterUsername: "droxey",
   twitterImage: "img/droxey.png",
-
   ogImage: "img/droxey.png",
 
-  cleanUrl: true,
+  editUrl: "https://github.com/droxey/docs/edit/master/docs/",
   disableTitleTagline: true,
   gaTrackingId: "UA-111535249-1",
-  scrollToTop: true
+
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100
+  },
+
+  headerLinks: [
+    { doc: "home", label: "Docs" },
+    { blog: true, label: "Blog" },
+    { search: true }
+  ]
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

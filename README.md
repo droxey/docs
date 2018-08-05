@@ -1,4 +1,4 @@
-# docs.outputs.io
+# @droxey/docs
 
 **[@droxey](https://droxey.com)**'s dev documentation - fully searchable and regularly updated! It's **my brain: open sourced, in markdown format.**
 

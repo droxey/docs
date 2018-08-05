@@ -75,20 +75,15 @@
                 logo: '_media/droxey-blue.png',
                 themeColor: '#678594',
                 el: '#app',
-
                 maxLevel: 5,
                 subMaxLevel: 1,
-
                 coverPage: false,
                 onlyCover: false,
-
                 notFoundPage: true,
                 loadSidebar: true,
-
                 auto2top: true,
                 autoHeader: true,
                 noEmoji: false,
-
                 search: {
                     maxAge: 86400000,
                     paths: 'auto',
@@ -96,12 +91,10 @@
                     noData: 'No Results!',
                     depth: 4
                 },
-
                 themeable: {
                     readyTransition: true,
                     responsiveTables: true,
                 },
-
                 routerMode: "hash",
                 ga: 'UA-111535249-1'
             };
@@ -115,6 +108,10 @@
         <script src="_media/js/baffle.min.js"></script>
         <script>
             window.onload = function () {
+                if (typeof navigator.serviceWorker !== 'undefined') {
+                    navigator.serviceWorker.register('sw.js')
+                }
+
                 setTimeout(function () {
                     var b = baffle('#main h1 a.anchor span');
                     b.start()

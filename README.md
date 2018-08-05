@@ -10,13 +10,24 @@ Simply **search for a topic** in the **search box above** to get started!
 
 Visit the [GitHub repository](https://github.com/droxey/wiki) to view the source of this website.
 
-To build from source, simply run:
+To build from source, simply:
 
-```bash
-$ npm install
-$ node githubdocs build
-$ node githubdocs serve
-```
+1. Install dependencies and copy `.env` settings. Replace `github_username` in `.env` with your GitHub username:
+
+    ```bash
+    $ cd website && npm install
+    $ cp .env.example .env && code .env
+    ```
+
+1. Test locally:
+    ```bash
+    $ yarn start
+    ```
+
+1. Publish on GitHub Pages:
+    ```bash
+    $ yarn publish-gh-pages
+    ```
 
 ## Contributions
 

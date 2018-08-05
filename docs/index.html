@@ -102,16 +102,9 @@
                     responsiveTables: true,
                 },
 
-                routerMode: "hash"
+                routerMode: "hash",
+                ga: 'UA-111535249-1'
             };
-
-            var isDeployed = (window.document.href.indexOf('droxey.com') !== -1);
-            if (isDeployed) {
-                window.$docsify = {
-                    basePath: 'https://droxey.com/docs/',
-                    ga: 'UA-111535249-1'
-                }
-            }
         </script>
         <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
         <script src="https://unpkg.com/docsify-themeable"></script>
@@ -119,5 +112,42 @@
         <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
         <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
         <script src="https://unpkg.com/docsify-copy-code@2"></script>
+        <script src="_media/js/baffle.min.js"></script>
+        <script>
+            window.onload = function () {
+                setTimeout(function () {
+                    var b = baffle('#main h1 a.anchor span', {
+                        characters: [
+                            '\u2588',
+                            '\u2593',
+                            '\u2592',
+                            '\u2591',
+                            '\u2588',
+                            '\u2593',
+                            '\u2592',
+                            '\u2591',
+                            '\u2588',
+                            '\u2593',
+                            '\u2592',
+                            '\u2591',
+                            '\u003c',
+                            '\u003e',
+                            '\u002f'
+                        ]
+                    });
+                    b.start()
+                        .set({ speed: 80 })
+                        .text(currentText => currentText)
+                        .reveal(750, 3000);
+                }, 250);
+
+                var isDeployed = (window.document.location.href.indexOf('droxey.com') !== -1);
+                if (isDeployed) {
+                    window.$docsify = {
+                        basePath: 'https://droxey.com/docs/'
+                    }
+                }
+            };
+        </script>
     </body>
 </html>

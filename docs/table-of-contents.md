@@ -1,13 +1,3 @@
-<!-- TITLE: docs.outputs.io -->
-<!-- SUBTITLE: My brain: open sourced, in markdown format. -->
-
-# Home
-
-**[@droxey](https://droxey.com)**'s dev documentation - fully searchable and regularly updated!
-
-It's **my brain: open sourced, in markdown format.**
-
-## Table of Contents
 
 ### [callbacks](docs/code/js/callbacks.md)
 
@@ -306,5 +296,3 @@ It's **my brain: open sourced, in markdown format.**
 
 - [Know Your Tools: VSCode Edition](docs/tools/vscode/know-your-tools.md#know-your-tools-vscode-edition)
   * [Themes](docs/tools/vscode/know-your-tools.md#themes)
-
-

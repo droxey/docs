@@ -9,18 +9,27 @@
         <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     </head>
     <body>
-        <div data-app id="app"></div>
+        <div id="app"></div>
         <script>
             window.$docsify = {
                 name: '@droxey/docs',
                 repo: 'https://github.com/droxey/docs',
                 homepage: 'home.md',
-                //basePath: '/docs/',
-                el: '#main',
-                //coverPage: true,
+                basePath: '/docs/',
+                logo: './_media/droxey.png',
+                themeColor: '#3F51B5',
+
                 maxLevel: 5,
-                subMaxLevel: 2
-            }
+                subMaxLevel: 1,
+
+                coverPage: true,
+                notFoundPage: true,
+                loadSidebar: true,
+
+                autoHeader: false,
+                noEmoji: false,
+                routerMode: 'history'
+            };
         </script>
         <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     </body>

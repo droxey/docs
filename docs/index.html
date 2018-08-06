@@ -96,7 +96,21 @@
                     responsiveTables: true,
                 },
                 routerMode: "hash",
-                ga: 'UA-111535249-1'
+                ga: 'UA-111535249-1',
+                plugins: [
+                    function (hook, vm) {
+                        hook.beforeEach(function (html) {
+                            var url = 'https://github.com/droxey/docs/blob/master/docs' + vm.route.file
+                            var editHtml = '[📝 EDIT](' + url + ')\n'
+
+                            return editHtml
+                                + html
+                                + '\n----\n'
+                                + 'Last modified 07/19 20:01 '
+                                + editHtml
+                        })
+                    }
+                ]
             };
         </script>
         <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>

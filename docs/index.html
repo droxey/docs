@@ -105,23 +105,24 @@
                 routerMode: "hash",
                 ga: 'UA-111535249-1',
                 plugins: [
-                    EditOnGithubPlugin.create(
-                        'https://github.com/droxey/docs/blob/master/docs/'
-                    )/*,
-                    function (hook) {
-                        var footer = [
-                            '<hr/>',
-                            '<footer>',
-                            '<span>',
-                            'written with <em>&hearts;</em> by <a href="https://github.com/droxey" target="_blank" title="@droxey on GitHub">droxey</a> &copy; ',
-                            new Date().getFullYear().toString(),
-                            '</span>',
-                            '</footer>'
-                        ].join('')
-                        hook.afterEach(function (html) {
-                            return html + footer
-                        })
-                    },*/
+                    /*
+                        EditOnGithubPlugin.create(
+                            'https://github.com/droxey/docs/blob/master/docs/'
+                        ),
+                        function (hook) {
+                            var footer = [
+                                '<hr/>',
+                                '<footer>',
+                                '<span>',
+                                'written with <em>&hearts;</em> by <a href="https://github.com/droxey" target="_blank" title="@droxey on GitHub">droxey</a> &copy; ',
+                                new Date().getFullYear().toString(),
+                                '</span>',
+                                '</footer>'
+                            ].join('')
+                            hook.afterEach(function (html) {
+                                return html + footer
+                            })
+                        },*/
                 ]
             };
         </script>

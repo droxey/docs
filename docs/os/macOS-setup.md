@@ -27,6 +27,12 @@ $ defaults write com.apple.dock persistent-others -array-add '{tile-data={}; til
 
 ## Finder
 
+### Hide Desktop Icons
+
+```bash
+$ defaults write com.apple.finder CreateDesktop false; killall Finder
+```
+
 ### Display File Extensions
 
 ```bash

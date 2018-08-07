@@ -57,71 +57,35 @@ $ xcode-select --install
 
 ```bash
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew analytics off
 ```
 
-### Update `git`
+### Update Binaries
 
 ```bash
-$ brew install git
+$ brew install stow git zsh
 ```
 
-### Change Shell to `zsh`
+### Install Patched Powerline Fonts
+```bash
+$ brew tap caskroom/fonts
+$ brew cask install font-hack-nerd-font
+```
 
-#### Install Latest: `zsh`
+#### Change User Shell to `zsh`
+
+1. System Preferences -> Users & Groups.
+1. Unlock the preferences.
+1. Select your user.
+1. Select advanced options.
+1. Set your login shell to `/usr/local/bin/zsh`.
+
+#### Install `zgen`:
 
 ```bash
-$ brew install zsh
+$ git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
 ```
 
-#### Install Latest: `oh-my-zsh`
+#### Setup `zgen`:
 
-```bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
-#### Plugin: `zsh-syntax-highlighting`
-
-```bash
-$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
-```
-
-#### Plugin: `zsh-autosuggestions`
-
-```bash
-$ git clone https://github.com/zsh-users/zsh-autosuggestions "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
-```
-
-#### Theme: `spaceship`
-
-```bash
-$ cd "$ZSH_CUSTOM"
-$ git clone https://github.com/powerline/fonts.git --depth=1
-$ ./install.sh
-$ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-$ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-```
-
-#### Update `~/.zshrc`
-
-##### Set Plugins
-
-Make the following changes in `~/.zshrc`, save the file, and restart your terminal application.
-
-```bash
-plugins = (
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  wd
-)
-```
-
-##### Set Theme
-
-```bash
-. $ZSH_CUSTOM/themes/spaceship-prompt/powerline/bindings/zsh/powerline.zsh
-ZSH_THEME="spaceship"
-```
-
-
-
-
+Follow README in https://github.com/tarjoilija/zgen.

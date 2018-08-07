@@ -47,6 +47,12 @@ $ defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder
 
 ## Terminal
 
+### Install XCode Command Line Tools
+
+```bash
+$ xcode-select --install
+```
+
 ### Install Homebrew
 
 ```bash

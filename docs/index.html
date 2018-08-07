@@ -103,27 +103,7 @@
                     responsiveTables: true,
                 },
                 routerMode: "hash",
-                ga: 'UA-111535249-1',
-                plugins: [
-/*
-                    EditOnGithubPlugin.create(
-                        'https://github.com/droxey/docs/blob/master/docs/'
-                    ),
-                        function (hook) {
-                            var footer = [
-                                '<hr/>',
-                                '<footer>',
-                                '<span>',
-                                'written with <em>&hearts;</em> by <a href="https://github.com/droxey" target="_blank" title="@droxey on GitHub">droxey</a> &copy; ',
-                                new Date().getFullYear().toString(),
-                                '</span>',
-                                '</footer>'
-                            ].join('')
-                            hook.afterEach(function (html) {
-                                return html + footer
-                            })
-                        },*/
-                ]
+                ga: 'UA-111535249-1'
             };
         </script>
         <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -146,9 +126,9 @@
                 setTimeout(function () {
                     var b = baffle('#main h1 a.anchor span');
                     b.start()
-                        .set({ speed: 80 })
+                        .set({ speed: 60 })
                         .text(currentText => currentText)
-                        .reveal(750, 2500);
+                        .reveal(500, 1500);
                 }, 250);
 
                 var isDeployed = (window.document.location.href.indexOf('droxey.com') !== -1);

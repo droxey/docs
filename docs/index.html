@@ -112,7 +112,6 @@
         <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
         <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
         <script src="https://unpkg.com/docsify-copy-code@2"></script>
-        <script src="https://unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-git.min.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-python.min.js"></script>
@@ -126,7 +125,7 @@
                 setTimeout(function () {
                     var b = baffle('#main h1 a.anchor span');
                     b.start()
-                        .set({ speed: 60 })
+                        .set({ speed: 90 })
                         .text(currentText => currentText)
                         .reveal(500, 1500);
                 }, 250);

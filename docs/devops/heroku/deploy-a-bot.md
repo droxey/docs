@@ -39,7 +39,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     pip install -r requirements.txt
     ```
 
-1)  **Create Heroku App**
+1.  **Create Heroku App**
 
     Run `heroku apps:create` to create a new Heroku application, replacing `name-for-app-here` with a name of your choosing:
 
@@ -47,7 +47,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     heroku apps:create name-for-app-here
     ```
 
-1)  **Add Environment Variables**
+1.  **Add Environment Variables**
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
 
@@ -71,9 +71,9 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment!
 
-1)  **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
+1.  **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
 
-1)  **Commit Your Changes Incrementally**
+1.  **Commit Your Changes Incrementally**
 
     **_Great developers commit early and often!_**
 
@@ -84,7 +84,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git commit -m "[fix] typo in quote on line 28."
     ```
 
-1)  **Push Your Changes to GitHub**
+1.  **Push Your Changes to GitHub**
 
     Ready to take your changes live? Awesome!
 
@@ -102,7 +102,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git push origin master
     ```
 
-1)  **Deploy to Heroku**
+1.  **Deploy to Heroku**
 
     Finally, run the below commands to **deploy** your application to Heroku.
 
@@ -113,4 +113,4 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     _**Protip**: be sure to **read the output**. This will come in handy if you run into any errors!_
 
-1)  **_Congratulations!_** You've just successfully deployed your application! Show the world!
+1.  **_Congratulations!_** You've just successfully deployed your application! Show the world!

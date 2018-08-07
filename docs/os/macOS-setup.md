@@ -55,17 +55,18 @@ $ brew install git
 
 ### Change Shell to `zsh`
 
-#### `zsh`
+#### Install Latest: `zsh`
 
 ```bash
 $ brew install zsh
 ```
 
-#### `oh-my-zsh`
+#### Install Latest: `oh-my-zsh`
 
 ```bash
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
 #### Plugin: `zsh-syntax-highlighting`
 
 ```bash

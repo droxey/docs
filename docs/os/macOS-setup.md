@@ -84,7 +84,8 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions "$ZSH_CUSTOM/plugin
 ```bash
 $ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-
+$ cd "$ZSH_CUSTOM/themes/spaceship-prompt"
+$ pip install powerline-status
 ```
 
 #### Update `~/.zshrc`
@@ -104,6 +105,7 @@ plugins = (
 ##### Set Theme
 
 ```bash
+. $ZSH_CUSTOM/themes/spaceship-prompt/powerline/bindings/zsh/powerline.zsh
 ZSH_THEME="spaceship"
 ```
 

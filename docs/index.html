@@ -110,10 +110,8 @@
                             var url = 'https://github.com/droxey/docs/blob/master/docs' + vm.router.getFile()
                             var editHtml = '[📝 Edit on GitHub](' + url + ')\n'
 
-                            return editHtml
-                                + html
+                            return html
                                 + '\n----\n'
-                                + 'Last modified {docsify-updated} '
                                 + editHtml
                         })
                     }

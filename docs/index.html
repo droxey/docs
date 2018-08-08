@@ -108,7 +108,7 @@
                     function (hook, vm) {
                         hook.beforeEach(function (html) {
                             var url = 'https://github.com/droxey/docs/blob/master' + vm.router.getFile()
-                            var editHtml = '[📝 Edit on GitHub](' + url + ')\n'
+                            var editHtml = '<span class="edit-link">Edit on GitHub(' + url + ')</span>\n'
 
                             return html
                                 + '\n----\n'

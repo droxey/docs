@@ -1,6 +1,6 @@
 <!-- DOCTOC SKIP -->
 
-# [ docs@droxey ]
+# docs@droxey
 
 **[@droxey](https://droxey.com)**'s dev documentation; **my brain: open sourced, in markdown format.**
 

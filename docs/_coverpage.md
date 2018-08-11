@@ -2,7 +2,7 @@
 
 ![logo](_media/droxey-blue.png)
 
-# [ docs@droxey ]
+# docs@droxey
 
 !> [@droxey](https://droxey.com ':target=_blank')'s my brain: fully searchable, open sourced, and in markdown format!
 

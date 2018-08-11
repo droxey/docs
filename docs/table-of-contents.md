@@ -171,7 +171,7 @@
 
 ### [home](./home.md)
 
-- [[ docs@droxey ]](./home.md#-docsdroxey-)
+- [Home](./home.md#-docsdroxey-)
   * [Table of Contents](./home.md#table-of-contents)
     + [callbacks](./home.md#callbacks)
     + [mongo](./home.md#mongo)

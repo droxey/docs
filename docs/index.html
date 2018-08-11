@@ -7,9 +7,8 @@
         <meta name="description" content="Description">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta name="description" content="droxey.com/docs">
-        <meta name="keywords" content="dani, roxberry, droxey, code, documentation, github">
+        <meta name="keywords" content="dani,roxberry,droxey,code,documentation,github,doc,docs,gitbook,creator,generator,jekyll,github-pages">
         <meta name="author" content="Dani Roxberry">
-        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6249856/7400392/css/fonts.css">
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-72x72.png">
@@ -17,158 +16,25 @@
         <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-120x120.png">
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s3.outputs.io/img/icon/favicon/apple-touch-icon-152x152.png">
         <link rel="icon" type="image/png" href="https://s3.outputs.io/img/icon/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6249856/7400392/css/fonts.css">
         <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
-        <style>
-            :root {
-                --base-font-family: "Operator A", "Operator B";
-                --base-font-weight: 400;
-                --base-color: white;
-
-                --modular-scale: 1.4;
-                --mono-hue: 205;
-                --mono-saturation: 25%;
-
-                --sidebar-nav-link-before-content: '';
-                --sidebar-nav-link-before-content-l3: '';
-                --sidebar-name-font-family: "Operator Mono A", "Operator Mono B";
-                --sidebar-name-font-weight: 500;
-
-                --link-color: white;
-                --search-result-heading-font-size: 1em;
-                --search-result-item-font-size: 0.9em;
-
-                --pre-font-family: "Operator Mono A", "Operator Mono B";
-
-                --heading-font-family: "Operator A", "Operator B";
-                --heading-font-style: normal;
-                --heading-font-weight: 700;
-
-                --heading-h1-font-weight: 700;
-                --heading-h2-font-weight: 700;
-                --heading-h3-font-weight: 700;
-                --heading-h4-font-weight: 700;
-                --heading-h5-font-weight: 700;
-                --heading-h6-font-weight: 700;
-
-                --notice-font-family: "Operator A", "Operator B";
-                --notice-font-style: italic;
-                --notice-font-weight: 400;
-
-                --blockquote-em-font-family: "Operator A", "Operator B";
-                --blockquote-em-font-style: normal;
-                --blockquote-em-font-weight: 600;
-                --blockquote-font-family: "Operator A", "Operator B";
-                --blockquote-font-style: italic;
-                --blockquote-font-weight: 400;
-
-                --code-font-family: "Operator Mono A", "Operator Mono B";
-                --code-font-size: 1em;
-                --code-font-weight: 500;
-                --code-tab-size: 2;
-            }
-
-            .sidebar-nav ul li ul.children a.section-link {
-                display: none;
-            }
-
-            .markdown-section p a {
-                text-decoration: none;
-                font-weight: 700;
-                color: white;
-            }
-
-            .markdown-section p a:hover {
-                text-decoration: underline;
-            }
-
-            .markdown-section p a img.emoji {
-                height: 20px;
-                margin-right: 8px;
-                display: inline-block;
-                vertical-align: middle;
-            }
-        </style>
+        <link rel="stylesheet" href="_media/css/style.css">
     </head>
     <body>
         <div data-app id="app"></div>
-        <script>
-            window.$docsify = {
-                name: 'docs@droxey',
-                homepage: 'home.md',
-                repo: 'https://github.com/droxey/docs',
-                logo: '_media/droxey-blue.png',
-                themeColor: '#678594',
-                el: '#app',
-                maxLevel: 5,
-                subMaxLevel: 1,
-                coverPage: true,
-                onlyCover: true,
-                notFoundPage: true,
-                loadSidebar: true,
-                auto2top: true,
-                autoHeader: true,
-                noEmoji: false,
-                search: {
-                    maxAge: 86400000,
-                    paths: 'auto',
-                    placeholder: 'Type to search…',
-                    noData: 'No Results!',
-                    depth: 4
-                },
-                themeable: {
-                    readyTransition: true,
-                    responsiveTables: true,
-                },
-                routerMode: "hash",
-                ga: 'UA-111535249-1',
-                plugins: [
-                    function (hook, vm) {
-                        console.log('hook', hook);
-                        console.log('vm', vm);
-
-                        hook.beforeEach(function (html) {
-                            var url = 'https://github.com/droxey/docs/tree/master/docs' + vm.router.getFile();
-                            var editHtml = "[:octocat:Edit](" + url + " ':target=_blank')\n";
-
-                            return html
-                                + '\n----\n'
-                                + editHtml;
-                        })
-                    }
-                ]
-            };
-        </script>
-        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+        <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN"
+            crossorigin="anonymous"></script>
+        <script src="_media/js/baffle.min.js"></script>
+        <script src="_media/js/site.js"></script>
         <script src="https://unpkg.com/docsify-themeable"></script>
+        <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
         <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
         <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
         <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
         <script src="https://unpkg.com/docsify-copy-code@2"></script>
+        <script src="https://unpkg.com/prismjs/components/prism-markdown.min.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-git.min.js"></script>
         <script src="https://unpkg.com/prismjs/components/prism-python.min.js"></script>
-        <script src="_media/js/baffle.min.js"></script>
-        <script>
-            window.onload = function () {
-                if (typeof navigator.serviceWorker !== 'undefined') {
-                    navigator.serviceWorker.register('sw.js');
-                }
-
-                setTimeout(function () {
-                    var b = baffle('#main h1 a.anchor span');
-                    b.start()
-                        .set({ speed: 90 })
-                        .text(currentText => currentText)
-                        .reveal(500, 1500);
-                }, 250);
-
-                var isDeployed = (window.document.location.href.indexOf('droxey.com') !== -1);
-                if (isDeployed) {
-                    window.$docsify = {
-                        basePath: 'https://droxey.com/docs/'
-                    }
-                }
-            };
-        </script>
     </body>
 </html>

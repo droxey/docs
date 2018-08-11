@@ -1,0 +1,87 @@
+:root {
+  --base-font-family: "Operator SSm A", "Operator SSm B";
+  --base-font-weight: 400;
+  --base-color: white;
+
+  --modular-scale: 1.4;
+  --mono-hue: 205;
+  --mono-saturation: 25%;
+
+  --sidebar-nav-link-before-content: "";
+  --sidebar-nav-link-before-content-l3: "";
+  --sidebar-name-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
+  --sidebar-name-font-weight: 500;
+
+  --link-color: white;
+  --search-result-heading-font-size: 1em;
+  --search-result-item-font-size: 0.9em;
+
+  --pre-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
+
+  --heading-font-family: "Operator SSm A", "Operator SSm B";
+  --heading-font-style: normal;
+  --heading-font-weight: 700;
+
+  --heading-h1-font-weight: 700;
+  --heading-h2-font-weight: 700;
+  --heading-h3-font-weight: 700;
+  --heading-h4-font-weight: 700;
+  --heading-h5-font-weight: 700;
+  --heading-h6-font-weight: 700;
+
+  --notice-font-family: "Operator SSm A", "Operator SSm B";
+  --notice-font-style: italic;
+  --notice-font-weight: 500;
+
+  --blockquote-em-font-family: "Operator SSm A", "Operator SSm B";
+  --blockquote-em-font-style: normal;
+  --blockquote-em-font-weight: 700;
+
+  --blockquote-font-family: "Operator SSm A", "Operator SSm B";
+  --blockquote-font-style: italic;
+  --blockquote-font-weight: 500;
+
+  --code-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
+  --code-font-size: 1em;
+  --code-font-weight: 500;
+  --code-tab-size: 2;
+}
+
+.sidebar-nav ul li ul.children a.section-link {
+  display: none;
+}
+
+.btn-edit-on-github {
+  transition: background-color 0.5s ease;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--theme-color);
+  float: right;
+  padding: 6px 10px 6px 5px;
+}
+
+.btn-edit-on-github a,
+.btn-edit-on-github svg {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.btn-edit-on-github a {
+  text-decoration: none;
+  font-family: "Operator SSm A", "Operator SSm B";
+  position: relative;
+  font-weight: 700;
+  top: -1px;
+  padding-left: 5px;
+}
+
+.btn-edit-on-github:hover {
+  cursor: pointer;
+  background-color: var(--mono-tint2);
+}
+
+.btn-edit-on-github:hover svg,
+.btn-edit-on-github:hover a {
+  text-decoration: none;
+  color: white;
+}

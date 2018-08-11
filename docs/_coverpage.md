@@ -1,20 +1,9 @@
 <!-- _coverpage.md -->
 
-![logo](_media/droxey.png)
+![logo](_media/droxey-blue.png)
 
-# docsify <small>3.5</small>
+# [ docs@droxey ]
 
-> A magical documentation site generator.
+!> [@droxey](https://droxey.com ':target=_blank')'s my brain: fully searchable, open sourced, and in markdown format!
 
-* Simple and lightweight (~19kB gzipped)
-* No statically built html files
-* Multiple themes
-
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
-
-
-<!-- background color -->
-
-![color](#f0f0f0)
+[View Repo on GitHub](https://github.com/droxey/docs/ ':target=_blank')

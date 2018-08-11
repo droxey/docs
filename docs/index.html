@@ -70,6 +70,23 @@
             .sidebar-nav ul li ul.children a.section-link {
                 display: none;
             }
+
+            .markdown-section p a {
+                text-decoration: none;
+                font-weight: 700;
+                color: white;
+            }
+
+            .markdown-section p a:hover {
+                text-decoration: underline;
+            }
+
+            .markdown-section p a img.emoji {
+                height: 20px;
+                margin-right: 8px;
+                display: inline-block;
+                vertical-align: middle;
+            }
         </style>
     </head>
     <body>
@@ -77,15 +94,15 @@
         <script>
             window.$docsify = {
                 name: '[ docs@droxey ]',
-                repo: 'https://github.com/droxey/docs',
                 homepage: 'home.md',
+                repo: 'https://github.com/droxey/docs',
                 logo: '_media/droxey-blue.png',
                 themeColor: '#678594',
                 el: '#app',
                 maxLevel: 5,
                 subMaxLevel: 1,
-                coverPage: false,
-                onlyCover: false,
+                coverPage: true,
+                onlyCover: true,
                 notFoundPage: true,
                 loadSidebar: true,
                 auto2top: true,
@@ -106,13 +123,16 @@
                 ga: 'UA-111535249-1',
                 plugins: [
                     function (hook, vm) {
+                        console.log('hook', hook);
+                        console.log('vm', vm);
+
                         hook.beforeEach(function (html) {
-                            var url = 'https://github.com/droxey/docs/blob/master' + vm.router.getFile()
-                            var editHtml = '[Edit on GitHub](' + url + ')\n'
+                            var url = 'https://github.com/droxey/docs/tree/master/docs' + vm.router.getFile();
+                            var editHtml = "[:octocat:Edit](" + url + " ':target=_blank')\n";
 
                             return html
                                 + '\n----\n'
-                                + editHtml
+                                + editHtml;
                         })
                     }
                 ]

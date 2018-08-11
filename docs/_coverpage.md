@@ -1,4 +1,4 @@
-<!-- _coverpage.md -->
+<!-- DOCTOC SKIP -->
 
 ![logo](_media/droxey-blue.png)
 

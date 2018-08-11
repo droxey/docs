@@ -1,3 +1,4 @@
+<!-- DOCTOC SKIP -->
 
 ### [callbacks](./code/js/callbacks.md)
 

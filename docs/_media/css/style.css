@@ -3,7 +3,7 @@
   --base-font-weight: 400;
   --base-color: white;
 
-  --modular-scale: 1.4;
+  --modular-scale: 1.2;
   --mono-hue: 205;
   --mono-saturation: 25%;
 
@@ -23,6 +23,8 @@
   --heading-font-weight: 700;
 
   --heading-h1-font-weight: 700;
+  --heading-h1-font-size: 2.75em;
+
   --heading-h2-font-weight: 700;
   --heading-h3-font-weight: 700;
   --heading-h4-font-weight: 700;

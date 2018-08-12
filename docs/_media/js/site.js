@@ -10,7 +10,7 @@ window.$docsify = {
   coverPage: false,
   onlyCover: false,
   notFoundPage: true,
-  loadNavbar: true,
+  loadNavbar: false,
   auto2top: true,
   autoHeader: true,
   noEmoji: false,

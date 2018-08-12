@@ -1,5 +1,3 @@
-<!-- DOCTOC SKIP -->
-
 ### [callbacks](code/js/callbacks.md)
 
 - [Lesson Plan - Callbacks](code/js/callbacks.md#lesson-plan---callbacks)
@@ -19,6 +17,11 @@
 ### [karma](code/node/karma.md)
 
 - [Instructions](code/node/karma.md#instructions)
+
+### [node](code/node/node.md)
+
+- [Node.js Tips and Tricks](code/node/node.md#nodejs-tips-and-tricks)
+  * [Completely Uninstall (macOS)](code/node/node.md#completely-uninstall-macos)
 
 ### [npm](code/node/npm.md)
 
@@ -128,6 +131,22 @@
   * [Non-Functional Requirements](compsci/sdlc/requirements.md#non-functional-requirements)
   * [Review and Approval](compsci/sdlc/requirements.md#review-and-approval)
 
+### [ruby-resources](courses/backend-web/ruby-on-rails/ruby-resources.md)
+
+
+
+### [server-side-architecture-and-frameworks](courses/backend-web/server-side-architecture-and-frameworks.md)
+
+- [BEW 1.3 Server-Side Architectures and Frameworks](courses/backend-web/server-side-architecture-and-frameworks.md#bew-13-server-side-architectures-and-frameworks)
+  * [Course Description](courses/backend-web/server-side-architecture-and-frameworks.md#course-description)
+  * [Course Specifics](courses/backend-web/server-side-architecture-and-frameworks.md#course-specifics)
+  * [Prerequisites:](courses/backend-web/server-side-architecture-and-frameworks.md#prerequisites)
+  * [Learning Objectives or Competencies (5-8)](courses/backend-web/server-side-architecture-and-frameworks.md#learning-objectives-or-competencies-5-8)
+  * [Tutorials & Projects](courses/backend-web/server-side-architecture-and-frameworks.md#tutorials--projects)
+  * [Evaluation](courses/backend-web/server-side-architecture-and-frameworks.md#evaluation)
+  * [Lessons](courses/backend-web/server-side-architecture-and-frameworks.md#lessons)
+  * [Make School Course Policies](courses/backend-web/server-side-architecture-and-frameworks.md#make-school-course-policies)
+
 ### [class-catalog](courses/class-catalog.md)
 
 - [Make School Class Catalog: Dani Roxberry (Instructor)](courses/class-catalog.md#make-school-class-catalog-dani-roxberry-instructor)
@@ -171,40 +190,12 @@
 
 ### [home](home.md)
 
-- [Home](home.md#-docsdroxey-)
+- [docs@droxey](home.md#docsdroxey)
   * [Table of Contents](home.md#table-of-contents)
-    + [callbacks](home.md#callbacks)
-    + [mongo](home.md#mongo)
-    + [karma](home.md#karma)
-    + [npm](home.md#npm)
-    + [yarn](home.md#yarn)
-    + [conda-commands](home.md#conda-commands)
-    + [integration](home.md#integration)
-    + [quick-install](home.md#quick-install)
-    + [intro-guide](home.md#intro-guide)
-    + [pipenv](home.md#pipenv)
-    + [intro-algorithms](home.md#intro-algorithms)
-    + [cs-review](home.md#cs-review)
-    + [requirements](home.md#requirements)
-    + [ubuntu-bionic-setup](home.md#ubuntu-bionic-setup)
-    + [dokku-commands](home.md#dokku-commands)
-    + [deploy-a-bot](home.md#deploy-a-bot)
-    + [pi-zero-w-setup](home.md#pi-zero-w-setup)
-    + [common-issues](home.md#common-issues)
-    + [feature-branches](home.md#feature-branches)
-    + [git-flow](home.md#git-flow)
-    + [git-hooks](home.md#git-hooks)
-    + [github-pages](home.md#github-pages)
-    + [keybase-gitcrypt](home.md#keybase-gitcrypt)
-    + [setup](home.md#setup)
-    + [submitting-homework](home.md#submitting-homework)
-    + [jupyter](home.md#jupyter)
-    + [basic-commands](home.md#basic-commands)
-    + [scp-copy-files](home.md#scp-copy-files)
-    + [awesome-data-extensions](home.md#awesome-data-extensions)
-    + [know-your-tools](home.md#know-your-tools)
 
 ### [quotes-about-programming](meta/quotes-about-programming.md)
+
+
 
 ### [macos-setup](os/macOS-setup.md)
 
@@ -224,6 +215,9 @@
       - [Change User Shell to `zsh`](os/macOS-setup.md#change-user-shell-to-zsh)
       - [Install `zgen`:](os/macOS-setup.md#install-zgen)
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
+
+### [table-of-contents](table-of-contents.md)
+
 
 
 ### [common-issues](tools/git/common-issues.md)

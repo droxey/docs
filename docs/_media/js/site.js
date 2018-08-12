@@ -15,6 +15,7 @@ window.$docsify = {
   autoHeader: true,
   noEmoji: false,
   allowExternals: true,
+  loadSidebar: false,
   search: {
     maxAge: 86400000,
     paths: "auto",

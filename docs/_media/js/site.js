@@ -6,7 +6,7 @@ window.$docsify = {
   themeColor: "#678594",
   el: "#app",
   maxLevel: 5,
-  subMaxLevel: 1,
+  subMaxLevel: 5,
   coverPage: false,
   onlyCover: false,
   notFoundPage: true,

@@ -49,7 +49,21 @@
   --code-tab-size: 2;
 }
 
-.sidebar-nav ul li ul.children a.section-link {
+a.github-corner {
+  display: none;
+}
+
+body
+  > main
+  > aside
+  > div.sidebar-nav
+  > ul
+  > li:nth-child(2)
+  > ul
+  > li:nth-child(2)
+  > ul
+  > li
+  a.section-link {
   display: none;
 }
 
@@ -58,8 +72,12 @@
   border: none;
   border-radius: 3px;
   background-color: var(--theme-color);
-  float: right;
+  position: absolute;
+  top: var(--sidebar-toggle-offset-top);
+  right: 0;
+  margin-right: 45px;
   padding: 6px 10px 6px 5px;
+  height: var(--sidebar-toggle-height);
 }
 
 .btn-edit-on-github a,

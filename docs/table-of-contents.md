@@ -188,13 +188,8 @@
   * [Headless Configuration (no keyboard, mouse, or monitor)](electronics/raspberry-pi/pi-zero-w-setup.md#headless-configuration-no-keyboard-mouse-or-monitor)
   * [Security](electronics/raspberry-pi/pi-zero-w-setup.md#security)
 
-### [home](home.md)
-
-- [docs@droxey](home.md#docsdroxey)
-  * [Table of Contents](home.md#table-of-contents)
 
 ### [quotes-about-programming](meta/quotes-about-programming.md)
-
 
 
 ### [macos-setup](os/macOS-setup.md)

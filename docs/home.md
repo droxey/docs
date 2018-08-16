@@ -1,5 +1,3 @@
-<!-- DOCTOC SKIP -->
-
 # docs@droxey
 
 ## Table of Contents

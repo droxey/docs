@@ -1,6 +1,3 @@
-<!-- TITLE: Yarn -->
-<!-- SUBTITLE: Cheat Sheet for Yarn -->
-
 # Guide to Yarn
 
 ## Installation on Ubuntu
@@ -18,3 +15,4 @@ $ sudo apt-get update && sudo apt-get install --no-install-recommends yarn
 ```bash
 $ yarn --version
 ```
+

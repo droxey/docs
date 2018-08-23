@@ -1,7 +1,4 @@
-<!-- TITLE: Keybase + Git-Crypt -->
-<!-- SUBTITLE: Integrate keybase.io with the popular git-crypt implementation. -->
-
-# Keybase + Git Crypt
+# Git - Keybase + Git Crypt
 
 ```bash
 $ export KEYBASE_IO_FRIEND="another user's keybase username.";

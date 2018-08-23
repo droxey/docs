@@ -1,7 +1,4 @@
-<!-- TITLE: Helpful Anaconda Commands -->
-<!-- SUBTITLE: Cheat Sheet for Anaconda -->
-
-# Commands
+# Anaconda Commands
 
 > All commands assume a developer-selected environment name of `MyPythonProject`.
 > It is recommended that one changes this value, replacing `MyPythonProject` with a name of a suitable match to the intended use of the environment.
@@ -24,3 +21,4 @@ source activate MyPythonProject
 ```bash
 conda remove --name MyPythonProject --all
 ```
+

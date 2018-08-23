@@ -1,7 +1,4 @@
-<!-- TITLE: Windows Configuration Tips and Tricks -->
-<!-- SUBTITLE: Common issues and workarounds for the Windows operating system. -->
-
-# Windows Configuration Tips and Tricks
+# Git - Windows Config Tips and Tricks
 
 ## Git Bash
 

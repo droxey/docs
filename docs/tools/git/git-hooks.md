@@ -1,7 +1,4 @@
-<!-- TITLE: Git Hooks -->
-<!-- SUBTITLE: How to define and run a git hook -->
-
-# Defining a Hook
+# Git - Defining a Hook
 
 ## Hook Creation
 

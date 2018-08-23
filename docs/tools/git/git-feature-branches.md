@@ -1,6 +1,3 @@
-<!-- TITLE: Git Workflow: Feature Branches -->
-<!-- SUBTITLE: How to use feature branches to collaborate via git. -->
-
 # Git Workflow: Feature Branches
 
 ### Successful teams follow 3 easy rules to integrate git into their daily workflow:
@@ -83,7 +80,7 @@ dani@mbp:dev/repos/r3view on frontend-tests [$+]
 
 [frontend-tests ebfe4a6] added nightmarejs to package.json
  8 files changed, 9 insertions(+), 8 deletions(-)
- ```
+```
 
 ### Step 6
 Integrate upstream changes from `origin/master`, which adds them to our **local** branch.

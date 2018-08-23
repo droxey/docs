@@ -1,7 +1,4 @@
-<!-- TITLE: Bash Commands -->
-<!-- SUBTITLE: Advanced Bash Cheat Sheet -->
-
-# Commands
+# SCP Commands
 
 ## Files: Tar/Gzip a Directory
 

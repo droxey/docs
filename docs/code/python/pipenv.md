@@ -1,6 +1,3 @@
-<!-- TITLE: pipenv -->
-<!-- SUBTITLE: Common Commands -->
-
 # Useful Commands for pipenv
 
 ## Basic Commands

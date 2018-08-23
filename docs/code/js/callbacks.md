@@ -1,6 +1,3 @@
-<!-- TITLE: Callbacks Lesson Plan -->
-<!-- SUBTITLE: Written for my interview at Make School. -->
-
 # Lesson Plan - Callbacks
 
 ## [1:00] Objectives

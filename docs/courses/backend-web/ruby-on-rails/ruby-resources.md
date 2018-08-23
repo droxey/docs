@@ -1,8 +1,3 @@
----
-title: Ruby Resources (2018)
-author: Dani Roxberry
----
-
 # Ruby Resources
 
 - [RubyLand News](http://rubyland.news) - Link aggregator for popular Ruby blogs.
@@ -22,3 +17,4 @@ author: Dani Roxberry
 - [Demand for Ruby on Rails is Still Huge (Jun 2018)](https://medium.com/@yoelblum_45935/demand-for-ruby-on-rails-is-still-huge-ea4434926c57)
 - [Make a Slideshow Using Ruby on Rails in 50 Lines of Code and No Javascript](https://hackernoon.com/make-a-slideshow-using-ruby-on-rails-in-50-lines-of-code-and-no-javascript-9fdf0a88ec9d)
 - 
+

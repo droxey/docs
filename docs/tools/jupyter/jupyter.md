@@ -1,6 +1,3 @@
-<!-- TITLE: Jupyter Notebook Tips and Tricks -->
-<!-- SUBTITLE: Cheat Sheet for Jupyter Notebook -->
-
 # Jupyter Notebook Tips and Tricks
 
 ## Generate Config File

@@ -1,6 +1,3 @@
-<!-- TITLE: Docker on Ubuntu 18.04 LTS -->
-<!-- SUBTITLE: Commands to install Docker on Ubuntu Bionic Beaver. -->
-
 # Ubuntu Bionic and Docker Installation
 
 ## Install from Ubuntu Repository

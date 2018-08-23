@@ -2,9 +2,9 @@
   --base-font-family: "Operator SSm A", "Operator SSm B";
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 11px;
+  --base-font-size: 14px;
 
-  --modular-scale: 1.2;
+  --modular-scale: 1.35;
   --mono-hue: 205;
   --mono-saturation: 25%;
 
@@ -24,7 +24,7 @@
   --heading-font-weight: 500;
   --heading-h1-font-weight: 700;
 
-  --heading-h1-font-size: 2em;
+  --heading-h1-font-size: 2.5em;
 
   --notice-font-family: "Operator SSm A", "Operator SSm B";
   --notice-font-style: italic;
@@ -51,9 +51,15 @@ h5,
 h6 {
   font-style: italic;
 }
+.markdown-section a,
+.markdown-section a:hover {
+  text-decoration: none !important;
+}
 
-h3 > a:nth-child(2) {
-  text-decoration: none;
+.markdown-section a:hover,
+.sidebar-nav li > a:hover {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  padding-bottom: 3px;
 }
 
 a.section-link {

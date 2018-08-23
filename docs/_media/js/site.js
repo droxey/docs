@@ -21,7 +21,7 @@ window.$docsify = {
     paths: "auto",
     placeholder: "Type to search...",
     noData: "No Results!",
-    depth: 4
+    depth: 3
   },
   themeable: {
     readyTransition: true,

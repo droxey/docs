@@ -56,8 +56,7 @@ h6 {
   text-decoration: none !important;
 }
 
-.markdown-section a:hover,
-.sidebar-nav li > a:hover {
+.markdown-section a:hover {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
   padding-bottom: 3px;
 }

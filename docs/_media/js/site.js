@@ -5,15 +5,17 @@ window.$docsify = {
   logo: "_media/droxey-blue.png",
   themeColor: "#678594",
   el: "#app",
-  maxLevel: 4,
+  maxLevel: 3,
   subMaxLevel: 6,
   coverPage: false,
   onlyCover: false,
   notFoundPage: true,
-  loadSidebar: true,
+  loadSidebar: false,
   auto2top: true,
   autoHeader: true,
   noEmoji: false,
+  executeScript: true,
+  externalLinkTarget: "_blank",
   search: {
     maxAge: 86400000,
     paths: "auto",
@@ -33,6 +35,8 @@ window.onload = function() {
   if (typeof navigator.serviceWorker !== "undefined") {
     navigator.serviceWorker.register("sw.js");
   }
+
+  console.log(window.$docsify);
 
   setTimeout(function() {
     baffle("#main h1 a.anchor span")

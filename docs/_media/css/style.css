@@ -7,29 +7,23 @@
   --mono-hue: 205;
   --mono-saturation: 25%;
 
+  --sidebar-width: 22rem;
   --sidebar-nav-link-before-content: "";
   --sidebar-nav-link-before-content-l3: "";
   --sidebar-name-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   --sidebar-name-font-weight: 500;
-
   --link-color: white;
+
   --search-result-heading-font-size: 1em;
   --search-result-item-font-size: 0.9em;
 
   --pre-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
 
   --heading-font-family: "Operator SSm A", "Operator SSm B";
-  --heading-font-style: normal;
-  --heading-font-weight: 700;
-
+  --heading-font-weight: 500;
   --heading-h1-font-weight: 700;
-  --heading-h1-font-size: 2.75em;
 
-  --heading-h2-font-weight: 700;
-  --heading-h3-font-weight: 700;
-  --heading-h4-font-weight: 700;
-  --heading-h5-font-weight: 700;
-  --heading-h6-font-weight: 700;
+  --heading-h1-font-size: 2em;
 
   --notice-font-family: "Operator SSm A", "Operator SSm B";
   --notice-font-style: italic;
@@ -49,49 +43,23 @@
   --code-tab-size: 2;
 }
 
-a.github-corner {
-  display: none;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+}
+
+h3 > a:nth-child(2) {
+  text-decoration: none;
 }
 
 a.section-link {
   display: none;
 }
 
-.btn-edit-on-github {
-  transition: background-color 0.5s ease;
-  border: none;
-  border-radius: 3px;
-  background-color: var(--theme-color);
-  position: absolute;
-  top: var(--sidebar-toggle-offset-top);
-  right: 0;
-  margin-right: 45px;
-  padding: 6px 10px 6px 5px;
-  height: var(--sidebar-toggle-height);
-}
-
-.btn-edit-on-github a,
-.btn-edit-on-github svg {
-  transition: color 0.5s ease;
-  color: white;
-}
-
-.btn-edit-on-github a {
-  text-decoration: none;
-  font-family: "Operator SSm A", "Operator SSm B";
-  position: relative;
-  font-weight: 700;
-  top: -1px;
-  padding-left: 5px;
-}
-
-.btn-edit-on-github:hover {
-  cursor: pointer;
-  background-color: var(--mono-tint2);
-}
-
-.btn-edit-on-github:hover svg,
-.btn-edit-on-github:hover a {
-  text-decoration: none;
-  color: white;
+.sidebar-nav > ul:nth-child(1) > li > a.section-link,
+.sidebar-nav > ul:nth-child(1) > li > ul.children > li > a.section-link {
+  display: block;
 }

@@ -53,17 +53,7 @@ a.github-corner {
   display: none;
 }
 
-body
-  > main
-  > aside
-  > div.sidebar-nav
-  > ul
-  > li:nth-child(2)
-  > ul
-  > li:nth-child(2)
-  > ul
-  > li
-  a.section-link {
+a.section-link {
   display: none;
 }
 

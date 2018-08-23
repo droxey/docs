@@ -1,25 +1,23 @@
 window.$docsify = {
   name: "docs@droxey",
-  homepage: "home.md",
   repo: "https://github.com/droxey/docs",
+  homepage: "home.md",
   logo: "_media/droxey-blue.png",
   themeColor: "#678594",
   el: "#app",
-  maxLevel: 5,
-  subMaxLevel: 5,
-  coverpage: false,
+  maxLevel: 4,
+  subMaxLevel: 6,
+  coverPage: false,
   onlyCover: false,
   notFoundPage: true,
-  loadNavbar: false,
+  loadSidebar: true,
   auto2top: true,
   autoHeader: true,
   noEmoji: false,
-  executeScript: true,
-  loadSidebar: false,
   search: {
     maxAge: 86400000,
     paths: "auto",
-    placeholder: "Type to search…",
+    placeholder: "Type to search...",
     noData: "No Results!",
     depth: 4
   },
@@ -28,23 +26,7 @@ window.$docsify = {
     responsiveTables: true
   },
   routerMode: "hash",
-  ga: "UA-111535249-1",
-  plugins: [
-    function(hook, vm) {
-      hook.beforeEach(function(html) {
-        var url =
-          "https://github.com/droxey/docs/tree/master/docs" +
-          vm.router.getFile();
-        var editHtml = "[Edit](" + url + " ':target=_blank')\n";
-        return (
-          "<button class='btn-edit-on-github'><i class='fas fa-fw fa-lg fa-pen-square'></i>" +
-          editHtml +
-          "</button>" +
-          html
-        );
-      });
-    }
-  ]
+  ga: "UA-111535249-1"
 };
 
 window.onload = function() {

@@ -133,8 +133,6 @@
 
 ### [ruby-resources](courses/backend-web/ruby-on-rails/ruby-resources.md)
 
-
-
 ### [server-side-architecture-and-frameworks](courses/backend-web/server-side-architecture-and-frameworks.md)
 
 - [BEW 1.3 Server-Side Architectures and Frameworks](courses/backend-web/server-side-architecture-and-frameworks.md#bew-13-server-side-architectures-and-frameworks)
@@ -188,6 +186,11 @@
   * [Headless Configuration (no keyboard, mouse, or monitor)](electronics/raspberry-pi/pi-zero-w-setup.md#headless-configuration-no-keyboard-mouse-or-monitor)
   * [Security](electronics/raspberry-pi/pi-zero-w-setup.md#security)
 
+### [home](home.md)
+
+- [docs@droxey](home.md#docsdroxey)
+  * [Table of Contents](home.md#table-of-contents)
+
 ### [quotes-about-programming](meta/quotes-about-programming.md)
 
   * [title: Quotes About Programming](meta/quotes-about-programming.md#title-quotes-about-programming)
@@ -212,8 +215,6 @@
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
 
 ### [table-of-contents](table-of-contents.md)
-
-
 
 ### [git-common-issues](tools/git/git-common-issues.md)
 

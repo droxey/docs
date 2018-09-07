@@ -41,3 +41,5 @@ _**Note: once written and formalized, add a checkmark next to the idea, and add 
 - [ ] **Creating Personal Data-Driven Dashboards**
 
 - [ ] **Chatbots: NLP + Sentiment Analysis**
+
+- [ ] **Git Hooks**

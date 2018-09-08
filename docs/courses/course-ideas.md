@@ -42,4 +42,6 @@ _**Note: once written and formalized, add a checkmark next to the idea, and add 
 
 - [ ] **Chatbots: NLP + Sentiment Analysis**
 
+- [ ] **Writing Effective READMEs/CHANGELOGs**
+
 - [ ] **Git Hooks**

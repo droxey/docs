@@ -13,10 +13,14 @@
   --sidebar-nav-link-before-content-l3: "";
   --sidebar-name-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   --sidebar-name-font-weight: 500;
+
+
   --link-color: white;
 
   --search-result-heading-font-size: 1em;
   --search-result-item-font-size: 0.9em;
+  --search-result-heading-font-weight: 400;
+--search-result-heading-margin: 0 0 0.1em;
 
   --pre-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
 

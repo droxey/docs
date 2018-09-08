@@ -11,7 +11,9 @@ const HOSTNAME_WHITELIST = [
   self.location.hostname,
   "fonts.gstatic.com",
   "fonts.googleapis.com",
-  "unpkg.com"
+  "unpkg.com",
+  "s3.outputs.io",
+  "cloud.typography.com",
 ];
 
 // The Util Function to hack URLs of intercepted requests

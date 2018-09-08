@@ -16,32 +16,26 @@ _**Note: once written and formalized, add a checkmark next to the idea, and add 
   1. Create the Mongoose model(s) required in order to query MongoDB.
   1. Implement the resource stubs using Mongoose methods to persist data.
   1. Test persistance and validate that data is properly retreived, created, updated, or deleted for each endpoint.
-
 - [ ] **Benchmarking Backend Performance**
-
 - [ ] **Serverless Endpoints - Create and Deploy**
-
 - [ ] **Docsify - Generating Custom API Documentation**
-
 - [ ] **Deploying API Documentation on GitHub Pages**
-
 - [ ] **Design Patterns in Node.js**
-
 - [ ] **Keeping Secrets Safe: `dotenv` in Action**:
   Integrate `dotenv` into a RESTful API implementation. Show `dotenv` integrated in a myriad of platforms: Django, Node, Rails, etc. Finally, deploy to Heroku without exposing secrets in a public GitHub repository.
-
 - [ ] **Advanced Heroku Deployment**
-
 - [ ] **Amazon S3 - Setup and Deployment**
-
 - [ ] **Amazon AWS - Setup and Deployment**
-
 - [ ] **Dokku - How to Build Your Very Own Heroku Server**
-
 - [ ] **Creating Personal Data-Driven Dashboards**
-
 - [ ] **Chatbots: NLP + Sentiment Analysis**
-
 - [ ] **Writing Effective READMEs/CHANGELOGs**
-
 - [ ] **Git Hooks**
+
+## Huddles / Warm Ups
+
+- [ ] **The Tao of Programming**: [click](http://www.mit.edu/~xela/tao.html)
+- [ ] **Programmer Quotes**
+- [ ] **IDE Tricks**
+- [ ] **Syntax Tricks**
+

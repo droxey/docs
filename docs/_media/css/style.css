@@ -73,3 +73,16 @@ a.section-link {
 .sidebar-nav > ul:nth-child(1) > li > ul.children > li > a.section-link {
   display: block;
 }
+
+body .docsify-copy-code-button, 
+body .docsify-copy-code-button::after {
+    background: none !important;
+    color: var(--copycode-color);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    opacity: 0.6;
+    color: inherit;
+    font-size: var(--font-size-s);
+    line-height: 1;
+}

@@ -1,3 +1,7 @@
+### [_404](_404.md)
+
+- [404](_404.md#404)
+
 ### [callbacks](code/js/callbacks.md)
 
 - [Lesson Plan - Callbacks](code/js/callbacks.md#lesson-plan---callbacks)
@@ -12,11 +16,13 @@
 
 ### [mongo](code/mongo/mongo.md)
 
-- [Drop DB from Command Line](code/mongo/mongo.md#drop-db-from-command-line)
+- [MongoDB Tips and Tricks](code/mongo/mongo.md#mongodb-tips-and-tricks)
+  * [Drop DB from Command Line](code/mongo/mongo.md#drop-db-from-command-line)
 
 ### [karma](code/node/karma.md)
 
-- [Instructions](code/node/karma.md#instructions)
+- [Karma Step by Step](code/node/karma.md#karma-step-by-step)
+  * [Instructions](code/node/karma.md#instructions)
 
 ### [node](code/node/node.md)
 
@@ -40,7 +46,7 @@
 
 ### [conda-commands](code/python/anaconda/conda-commands.md)
 
-- [Commands](code/python/anaconda/conda-commands.md#commands)
+- [Anaconda Commands](code/python/anaconda/conda-commands.md#anaconda-commands)
   * [Create an Environment](code/python/anaconda/conda-commands.md#create-an-environment)
   * [Activate an Environment](code/python/anaconda/conda-commands.md#activate-an-environment)
   * [Remove an Environment](code/python/anaconda/conda-commands.md#remove-an-environment)
@@ -61,10 +67,6 @@
   * [Tutorials](code/python/django/quick-install.md#tutorials)
   * [Documentation](code/python/django/quick-install.md#documentation)
 
-### [intro-guide](code/python/flask/intro-guide.md)
-
-- [Introduction to Flask](code/python/flask/intro-guide.md#introduction-to-flask)
-
 ### [pipenv](code/python/pipenv.md)
 
 - [Useful Commands for pipenv](code/python/pipenv.md#useful-commands-for-pipenv)
@@ -80,8 +82,6 @@
     + [Store Environment Inside Project Directory](code/python/pipenv.md#store-environment-inside-project-directory)
     + [Install from requirements.txt File](code/python/pipenv.md#install-from-requirementstxt-file)
     + [View Dependency Graph](code/python/pipenv.md#view-dependency-graph)
-
-
 
 ### [intro-algorithms](compsci/algorithms/intro-algorithms.md)
 
@@ -131,28 +131,12 @@
   * [Non-Functional Requirements](compsci/sdlc/requirements.md#non-functional-requirements)
   * [Review and Approval](compsci/sdlc/requirements.md#review-and-approval)
 
-### [ruby-resources](courses/backend-web/ruby-on-rails/ruby-resources.md)
+### [course-ideas](courses/course-ideas.md)
 
-### [server-side-architecture-and-frameworks](courses/backend-web/server-side-architecture-and-frameworks.md)
-
-- [BEW 1.3 Server-Side Architectures and Frameworks](courses/backend-web/server-side-architecture-and-frameworks.md#bew-13-server-side-architectures-and-frameworks)
-  * [Course Description](courses/backend-web/server-side-architecture-and-frameworks.md#course-description)
-  * [Course Specifics](courses/backend-web/server-side-architecture-and-frameworks.md#course-specifics)
-  * [Prerequisites:](courses/backend-web/server-side-architecture-and-frameworks.md#prerequisites)
-  * [Learning Objectives or Competencies (5-8)](courses/backend-web/server-side-architecture-and-frameworks.md#learning-objectives-or-competencies-5-8)
-  * [Tutorials & Projects](courses/backend-web/server-side-architecture-and-frameworks.md#tutorials--projects)
-  * [Evaluation](courses/backend-web/server-side-architecture-and-frameworks.md#evaluation)
-  * [Lessons](courses/backend-web/server-side-architecture-and-frameworks.md#lessons)
-  * [Make School Course Policies](courses/backend-web/server-side-architecture-and-frameworks.md#make-school-course-policies)
-
-### [class-catalog](courses/class-catalog.md)
-
-- [Make School Class Catalog: Dani Roxberry (Instructor)](courses/class-catalog.md#make-school-class-catalog-dani-roxberry-instructor)
-  * [BEW 1.3: Server-Side Frameworks](courses/class-catalog.md#bew-13-server-side-frameworks)
-    + [Prerequisites](courses/class-catalog.md#prerequisites)
-    + [Projects](courses/class-catalog.md#projects)
-    + [Description](courses/class-catalog.md#description)
-    + [Tools](courses/class-catalog.md#tools)
+- [Make School - Class Content Ideas](courses/course-ideas.md#make-school---class-content-ideas)
+  * [Course Ideas and Suggestions](courses/course-ideas.md#course-ideas-and-suggestions)
+  * [BEW1.1 and 1.2 - Baseline / Stretch Challenges](courses/course-ideas.md#bew11-and-12---baseline--stretch-challenges)
+  * [Huddles / Warm Ups](courses/course-ideas.md#huddles--warm-ups)
 
 ### [ubuntu-bionic-setup](devops/docker/ubuntu-bionic-setup.md)
 
@@ -188,8 +172,6 @@
 
 ### [quotes-about-programming](meta/quotes-about-programming.md)
 
-  * [title: Quotes About Programming](meta/quotes-about-programming.md#title-quotes-about-programming)
-
 ### [macos-setup](os/macOS-setup.md)
 
   * [Apps](os/macOS-setup.md#apps)
@@ -209,11 +191,9 @@
       - [Install `zgen`:](os/macOS-setup.md#install-zgen)
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
 
-### [table-of-contents](table-of-contents.md)
-
 ### [git-common-issues](tools/git/git-common-issues.md)
 
-- [Windows Configuration Tips and Tricks](tools/git/git-common-issues.md#windows-configuration-tips-and-tricks)
+- [Git - Windows Config Tips and Tricks](tools/git/git-common-issues.md#git---windows-config-tips-and-tricks)
   * [Git Bash](tools/git/git-common-issues.md#git-bash)
 
 ### [git-feature-branches](tools/git/git-feature-branches.md)
@@ -242,16 +222,16 @@
 
 ### [git-hooks](tools/git/git-hooks.md)
 
-- [Defining a Hook](tools/git/git-hooks.md#defining-a-hook)
+- [Git - Defining a Hook](tools/git/git-hooks.md#git---defining-a-hook)
   * [Hook Creation](tools/git/git-hooks.md#hook-creation)
 
 ### [git-keybase-gitcrypt](tools/git/git-keybase-gitcrypt.md)
 
-- [Keybase + Git Crypt](tools/git/git-keybase-gitcrypt.md#keybase--git-crypt)
+- [Git - Keybase + Git Crypt](tools/git/git-keybase-gitcrypt.md#git---keybase--git-crypt)
 
 ### [git-revert-commit](tools/git/git-revert-commit.md)
 
-- [Revert a Commit](tools/git/git-revert-commit.md#revert-a-commit)
+- [Git - Revert a Commit](tools/git/git-revert-commit.md#git---revert-a-commit)
   * [About History Rewriting](tools/git/git-revert-commit.md#about-history-rewriting)
     + [Delete the last commit](tools/git/git-revert-commit.md#delete-the-last-commit)
 
@@ -313,7 +293,7 @@
 
 ### [basic-commands](tools/terminal/basic-commands.md)
 
-- [Commands](tools/terminal/basic-commands.md#commands)
+- [Basic Terminal Commands](tools/terminal/basic-commands.md#basic-terminal-commands)
   * [Moving Around the Filesystem](tools/terminal/basic-commands.md#moving-around-the-filesystem)
     + [Change Directory](tools/terminal/basic-commands.md#change-directory)
     + [Change to Root Directory](tools/terminal/basic-commands.md#change-to-root-directory)
@@ -335,7 +315,7 @@
 
 ### [scp-copy-files](tools/terminal/scp-copy-files.md)
 
-- [Commands](tools/terminal/scp-copy-files.md#commands)
+- [SCP Commands](tools/terminal/scp-copy-files.md#scp-commands)
   * [Files: Tar/Gzip a Directory](tools/terminal/scp-copy-files.md#files-targzip-a-directory)
   * [SCP: Base Syntax](tools/terminal/scp-copy-files.md#scp-base-syntax)
   * [SCP: Remote -> Local](tools/terminal/scp-copy-files.md#scp-remote---local)

@@ -27,6 +27,10 @@ window.$docsify = {
     readyTransition: true,
     responsiveTables: true
   },
+  pagination: {
+    previousText: ":arrow_left: Previous",
+    nextText: "Next :arrow_right:"
+  },
   routerMode: "hash",
   ga: "UA-111535249-1"
 };

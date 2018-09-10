@@ -1,7 +1,3 @@
-### [_404](_404.md)
-
-- [404](_404.md#404)
-
 ### [callbacks](code/js/callbacks.md)
 
 - [Lesson Plan - Callbacks](code/js/callbacks.md#lesson-plan---callbacks)
@@ -133,10 +129,13 @@
 
 ### [course-ideas](courses/course-ideas.md)
 
-- [Make School - Class Content Ideas](courses/course-ideas.md#make-school---class-content-ideas)
-  * [Course Ideas and Suggestions](courses/course-ideas.md#course-ideas-and-suggestions)
-  * [BEW1.1 and 1.2 - Baseline / Stretch Challenges](courses/course-ideas.md#bew11-and-12---baseline--stretch-challenges)
-  * [Huddles / Warm Ups](courses/course-ideas.md#huddles--warm-ups)
+- [BEW @ Make School: Ideas](courses/course-ideas.md#bew--make-school-ideas)
+  * [Class Topics](courses/course-ideas.md#class-topics)
+    + [RESTful Routes and Resources](courses/course-ideas.md#restful-routes-and-resources)
+    + [Authentication, Assocaitions, and Advanced Queries](courses/course-ideas.md#authentication-assocaitions-and-advanced-queries)
+    + [Advanced Web Security](courses/course-ideas.md#advanced-web-security)
+    + [DevOps](courses/course-ideas.md#devops)
+  * [Huddles / Warm Up Topics](courses/course-ideas.md#huddles--warm-up-topics)
 
 ### [ubuntu-bionic-setup](devops/docker/ubuntu-bionic-setup.md)
 
@@ -164,15 +163,54 @@
   * [Purpose](devops/heroku/deploy-a-bot.md#purpose)
   * [Step by Step Guide](devops/heroku/deploy-a-bot.md#step-by-step-guide)
 
+### [ender3](electronics/3d-printing/ender3.md)
+
+- [ender 3](electronics/3d-printing/ender3.md#ender-3)
+  * [Specs](electronics/3d-printing/ender3.md#specs)
+  * [Add BLTouch](electronics/3d-printing/ender3.md#add-bltouch)
+    + [Marlin Configuration](electronics/3d-printing/ender3.md#marlin-configuration)
+    + [Additional Comments](electronics/3d-printing/ender3.md#additional-comments)
+
 ### [pi-zero-w-setup](electronics/raspberry-pi/pi-zero-w-setup.md)
 
 - [Headless Pi Zero W Setup](electronics/raspberry-pi/pi-zero-w-setup.md#headless-pi-zero-w-setup)
   * [Headless Configuration (no keyboard, mouse, or monitor)](electronics/raspberry-pi/pi-zero-w-setup.md#headless-configuration-no-keyboard-mouse-or-monitor)
   * [Security](electronics/raspberry-pi/pi-zero-w-setup.md#security)
 
+### ext-3d-printed-qr-codes-python](docs/articles/ext-3d-printed-qr-codes-python.md)
+
+- [3D Printed WiFi Access QR Codes: Part 1](ext/ext-3d-printed-qr-codes-python.md#3d-printed-wifi-access-qr-codes-part-1)
+  - [Summary](articles/ext-3d-printed-qr-codes-python.md#summary)
+  - [Why a 3D QR code for my WIFI password?](articles/ext-3d-printed-qr-codes-python.md#why-a-3d-qr-code-for-my-wifi-password)
+  - [Getting Set Up](articles/ext-3d-printed-qr-codes-python.md#getting-set-up)
+  - [Step 1: Encoding WiFi credentials in a QR code](articles/ext-3d-printed-qr-codes-python.md#step-1-encoding-wifi-credentials-in-a-qr-code)
+  - [Step 2: 3D Printing a QR Code](articles/ext-3d-printed-qr-codes-python.md#step-2-3d-printing-a-qr-code)
+    - [Create Text Representation](articles/ext-3d-printed-qr-codes-python.md#create-text-representation)
+    - [Create Array Representation](articles/ext-3d-printed-qr-codes-python.md#create-array-representation)
+    - [Create 3D Model](articles/ext-3d-printed-qr-codes-python.md#create-3d-model)
+  - [Conclusions](articles/ext-3d-printed-qr-codes-python.md#conclusions)
+
+### [ext-git-secure-way](ext/ext-git-secure-way.md)
+
+- [How to use Git in a secure way](articles/ext-git-secure-way.md#how-to-use-git-in-a-secure-way)
+  - [Do not commit sensitive information](articles/ext-git-secure-way.md#do-not-commit-sensitive-information)
+  - [Protect the access to your Git repositories](articles/ext-git-secure-way.md#protect-the-access-to-your-git-repositories)
+  - [Sign your work](articles/ext-git-secure-way.md#sign-your-work)
+  - [Keep Git and related tools up to date](articles/ext-git-secure-way.md#keep-git-and-related-tools-up-to-date)
+
+### [ext-your-node-auth-tutorial-is-probably-wrong](ext/ext-your-node-auth-tutorial-is-probably-wrong.md)
+
+- [Your Node.js authentication tutorial is (probably) wrong](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#your-nodejs-authentication-tutorial-is-probably-wrong)
+  - [Mistake one: credential storage](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#mistake-one-credential-storage)
+  - [Mistake two: password reset](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#mistake-two-password-reset)
+  - [Mistake three: API tokens](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#mistake-three-api-tokens)
+  - [Mistake four: rate limiting](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#mistake-four-rate-limiting)
+  - [Authentication is hard.](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#authentication-is-hard)
+    - [Addendum (last updated August 10, 2017)](articles/ext-your-node-auth-tutorial-is-probably-wrong.md#addendum-last-updated-august-10-2017)
+
 ### [quotes-about-programming](meta/quotes-about-programming.md)
 
-### [macos-setup](os/macOS-setup.md)
+### macos-setup](os/macOS-setup.md)
 
   * [Apps](os/macOS-setup.md#apps)
   * [Dock](os/macOS-setup.md#dock)
@@ -190,6 +228,10 @@
       - [Change User Shell to `zsh`](os/macOS-setup.md#change-user-shell-to-zsh)
       - [Install `zgen`:](os/macOS-setup.md#install-zgen)
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
+
+### [table-of-contents](table-of-contents.md)
+
+
 
 ### [git-common-issues](tools/git/git-common-issues.md)
 
@@ -312,6 +354,10 @@
   * [PC Only](tools/terminal/basic-commands.md#pc-only)
     + [Open File or Folder (PC)](tools/terminal/basic-commands.md#open-file-or-folder-pc)
     + [Open Explorer at the Current Directory (PC)](tools/terminal/basic-commands.md#open-explorer-at-the-current-directory-pc)
+
+### [grep](tools/terminal/grep.md)
+
+  * [Match A but not B](tools/terminal/grep.md#match-a-but-not-b)
 
 ### [scp-copy-files](tools/terminal/scp-copy-files.md)
 

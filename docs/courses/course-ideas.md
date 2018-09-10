@@ -70,6 +70,7 @@ _**Fleshed out ideas in bold. Once written and formalized, add a checkmark next 
 - [ ] Deploying API Documentation on GitHub Pages
 - [ ] Serverless Framework
 - [ ] Creating Personal Data-Driven Dashboards
+  - [ ] [VuDash](http://vudash.com/#/)
 - [ ] Chatbots / Slack Integrations
 - [ ] CircleCI / Travis
 - [ ] Writing Effective READMEs/CHANGELOGs

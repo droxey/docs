@@ -1,3 +1,7 @@
+### [_404](docs/_404.md)
+
+- [404](docs/_404.md#404)
+
 ### [callbacks](docs/code/js/callbacks.md)
 
 - [Lesson Plan - Callbacks](docs/code/js/callbacks.md#lesson-plan---callbacks)

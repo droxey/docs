@@ -13,6 +13,9 @@ _**Fleshed out ideas in bold. Once written and formalized, add a checkmark next 
 ### Authentication, Assocaitions, and Advanced Queries
 
 - [ ] Benchmarking Backend Performance
+- [ ] Progressive Tooling
+  * Third party tools that can be used to improve page performance
+  * See [website](https://progressivetooling.com/) for more info.
 - [ ] Design Patterns in Node.js
 - [ ] Docsify - Generating Custom API Documentation
 - [ ] MongoDB Patterns and Practices

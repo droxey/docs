@@ -28,7 +28,7 @@ _**Fleshed out ideas in bold. Once written and formalized, add a checkmark next 
 
   - [ ] [Schema Design](http://learnmongodbthehardway.com/schema/schemadesign/)
 
-  - [ ] [Metadata Schema](http://learnmongodbthehardway.com/schema/metadata/) 
+  - [ ] [Metadata Schema](http://learnmongodbthehardway.com/schema/metadata/)
     Metadata is data that describes and provides information about other data. A classic example is the information about a digital photo, such as the ISO settings, resolution, pixel depth, exposure, camera settings, camera type and so on.
 
   - [ ] [Shopping Cart - No Product Reservation - Amazon Style](http://learnmongodbthehardway.com/schema/shoppingcartnoreservation/)
@@ -75,6 +75,7 @@ _**Fleshed out ideas in bold. Once written and formalized, add a checkmark next 
 - [ ] CircleCI / Travis
 - [ ] Writing Effective READMEs/CHANGELOGs
 - [ ] Implementing a Custom URL Shortener
+- [ ] Automated Test Server Implementation
 
 ---
 

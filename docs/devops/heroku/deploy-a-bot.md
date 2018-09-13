@@ -11,7 +11,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
 ## Step by Step Guide
 
-1.  **Fork** [this repository](https://github.com/outputs-io/heroku-bot) to get started.
+1.  **Fork** [this repository](https://github.com/droxey/heroku-bot) to get started.
 
     ![fork.png](images/fork.png)
 

@@ -16,7 +16,6 @@ _**Fleshed out ideas in bold. Once written and formalized, add a checkmark next 
 - [ ] Benchmarking Backend Performance
 
 - [ ] Progressive Tooling
-
   * Third party tools that can be used to improve page performance
   * See [website](https://progressivetooling.com/) for more info.
 

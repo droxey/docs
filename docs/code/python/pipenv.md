@@ -5,43 +5,43 @@
 ### Create Environment
 
 ```bash
-$ pipenv install
+pipenv install
 ```
 
 ### Activate Environment
 
 ```bash
-$ pipenv shell
+pipenv shell
 ```
 
 ### Install Packages
 
 ```bash
-$ pipenv install Flask=='0.11.*'
+pipenv install Flask=='0.11.*'
 ```
 
 ### Deactivate Environment
 
 ```bash
-$ exit
+exit
 ```
 
 ### Uninstall Packages
 
 ```bash
-$ pipenv uninstall Flask'
+pipenv uninstall Flask'
 ```
 
 ### Uninstall All Packages
 
 ```bash
-$ pipenv uninstall --all
+pipenv uninstall --all
 ```
 
 ### Delete Environment
 
 ```bash
-$ pipenv --rm
+pipenv --rm
 ```
 
 ## Advanced Usage
@@ -49,18 +49,18 @@ $ pipenv --rm
 ### Store Environment Inside Project Directory
 
 ```bash
-$ export PIPENV_VENV_IN_PROJECT=1
-$ pipenv install
+export PIPENV_VENV_IN_PROJECT=1
+pipenv install
 ```
 
 ### Install from requirements.txt File
 
 ```bash
-$ pipenv install -r requirements.txt
+pipenv install -r requirements.txt
 ```
 
 ### View Dependency Graph
 
 ```bash
-$ pipenv Graph
+pipenv Graph
 ```

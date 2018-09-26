@@ -10,7 +10,7 @@ On macOS and Linux, Anaconda defaults to inserting required PATH variables in `~
 * You are running macOS or Linux.
 * You receive this error after installing Anaconda and running `conda --version`: `
   ```bash
-  $ conda --version
+  conda --version
   zsh: command not found: conda
   ```
 
@@ -22,7 +22,7 @@ On macOS and Linux, Anaconda defaults to inserting required PATH variables in `~
 1. Run `source ~/.zshrc` in your Terminal.
 1. `conda --version` should now return the running Anaconda version:
   ```bash
-  $ conda --version
+  conda --version
   conda 4.4.8
   ```
 

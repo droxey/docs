@@ -18,7 +18,7 @@ Ok, let’s get started! To create QR codes, you need to install pyqrcode and py
 
 ```bash
 pip install pyqrcode
-pip install pypng		
+pip install pypng
 ```
 
 If you want to do the 3D printing part, you’ll also need to install SolidPython and NumPy:
@@ -31,7 +31,7 @@ pip install numpy
 Finally, to build a command line app and a web app, you’ll need to install click and Flask:
 
 ```bash
-pip install click 
+pip install click
 pip install Flask
 ```
 

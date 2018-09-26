@@ -9,19 +9,19 @@
 To set it on a case-by-case basis, pass the `--python` flag to `npm`, along with the `python` executable you'd like `npm` to use to build the package.
 
 ```bash
-$ npm install --python=python2
+npm install --python=python2
 ```
 
 To set it globally and permanently, run:
 
 ```bash
-$ npm config set python python2
+npm config set python python2
 ```
 
 ### Find Where Node is Installed
 
 ```bash
-$ npm config get prefix
+npm config get prefix
 
 /Users/dani/.nvm/versions/node/v8.11.1
 ```
@@ -29,7 +29,7 @@ $ npm config get prefix
 ### List Globally Installed Packages
 
 ```bash
-$ npm list -g --depth=0
+npm list -g --depth=0
 
 ├── chai@4.1.2
 ├── eslint@5.5.0
@@ -43,7 +43,7 @@ $ npm list -g --depth=0
 ### Find Node `/bin`
 
 ```bash
-$ npm bin -g
+npm bin -g
 
 /Users/dani/.nvm/versions/node/v8.11.1/bin
 ```
@@ -57,4 +57,3 @@ $ npm bin -g
 ```bash
 npm install node-env-run --save --python=python2
 ```
-

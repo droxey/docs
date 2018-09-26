@@ -7,7 +7,7 @@
 1. Create the hook. In this example, we create a local `post-merge` git hook that will run every time we execute `git pull` from this repository:
 
     ```bash
-    $ nano .git/hooks/post-merge
+    nano .git/hooks/post-merge
     ```
 
 1. Paste the following code, uncomment one of the hook types (`Post-Merge` or `Post-Receive`), and update as required:

@@ -7,7 +7,7 @@
 To install the latest version, use homebrew.
 
 ```bash
-$ brew install ack
+brew install ack
 ```
 
 ## Why use ack over grep
@@ -20,19 +20,19 @@ $ brew install ack
 ## Usage
 
 ```bash
-$ ack [OPTION]... PATTERN [FILES OR DIRECTORIES]
+ack [OPTION]... PATTERN [FILES OR DIRECTORIES]
 ```
 
 Let's say you want to find all JavaScript files that are using the module pancakes in your project, with ack it's as easy as
 
 ```bash
-$ ack --js pancakes
+ack --js pancakes
 ```
 
 Or you may want to find all files that does not contain the word brew
 
 ```bash
-$ ack -L brew
+ack -L brew
 ```
 
 ## Customization
@@ -51,5 +51,5 @@ You can also tell ack to always sort and use colors in the result.
 To see what configuration `ack` uses you can use the dump flag.
 
 ```bash
-$ ack --dump
+ack --dump
 ```

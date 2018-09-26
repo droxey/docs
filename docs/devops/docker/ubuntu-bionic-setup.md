@@ -3,24 +3,24 @@
 ## Install from Ubuntu Repository
 
 ```bash
-$ sudo apt install docker.io
-$ sudo systemctl start docker
-$ sudo systemctl enable docker
-$ docker --version
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
 Docker version 17.12.1-ce, build 7390fc6
 
-$ sudo systemctl stop docker
-$ nano /etc/docker/daemon.json
+sudo systemctl stop docker
+nano /etc/docker/daemon.json
 
 {
   "storage-driver": "overlay2"
 }
 
-$ sudo systemctl start docker
-$ docker info
+sudo systemctl start docker
+docker info
 
-$ docker run hello-world
-$ docker run -it ubuntu bash
+docker run hello-world
+docker run -it ubuntu bash
 ```
 
 ## Install Tools
@@ -28,10 +28,10 @@ $ docker run -it ubuntu bash
 ### Certbot
 
 ```bash
-$ sudo apt-get install software-properties-common
-$ sudo add-apt-repository ppa:certbot/certbot
-$ sudo apt-get update
-$ sudo apt-get install certbot -y
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot -y
 
 ```
 
@@ -88,7 +88,7 @@ IMPORTANT NOTES:
 #### Automate Renewal
 
 ```bash
-$ sudo certbot renew --dry-run
+sudo certbot renew --dry-run
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
 -------------------------------------------------------------------------------
@@ -128,7 +128,7 @@ IMPORTANT NOTES:
 ### Adjust Firewall (iptables)
 
 ```bash
-$ nano /etc/iptables.conf
+nano /etc/iptables.conf
 
 *filter
 :INPUT ACCEPT [0:0]
@@ -160,8 +160,8 @@ COMMIT
 ```
 
 ```bash
-$ iptables-restore -n /etc/iptables.conf
-$ nano /etc/systemd/system/iptables.service
+iptables-restore -n /etc/iptables.conf
+nano /etc/systemd/system/iptables.service
 
 [Unit]
 Description=Restore iptables firewall rules
@@ -176,14 +176,14 @@ WantedBy=multi-user.target
 ```
 
 ```bash
-$ sudo systemctl enable --now iptables
-$ sudo systemctl restart iptables
+sudo systemctl enable --now iptables
+sudo systemctl restart iptables
 ```
 
 ## Install Portainer
 
 ```bash
-$ docker volume create portainer_data
-$ docker run -d -p 9000:9000 portainer/portainer -n portainer -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data --ssl --sslcert /etc/letsencrypt/live/lab.outputs.io/fullchain.pem --sslkey /etc/letsencrypt/live/lab.outputs.io/privkey.pem
+docker volume create portainer_data
+docker run -d -p 9000:9000 portainer/portainer -n portainer -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data --ssl --sslcert /etc/letsencrypt/live/lab.outputs.io/fullchain.pem --sslkey /etc/letsencrypt/live/lab.outputs.io/privkey.pem
 ```
 

@@ -3,13 +3,13 @@
 ## Generate Config File
 
 ```bash
-$ jupyter notebook --generate-config
+jupyter notebook --generate-config
 ```
 
 ## Edit Config File
 
 ```bash
-$ code ~/.jupyter/jupyter_notebook_config.py
+code ~/.jupyter/jupyter_notebook_config.py
 ```
 
 ## Change Default Browser
@@ -21,8 +21,8 @@ For example, to open Jupyter Notebook in Chrome, on macOS, add the following lin
 ## Enable PDF Generation
 
 ```bash
-$ source activate PythonData
-$ conda install -c anaconda-nb-extensions nbbrowserpdf
+source activate PythonData
+conda install -c anaconda-nb-extensions nbbrowserpdf
 ```
 
 ## View Magics

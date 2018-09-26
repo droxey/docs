@@ -7,7 +7,7 @@
 
 ## Step by Step
 
-**‼️ IMPORTANT: $ denotes a command that must be entered into Terminal/Git Bash.**
+**‼️ IMPORTANT: denotes a command that must be entered into Terminal/Git Bash.**
 
 1.  In your browser, create a new repo on GitHub: [Create a New Repository](https://github.com/new).
 
@@ -19,19 +19,19 @@
     In class, we configured it to `~/dev/repos`.
 
     ```bash
-    $ cd ~/dev/repos
+    cd ~/dev/repos
     ```
 
 1.  Clone the repository to your `~/dev/repos` directory:
 
     ```bash
-    $ git clone git@github.com:droxey/my-homework-assignment.git
+    git clone git@github.com:droxey/my-homework-assignment.git
     ```
 
 1.  Open the repository:
 
     ```bash
-    $ cd my-homework-assignment && open .
+    cd my-homework-assignment && open .
     ```
 
 1.  If you are **beginning your assignment**, create any required files and folders in this directory, then **commit and push your progress incrementally** to take advantage of the version control features Git provides.
@@ -41,9 +41,9 @@
 1.  In `Terminal.app` or `Git Bash`, add, commit, and push your files to your new GitHub repository:
 
     ```bash
-    $ git add .
-    $ git commit -m "Assignment #1 solution."
-    $ git push origin master
+    git add .
+    git commit -m "Assignment #1 solution."
+    git push origin master
     ```
 
 1.  In your browser, refresh your GitHub repository page to verify your `git push`.

@@ -19,10 +19,6 @@
 
 - [Markdown](code/node/docsify-markdown-guide.md#markdown)
   * [Headings](code/node/docsify-markdown-guide.md#headings)
-- [Heading 1 {docsify-ignore}](code/node/docsify-markdown-guide.md#heading-1-docsify-ignore)
-  * [Heading 2 {docsify-ignore}](code/node/docsify-markdown-guide.md#heading-2-docsify-ignore)
-    + [Heading 3 {docsify-ignore}](code/node/docsify-markdown-guide.md#heading-3-docsify-ignore)
-      - [Heading 4 {docsify-ignore}](code/node/docsify-markdown-guide.md#heading-4-docsify-ignore)
   * [Text](code/node/docsify-markdown-guide.md#text)
   * [Links](code/node/docsify-markdown-guide.md#links)
   * [Lists](code/node/docsify-markdown-guide.md#lists)
@@ -50,6 +46,9 @@
 - [Node Package Manager](code/node/npm.md#node-package-manager)
   * [Tips](code/node/npm.md#tips)
     + [Change Python Version](code/node/npm.md#change-python-version)
+    + [Find Where Node is Installed](code/node/npm.md#find-where-node-is-installed)
+    + [List Globally Installed Packages](code/node/npm.md#list-globally-installed-packages)
+    + [Find Node `/bin`](code/node/npm.md#find-node-bin)
   * [Packages of Note](code/node/npm.md#packages-of-note)
     + [node-env-run](code/node/npm.md#node-env-run)
 
@@ -183,6 +182,12 @@
   * [Purpose](devops/heroku/deploy-a-bot.md#purpose)
   * [Step by Step Guide](devops/heroku/deploy-a-bot.md#step-by-step-guide)
 
+### [vagrant-install](devops/vagrant/vagrant-install.md)
+
+- [Vagrant](devops/vagrant/vagrant-install.md#vagrant)
+  * [Installation](devops/vagrant/vagrant-install.md#installation)
+  * [Additional Resources](devops/vagrant/vagrant-install.md#additional-resources)
+
 ### [ender3](electronics/3d-printing/ender3.md)
 
 - [ender 3](electronics/3d-printing/ender3.md#ender-3)
@@ -275,10 +280,15 @@
       - [Install `zgen`:](os/macOS-setup.md#install-zgen)
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
 
+
 ### [git-common-issues](tools/git/git-common-issues.md)
 
 - [Git - Windows Config Tips and Tricks](tools/git/git-common-issues.md#git---windows-config-tips-and-tricks)
   * [Git Bash](tools/git/git-common-issues.md#git-bash)
+
+### [git-create-merge-conflict](tools/git/git-create-merge-conflict.md)
+
+- [Generate a Merge Conflict](tools/git/git-create-merge-conflict.md#generate-a-merge-conflict)
 
 ### [git-feature-branches](tools/git/git-feature-branches.md)
 
@@ -406,8 +416,8 @@
 - [SCP Commands](tools/terminal/scp-copy-files.md#scp-commands)
   * [Files: Tar/Gzip a Directory](tools/terminal/scp-copy-files.md#files-targzip-a-directory)
   * [SCP: Base Syntax](tools/terminal/scp-copy-files.md#scp-base-syntax)
-  * [SCP: Remote -> Local](tools/terminal/scp-copy-files.md#scp-remote---local)
   * [SCP: Local -> Remote](tools/terminal/scp-copy-files.md#scp-local---remote)
+  * [SCP: Remote -> Local](tools/terminal/scp-copy-files.md#scp-remote---local)
 
 ### [awesome-data-extensions](tools/vscode/awesome-data-extensions.md)
 
@@ -422,3 +432,7 @@
 
 - [Know Your Tools: VSCode Edition](tools/vscode/know-your-tools.md#know-your-tools-vscode-edition)
   * [Themes](tools/vscode/know-your-tools.md#themes)
+
+### [blog-post-ideas](write/blog-post-ideas.md)
+
+- [Post Topics](write/blog-post-ideas.md#post-topics)

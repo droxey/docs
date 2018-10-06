@@ -5,4 +5,3 @@
 ```bash
 grep "${PATT}" file | grep -v "${NOTPATT}"
 ```
-

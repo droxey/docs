@@ -1,5 +1,4 @@
-### [callbacks](code/js/callbacks.md)
-
+### [code/js/callbacks](code/js/callbacks.md)
 - [Lesson Plan - Callbacks](code/js/callbacks.md#lesson-plan---callbacks)
   * [[1:00] Objectives](code/js/callbacks.md#100-objectives)
   * [[7:00] Callbacks: Theory and Implementation](code/js/callbacks.md#700-callbacks-theory-and-implementation)
@@ -10,13 +9,11 @@
   * [[10:00] Activity - Puck.js](code/js/callbacks.md#1000-activity---puckjs)
   * [[2:00] Wrap Up and Dismiss](code/js/callbacks.md#200-wrap-up-and-dismiss)
 
-### [mongo](code/mongo/mongo.md)
-
+### [code/mongo/mongo](code/mongo/mongo.md)
 - [MongoDB Tips and Tricks](code/mongo/mongo.md#mongodb-tips-and-tricks)
   * [Drop DB from Command Line](code/mongo/mongo.md#drop-db-from-command-line)
 
-### [docsify-markdown-guide](code/node/docsify-markdown-guide.md)
-
+### [code/node/docsify-markdown-guide](code/node/docsify-markdown-guide.md)
 - [Markdown](code/node/docsify-markdown-guide.md#markdown)
   * [Headings](code/node/docsify-markdown-guide.md#headings)
   * [Text](code/node/docsify-markdown-guide.md#text)
@@ -31,18 +28,15 @@
   * [Images](code/node/docsify-markdown-guide.md#images)
   * [Emoji](code/node/docsify-markdown-guide.md#emoji)
 
-### [karma](code/node/karma.md)
-
+### [code/node/karma](code/node/karma.md)
 - [Karma Step by Step](code/node/karma.md#karma-step-by-step)
   * [Instructions](code/node/karma.md#instructions)
 
-### [node](code/node/node.md)
-
+### [code/node/node](code/node/node.md)
 - [Node.js Tips and Tricks](code/node/node.md#nodejs-tips-and-tricks)
   * [Completely Uninstall (macOS)](code/node/node.md#completely-uninstall-macos)
 
-### [npm](code/node/npm.md)
-
+### [code/node/npm](code/node/npm.md)
 - [Node Package Manager](code/node/npm.md#node-package-manager)
   * [Tips](code/node/npm.md#tips)
     + [Change Python Version](code/node/npm.md#change-python-version)
@@ -52,38 +46,33 @@
   * [Packages of Note](code/node/npm.md#packages-of-note)
     + [node-env-run](code/node/npm.md#node-env-run)
 
-### [yarn](code/node/yarn.md)
-
+### [code/node/yarn](code/node/yarn.md)
 - [Guide to Yarn](code/node/yarn.md#guide-to-yarn)
   * [Installation on Ubuntu](code/node/yarn.md#installation-on-ubuntu)
     + [Add Source and Install](code/node/yarn.md#add-source-and-install)
     + [Verify Installation](code/node/yarn.md#verify-installation)
 
-### [conda-commands](code/python/anaconda/conda-commands.md)
-
+### [code/python/anaconda/conda-commands](code/python/anaconda/conda-commands.md)
 - [Anaconda Commands](code/python/anaconda/conda-commands.md#anaconda-commands)
   * [Create an Environment](code/python/anaconda/conda-commands.md#create-an-environment)
   * [Activate an Environment](code/python/anaconda/conda-commands.md#activate-an-environment)
   * [Remove an Environment](code/python/anaconda/conda-commands.md#remove-an-environment)
 
-### [integration](code/python/anaconda/zsh/integration.md)
-
+### [code/python/anaconda/zsh/integration](code/python/anaconda/zsh/integration.md)
 - [conda + zsh + oh-my-zsh integration](code/python/anaconda/zsh/integration.md#conda--zsh--oh-my-zsh-integration)
   * [Purpose](code/python/anaconda/zsh/integration.md#purpose)
   * [Intended Audience](code/python/anaconda/zsh/integration.md#intended-audience)
   * [The Fix](code/python/anaconda/zsh/integration.md#the-fix)
   * [Plugins](code/python/anaconda/zsh/integration.md#plugins)
 
-### [quick-install](code/python/django/quick-install.md)
-
+### [code/python/django/quick-install](code/python/django/quick-install.md)
 - [Django: Quick Start](code/python/django/quick-install.md#django-quick-start)
   * [Installation: Step by Step](code/python/django/quick-install.md#installation-step-by-step)
   * [Helpful Management Commands](code/python/django/quick-install.md#helpful-management-commands)
   * [Tutorials](code/python/django/quick-install.md#tutorials)
   * [Documentation](code/python/django/quick-install.md#documentation)
 
-### [pipenv](code/python/pipenv.md)
-
+### [code/python/pipenv](code/python/pipenv.md)
 - [Useful Commands for pipenv](code/python/pipenv.md#useful-commands-for-pipenv)
   * [Basic Commands](code/python/pipenv.md#basic-commands)
     + [Create Environment](code/python/pipenv.md#create-environment)
@@ -98,8 +87,7 @@
     + [Install from requirements.txt File](code/python/pipenv.md#install-from-requirementstxt-file)
     + [View Dependency Graph](code/python/pipenv.md#view-dependency-graph)
 
-### [intro-algorithms](compsci/algorithms/intro-algorithms.md)
-
+### [compsci/algorithms/intro-algorithms](compsci/algorithms/intro-algorithms.md)
 - [Introduction to Algorithms](compsci/algorithms/intro-algorithms.md#introduction-to-algorithms)
   * [Formal Definition](compsci/algorithms/intro-algorithms.md#formal-definition)
   * [Linear Search [Best: _O(1)_ Worst: _O(n)_]](compsci/algorithms/intro-algorithms.md#linear-search-best-_o1_-worst-_on_)
@@ -108,19 +96,18 @@
   * [Binary Search [Best: _O(1)_ Worst: _O(log n)_]](compsci/algorithms/intro-algorithms.md#binary-search-best-_o1_-worst-_olog-n_)
     + [Pseudocode the Steps](compsci/algorithms/intro-algorithms.md#pseudocode-the-steps-1)
     + [Implementation](compsci/algorithms/intro-algorithms.md#implementation-1)
-  * [Selection Sort [Best: _O(n<sup>2</sup>)_ Worst: _O(n<sup>2</sup>)_]](compsci/algorithms/intro-algorithms.md#selection-sort-best-_onsup2sup_-worst-_onsup2sup_)
+  * [Selection Sort [Best: _O(n2)_ Worst: _O(n2)_]](compsci/algorithms/intro-algorithms.md#selection-sort-best-_on2_-worst-_on2_)
     + [Pseudocode the Steps](compsci/algorithms/intro-algorithms.md#pseudocode-the-steps-2)
     + [Implementation](compsci/algorithms/intro-algorithms.md#implementation-2)
-  * [Insertion Sort [Best: _O(n)_ Worst: _O(n<sup>2</sup>)_]](compsci/algorithms/intro-algorithms.md#insertion-sort-best-_on_-worst-_onsup2sup_)
+  * [Insertion Sort [Best: _O(n)_ Worst: _O(n2)_]](compsci/algorithms/intro-algorithms.md#insertion-sort-best-_on_-worst-_on2_)
     + [Pseudocode the Steps](compsci/algorithms/intro-algorithms.md#pseudocode-the-steps-3)
     + [Implementation](compsci/algorithms/intro-algorithms.md#implementation-3)
-  * [Quicksort [Best: _O(n log n)_ Worst: _O(n<sup>2</sup>)_]](compsci/algorithms/intro-algorithms.md#quicksort-best-_on-log-n_-worst-_onsup2sup_)
+  * [Quicksort [Best: _O(n log n)_ Worst: _O(n2)_]](compsci/algorithms/intro-algorithms.md#quicksort-best-_on-log-n_-worst-_on2_)
     + [Pseudocode the Steps](compsci/algorithms/intro-algorithms.md#pseudocode-the-steps-4)
     + [Implementation](compsci/algorithms/intro-algorithms.md#implementation-4)
   * [Additional Practice](compsci/algorithms/intro-algorithms.md#additional-practice)
 
-### [cs-review](compsci/interviewing/cs-review.md)
-
+### [compsci/interviewing/cs-review](compsci/interviewing/cs-review.md)
 - [Interview Review](compsci/interviewing/cs-review.md#interview-review)
   * [Swift](compsci/interviewing/cs-review.md#swift)
     + [Collection Types](compsci/interviewing/cs-review.md#collection-types)
@@ -135,8 +122,7 @@
     + [Class vs Interface](compsci/interviewing/cs-review.md#class-vs-interface)
     + [Access Control](compsci/interviewing/cs-review.md#access-control)
 
-### [requirements](compsci/sdlc/requirements.md)
-
+### [compsci/sdlc/requirements](compsci/sdlc/requirements.md)
 - [Writing Requirements: An Engineering Perspective](compsci/sdlc/requirements.md#writing-requirements-an-engineering-perspective)
   * [Well Written Requirements...](compsci/sdlc/requirements.md#well-written-requirements)
   * [A Living Document](compsci/sdlc/requirements.md#a-living-document)
@@ -146,8 +132,7 @@
   * [Non-Functional Requirements](compsci/sdlc/requirements.md#non-functional-requirements)
   * [Review and Approval](compsci/sdlc/requirements.md#review-and-approval)
 
-### [course-ideas](courses/course-ideas.md)
-
+### [courses/course-ideas](courses/course-ideas.md)
 - [BEW @ Make School: Ideas](courses/course-ideas.md#bew--make-school-ideas)
   * [Class Topics](courses/course-ideas.md#class-topics)
     + [RESTful Routes and Resources](courses/course-ideas.md#restful-routes-and-resources)
@@ -156,8 +141,7 @@
     + [DevOps](courses/course-ideas.md#devops)
   * [Huddles / Warm Up Topics](courses/course-ideas.md#huddles--warm-up-topics)
 
-### [ubuntu-bionic-setup](devops/docker/ubuntu-bionic-setup.md)
-
+### [devops/docker/ubuntu-bionic-setup](devops/docker/ubuntu-bionic-setup.md)
 - [Ubuntu Bionic and Docker Installation](devops/docker/ubuntu-bionic-setup.md#ubuntu-bionic-and-docker-installation)
   * [Install from Ubuntu Repository](devops/docker/ubuntu-bionic-setup.md#install-from-ubuntu-repository)
   * [Install Tools](devops/docker/ubuntu-bionic-setup.md#install-tools)
@@ -167,8 +151,7 @@
     + [Adjust Firewall (iptables)](devops/docker/ubuntu-bionic-setup.md#adjust-firewall-iptables)
   * [Install Portainer](devops/docker/ubuntu-bionic-setup.md#install-portainer)
 
-### [dokku-commands](devops/dokku/dokku-commands.md)
-
+### [devops/dokku/dokku-commands](devops/dokku/dokku-commands.md)
   * [Example Deployment](devops/dokku/dokku-commands.md#example-deployment)
     + [Configure Host](devops/dokku/dokku-commands.md#configure-host)
     + [Configure Local Repository](devops/dokku/dokku-commands.md#configure-local-repository)
@@ -176,42 +159,36 @@
   * [Skip Deployment](devops/dokku/dokku-commands.md#skip-deployment)
   * [Re-Deployment](devops/dokku/dokku-commands.md#re-deployment)
 
-### [deploy-a-bot](devops/heroku/deploy-a-bot.md)
-
+### [devops/heroku/deploy-a-bot](devops/heroku/deploy-a-bot.md)
 - [Deployment Guide: Heroku Bots](devops/heroku/deploy-a-bot.md#deployment-guide-heroku-bots)
   * [Purpose](devops/heroku/deploy-a-bot.md#purpose)
   * [Step by Step Guide](devops/heroku/deploy-a-bot.md#step-by-step-guide)
 
-### [vagrant-install](devops/vagrant/vagrant-install.md)
-
+### [devops/vagrant/vagrant-install](devops/vagrant/vagrant-install.md)
 - [Vagrant](devops/vagrant/vagrant-install.md#vagrant)
   * [Installation](devops/vagrant/vagrant-install.md#installation)
   * [Additional Resources](devops/vagrant/vagrant-install.md#additional-resources)
 
-### [ender3](electronics/3d-printing/ender3.md)
-
+### [electronics/3d-printing/ender3](electronics/3d-printing/ender3.md)
 - [ender 3](electronics/3d-printing/ender3.md#ender-3)
   * [Specs](electronics/3d-printing/ender3.md#specs)
   * [Add BLTouch](electronics/3d-printing/ender3.md#add-bltouch)
     + [Marlin Configuration](electronics/3d-printing/ender3.md#marlin-configuration)
     + [Additional Comments](electronics/3d-printing/ender3.md#additional-comments)
 
-### [pi-zero-w-setup](electronics/raspberry-pi/pi-zero-w-setup.md)
-
+### [electronics/raspberry-pi/pi-zero-w-setup](electronics/raspberry-pi/pi-zero-w-setup.md)
 - [Headless Pi Zero W Setup](electronics/raspberry-pi/pi-zero-w-setup.md#headless-pi-zero-w-setup)
   * [Headless Configuration (no keyboard, mouse, or monitor)](electronics/raspberry-pi/pi-zero-w-setup.md#headless-configuration-no-keyboard-mouse-or-monitor)
   * [Security](electronics/raspberry-pi/pi-zero-w-setup.md#security)
 
-### [ext-git-secure-way](ext/ext-git-secure-way.md)
-
+### [ext/ext-git-secure-way](ext/ext-git-secure-way.md)
 - [How to use Git in a secure way](ext/ext-git-secure-way.md#how-to-use-git-in-a-secure-way)
   * [Do not commit sensitive information](ext/ext-git-secure-way.md#do-not-commit-sensitive-information)
   * [Protect the access to your Git repositories](ext/ext-git-secure-way.md#protect-the-access-to-your-git-repositories)
   * [Sign your work](ext/ext-git-secure-way.md#sign-your-work)
   * [Keep Git and related tools up to date](ext/ext-git-secure-way.md#keep-git-and-related-tools-up-to-date)
 
-### [ext-node-auth-tutorial-is-probably-wrong](ext/ext-node-auth-tutorial-is-probably-wrong.md)
-
+### [ext/ext-node-auth-tutorial-is-probably-wrong](ext/ext-node-auth-tutorial-is-probably-wrong.md)
 - [Your Node.js authentication tutorial is (probably) wrong](ext/ext-node-auth-tutorial-is-probably-wrong.md#your-nodejs-authentication-tutorial-is-probably-wrong)
     + [Mistake one: credential storage](ext/ext-node-auth-tutorial-is-probably-wrong.md#mistake-one-credential-storage)
     + [Mistake two: password reset](ext/ext-node-auth-tutorial-is-probably-wrong.md#mistake-two-password-reset)
@@ -220,8 +197,7 @@
     + [Authentication is hard.](ext/ext-node-auth-tutorial-is-probably-wrong.md#authentication-is-hard)
       - [Addendum (last updated August 10, 2017)](ext/ext-node-auth-tutorial-is-probably-wrong.md#addendum-last-updated-august-10-2017)
 
-### [ext-node-docker-local-dev](ext/ext-node-docker-local-dev.md)
-
+### [ext/ext-node-docker-local-dev](ext/ext-node-docker-local-dev.md)
 - [Base Docker image](ext/ext-node-docker-local-dev.md#base-docker-image)
 - [Create a package.json file](ext/ext-node-docker-local-dev.md#create-a-packagejson-file)
 - [Setup dev image](ext/ext-node-docker-local-dev.md#setup-dev-image)
@@ -231,8 +207,7 @@
   * [Enable debugging](ext/ext-node-docker-local-dev.md#enable-debugging)
 - [Support dev vs production dependencies](ext/ext-node-docker-local-dev.md#support-dev-vs-production-dependencies)
 
-### [ext-python-3d-printed-qr-codes-python](ext/ext-python-3d-printed-qr-codes-python.md)
-
+### [ext/ext-python-3d-printed-qr-codes-python](ext/ext-python-3d-printed-qr-codes-python.md)
 - [3D Printed WiFi Access QR Codes: Part 1](ext/ext-python-3d-printed-qr-codes-python.md#3d-printed-wifi-access-qr-codes-part-1)
     + [Summary](ext/ext-python-3d-printed-qr-codes-python.md#summary)
     + [Why a 3D QR code for my WIFI password?](ext/ext-python-3d-printed-qr-codes-python.md#why-a-3d-qr-code-for-my-wifi-password)
@@ -244,11 +219,10 @@
       - [Create 3D Model](ext/ext-python-3d-printed-qr-codes-python.md#create-3d-model)
     + [Conclusions](ext/ext-python-3d-printed-qr-codes-python.md#conclusions)
 
-### [ext-python-pandas-tricks](ext/ext-python-pandas-tricks.md)
-
+### [ext/ext-python-pandas-tricks](ext/ext-python-pandas-tricks.md)
 - [Python Pandas: Tricks & Features You May Not Know](ext/ext-python-pandas-tricks.md#python-pandas-tricks--features-you-may-not-know)
   * [1. Configure Options & Settings at Interpreter Startup](ext/ext-python-pandas-tricks.md#1-configure-options--settings-at-interpreter-startup)
-  * [2. Make Toy Data Structures With Pandas’ Testing Module](ext/ext-python-pandas-tricks.md#2-make-toy-data-structures-with-pandas’-testing-module)
+  * [2. Make Toy Data Structures With Pandas’ Testing Module](ext/ext-python-pandas-tricks.md#2-make-toy-data-structures-with-pandas-testing-module)
   * [3. Take Advantage of Accessor Methods](ext/ext-python-pandas-tricks.md#3-take-advantage-of-accessor-methods)
   * [4. Create a DatetimeIndex From Component Columns](ext/ext-python-pandas-tricks.md#4-create-a-datetimeindex-from-component-columns)
   * [5. Use Categorical Data to Save on Time and Space](ext/ext-python-pandas-tricks.md#5-use-categorical-data-to-save-on-time-and-space)
@@ -259,10 +233,13 @@
   * [10. Write Pandas Objects Directly to Compressed Format](ext/ext-python-pandas-tricks.md#10-write-pandas-objects-directly-to-compressed-format)
   * [Want to Add to This List? Let Us Know](ext/ext-python-pandas-tricks.md#want-to-add-to-this-list-let-us-know)
 
-### [quotes-about-programming](meta/quotes-about-programming.md)
+### [home](home.md)
+- [docs@droxey](home.md#docsdroxey)
+  * [Table of Contents](home.md#table-of-contents)
 
-### [macos-setup](os/macOS-setup.md)
+### [meta/quotes-about-programming](meta/quotes-about-programming.md)
 
+### [os/macOS-setup](os/macOS-setup.md)
   * [Apps](os/macOS-setup.md#apps)
   * [Dock](os/macOS-setup.md#dock)
     + [Add Spacer - Application Side](os/macOS-setup.md#add-spacer---application-side)
@@ -280,18 +257,14 @@
       - [Install `zgen`:](os/macOS-setup.md#install-zgen)
       - [Setup `zgen`:](os/macOS-setup.md#setup-zgen)
 
-
-### [git-common-issues](tools/git/git-common-issues.md)
-
+### [tools/git/git-common-issues](tools/git/git-common-issues.md)
 - [Git - Windows Config Tips and Tricks](tools/git/git-common-issues.md#git---windows-config-tips-and-tricks)
   * [Git Bash](tools/git/git-common-issues.md#git-bash)
 
-### [git-create-merge-conflict](tools/git/git-create-merge-conflict.md)
-
+### [tools/git/git-create-merge-conflict](tools/git/git-create-merge-conflict.md)
 - [Generate a Merge Conflict](tools/git/git-create-merge-conflict.md#generate-a-merge-conflict)
 
-### [git-feature-branches](tools/git/git-feature-branches.md)
-
+### [tools/git/git-feature-branches](tools/git/git-feature-branches.md)
 - [Git Workflow: Feature Branches](tools/git/git-feature-branches.md#git-workflow-feature-branches)
     + [Successful teams follow 3 easy rules to integrate git into their daily workflow:](tools/git/git-feature-branches.md#successful-teams-follow-3-easy-rules-to-integrate-git-into-their-daily-workflow)
   * [Command Overview](tools/git/git-feature-branches.md#command-overview)
@@ -305,8 +278,7 @@
     + [Step 7](tools/git/git-feature-branches.md#step-7)
   * [IMPORTANT!](tools/git/git-feature-branches.md#important)
 
-### [git-flow](tools/git/git-flow.md)
-
+### [tools/git/git-flow](tools/git/git-flow.md)
 - [Flowing with Git](tools/git/git-flow.md#flowing-with-git)
   * [Introduction](tools/git/git-flow.md#introduction)
   * [Setup](tools/git/git-flow.md#setup)
@@ -314,23 +286,19 @@
     + [Windows](tools/git/git-flow.md#windows)
     + [Linux](tools/git/git-flow.md#linux)
 
-### [git-hooks](tools/git/git-hooks.md)
-
+### [tools/git/git-hooks](tools/git/git-hooks.md)
 - [Git - Defining a Hook](tools/git/git-hooks.md#git---defining-a-hook)
   * [Hook Creation](tools/git/git-hooks.md#hook-creation)
 
-### [git-keybase-gitcrypt](tools/git/git-keybase-gitcrypt.md)
-
+### [tools/git/git-keybase-gitcrypt](tools/git/git-keybase-gitcrypt.md)
 - [Git - Keybase + Git Crypt](tools/git/git-keybase-gitcrypt.md#git---keybase--git-crypt)
 
-### [git-revert-commit](tools/git/git-revert-commit.md)
-
+### [tools/git/git-revert-commit](tools/git/git-revert-commit.md)
 - [Git - Revert a Commit](tools/git/git-revert-commit.md#git---revert-a-commit)
   * [About History Rewriting](tools/git/git-revert-commit.md#about-history-rewriting)
     + [Delete the last commit](tools/git/git-revert-commit.md#delete-the-last-commit)
 
-### [git-setup](tools/git/git-setup.md)
-
+### [tools/git/git-setup](tools/git/git-setup.md)
 - [Source Control: How I Learned to Stop Worrying, and Love Git](tools/git/git-setup.md#source-control-how-i-learned-to-stop-worrying-and-love-git)
   * [Objectives](tools/git/git-setup.md#objectives)
   * [Intro to Git: Warmup Activity (15 Minutes)](tools/git/git-setup.md#intro-to-git-warmup-activity-15-minutes)
@@ -357,19 +325,16 @@
       - [Paid](tools/git/git-setup.md#paid)
     + [Repositories of Note](tools/git/git-setup.md#repositories-of-note)
 
-### [git-submitting-homework](tools/git/git-submitting-homework.md)
-
+### [tools/git/git-submitting-homework](tools/git/git-submitting-homework.md)
 - [Submitting Homework on GitHub](tools/git/git-submitting-homework.md#submitting-homework-on-github)
   * [Prerequisites](tools/git/git-submitting-homework.md#prerequisites)
   * [Step by Step](tools/git/git-submitting-homework.md#step-by-step)
 
-### [github-pages](tools/git/github-pages.md)
-
+### [tools/git/github-pages](tools/git/github-pages.md)
   * [Deployment Tricks](tools/git/github-pages.md#deployment-tricks)
     + [Force GitHub Pages Rebuild](tools/git/github-pages.md#force-github-pages-rebuild)
 
-### [jupyter](tools/jupyter/jupyter.md)
-
+### [tools/jupyter/jupyter](tools/jupyter/jupyter.md)
 - [Jupyter Notebook Tips and Tricks](tools/jupyter/jupyter.md#jupyter-notebook-tips-and-tricks)
   * [Generate Config File](tools/jupyter/jupyter.md#generate-config-file)
   * [Edit Config File](tools/jupyter/jupyter.md#edit-config-file)
@@ -378,15 +343,13 @@
   * [View Magics](tools/jupyter/jupyter.md#view-magics)
   * [Additional Resources](tools/jupyter/jupyter.md#additional-resources)
 
-### [ack](tools/terminal/ack.md)
-
+### [tools/terminal/ack](tools/terminal/ack.md)
   * [Installation](tools/terminal/ack.md#installation)
   * [Why use ack over grep](tools/terminal/ack.md#why-use-ack-over-grep)
   * [Usage](tools/terminal/ack.md#usage)
   * [Customization](tools/terminal/ack.md#customization)
 
-### [basic-commands](tools/terminal/basic-commands.md)
-
+### [tools/terminal/basic-commands](tools/terminal/basic-commands.md)
 - [Basic Terminal Commands](tools/terminal/basic-commands.md#basic-terminal-commands)
   * [Moving Around the Filesystem](tools/terminal/basic-commands.md#moving-around-the-filesystem)
     + [Change Directory](tools/terminal/basic-commands.md#change-directory)
@@ -407,20 +370,17 @@
     + [Open File or Folder (PC)](tools/terminal/basic-commands.md#open-file-or-folder-pc)
     + [Open Explorer at the Current Directory (PC)](tools/terminal/basic-commands.md#open-explorer-at-the-current-directory-pc)
 
-### [grep](tools/terminal/grep.md)
-
+### [tools/terminal/grep](tools/terminal/grep.md)
   * [Match A but not B](tools/terminal/grep.md#match-a-but-not-b)
 
-### [scp-copy-files](tools/terminal/scp-copy-files.md)
-
+### [tools/terminal/scp-copy-files](tools/terminal/scp-copy-files.md)
 - [SCP Commands](tools/terminal/scp-copy-files.md#scp-commands)
   * [Files: Tar/Gzip a Directory](tools/terminal/scp-copy-files.md#files-targzip-a-directory)
   * [SCP: Base Syntax](tools/terminal/scp-copy-files.md#scp-base-syntax)
   * [SCP: Local -> Remote](tools/terminal/scp-copy-files.md#scp-local---remote)
   * [SCP: Remote -> Local](tools/terminal/scp-copy-files.md#scp-remote---local)
 
-### [awesome-data-extensions](tools/vscode/awesome-data-extensions.md)
-
+### [tools/vscode/awesome-data-extensions](tools/vscode/awesome-data-extensions.md)
 - [Data Science Extensions for VSCode](tools/vscode/awesome-data-extensions.md#data-science-extensions-for-vscode)
   * [General](tools/vscode/awesome-data-extensions.md#general)
   * [JavaScript](tools/vscode/awesome-data-extensions.md#javascript)
@@ -428,11 +388,10 @@
   * [Python](tools/vscode/awesome-data-extensions.md#python)
   * [R](tools/vscode/awesome-data-extensions.md#r)
 
-### [know-your-tools](tools/vscode/know-your-tools.md)
-
+### [tools/vscode/know-your-tools](tools/vscode/know-your-tools.md)
 - [Know Your Tools: VSCode Edition](tools/vscode/know-your-tools.md#know-your-tools-vscode-edition)
   * [Themes](tools/vscode/know-your-tools.md#themes)
 
-### [blog-post-ideas](write/blog-post-ideas.md)
-
+### [write/blog-post-ideas](write/blog-post-ideas.md)
 - [Post Topics](write/blog-post-ideas.md#post-topics)
+

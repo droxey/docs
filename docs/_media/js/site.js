@@ -16,7 +16,7 @@ window.$docsify = {
   noEmoji: false,
   executeScript: true,
   externalLinkTarget: "_blank",
-  nameLink: '/',
+  nameLink: 'https://droxey.com/docs/',
   search: {
     maxAge: 86400000,
     paths: "auto",

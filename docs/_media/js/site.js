@@ -3,7 +3,7 @@ window.$docsify = {
   repo: "https://github.com/droxey/docs",
   homepage: "home.md",
   logo: "_media/droxey-blue.png",
-  themeColor: "#678594",
+  // themeColor: "#678594",
   el: "#app",
   maxLevel: 3,
   subMaxLevel: 6,
@@ -16,6 +16,7 @@ window.$docsify = {
   noEmoji: false,
   executeScript: true,
   externalLinkTarget: "_blank",
+  nameLink: '/',
   search: {
     maxAge: 86400000,
     paths: "auto",
@@ -31,7 +32,7 @@ window.$docsify = {
     previousText: ":arrow_left: Previous",
     nextText: "Next :arrow_right:"
   },
-  routerMode: "hash",
+  // routerMode: "history",
   ga: "UA-111535249-1"
 };
 
@@ -39,8 +40,6 @@ window.onload = function() {
   if (typeof navigator.serviceWorker !== "undefined") {
     navigator.serviceWorker.register("sw.js");
   }
-
-  console.log(window.$docsify);
 
   setTimeout(function() {
     baffle("#main h1 a.anchor span")

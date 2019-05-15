@@ -1,17 +1,15 @@
 :root {
-  --base-font-family: "Operator SSm A", "Operator SSm B";
+  --base-font-family: 'Fira Sans', sans-serif;
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 14px;
+  --base-font-size: 18px;
 
-  --modular-scale: 1.35;
-  --mono-hue: 205;
-  --mono-saturation: 25%;
+  --modular-scale: 1.2;
 
-  --sidebar-width: 22rem;
-  --sidebar-nav-link-before-content: "";
+  --sidebar-width: 28rem;
+  --sidebar-nav-link-before-content: "*";
   --sidebar-nav-link-before-content-l3: "";
-  --sidebar-name-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
+  --sidebar-name-font-family: 'Fira Sans', sans-serif;
   --sidebar-name-font-weight: 500;
 
 
@@ -20,25 +18,28 @@
   --search-result-heading-font-size: 1em;
   --search-result-item-font-size: 0.9em;
   --search-result-heading-font-weight: 400;
---search-result-heading-margin: 0 0 0.1em;
+  --search-result-heading-margin: 0 0 0.1em;
 
   --pre-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
 
-  --heading-font-family: "Operator SSm A", "Operator SSm B";
-  --heading-font-weight: 500;
-  --heading-h1-font-weight: 700;
+  --heading-font-family: 'Fira Sans', sans-serif;
+  --heading-font-weight: 700;
+  --heading-h2-padding: 0;
+  --heading-h3-padding: 0;
+  --heading-h4-padding: 0;
+  --heading-h5-padding: 0;
+  --heading-h6-padding: 0;
 
   --heading-h1-font-size: 2.5em;
 
-  --notice-font-family: "Operator SSm A", "Operator SSm B";
-  --notice-font-style: italic;
+  --notice-font-family: 'Fira Sans', sans-serif;
   --notice-font-weight: 500;
 
-  --blockquote-em-font-family: "Operator SSm A", "Operator SSm B";
+  --blockquote-em-font-family: 'Fira Sans', sans-serif;
   --blockquote-em-font-style: normal;
   --blockquote-em-font-weight: 700;
 
-  --blockquote-font-family: "Operator SSm A", "Operator SSm B";
+  --blockquote-font-family: 'Fira Sans', sans-serif;
   --blockquote-font-style: italic;
   --blockquote-font-weight: 500;
 
@@ -48,15 +49,31 @@
   --code-tab-size: 2;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-style: italic;
+#docsdroxey>a>span,
+#main>a>span,
+.markdown-section h1 a.anchor span {
+  font-family: "Operator SSm A", "Operator SSm B" !important;
 }
-.markdown-section a,
-.markdown-section a:hover {
+
+.markdown-section h1 a.anchor span,
+.markdown-section h2 a.anchor span,
+.markdown-section h3 a.anchor span {
+  font-weight: 700;
+}
+
+.markdown-section h4 a.anchor span,
+.markdown-section h5 a.anchor span,
+.markdown-section h6 a.anchor span {
+  font-weight: 500;
+}
+
+.markdown-section h1 a.anchor:hover,
+.markdown-section h2 a.anchor:hover,
+.markdown-section h3 a.anchor:hover,
+.markdown-section h4 a.anchor:hover,
+.markdown-section h5 a.anchor:hover,
+.markdown-section h6 a.anchor:hover {
+  border: none !important;
   text-decoration: none !important;
 }
 
@@ -69,20 +86,32 @@ a.section-link {
   display: none;
 }
 
-.sidebar-nav > ul:nth-child(1) > li > a.section-link,
-.sidebar-nav > ul:nth-child(1) > li > ul.children > li > a.section-link {
+.sidebar-nav>ul:nth-child(1)>li>a.section-link,
+.sidebar-nav>ul:nth-child(1)>li>ul.children>li>a.section-link {
   display: block;
 }
 
-body .docsify-copy-code-button, 
+body>main>aside>div.sidebar-nav>ul>li>a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body .docsify-copy-code-button,
 body .docsify-copy-code-button::after {
-    background: none !important;
-    color: var(--copycode-color);
-    position: relative;
-    bottom: 0;
-    right: 0;
-    opacity: 0.6;
-    color: inherit;
-    font-size: var(--font-size-s);
-    line-height: 1;
+  background: none !important;
+  color: var(--copycode-color);
+  position: relative;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
+  color: inherit;
+  font-size: var(--font-size-s);
+  line-height: 1;
+}
+
+.markdown-section ol ol,
+.markdown-section ol ul,
+.markdown-section ul ol,
+.markdown-section ul ul {
+  font-family: 'Fira Sans', sans-serif;
 }

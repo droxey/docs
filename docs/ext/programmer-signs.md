@@ -3,39 +3,39 @@
 <!-- omit in toc -->
 ## Table of Contents
 
-1. [👎 Signs You're a **Bad** Programmer](#%f0%9f%91%8e-signs-youre-a-bad-programmer)
+1. [👎 **Signs You're a Bad Programmer**](#%f0%9f%91%8e-signs-youre-a-bad-programmer)
    1. [1. Inability to Reason About Code](#1-inability-to-reason-about-code)
    1. [2. Poor Understanding of the Language's Programming Model](#2-poor-understanding-of-the-languages-programming-model)
    1. [3. Deficient Research Skills / Chronically Poor Knowledge of the Platform's Features](#3-deficient-research-skills--chronically-poor-knowledge-of-the-platforms-features)
    1. [4. Inability to Comprehend Pointers](#4-inability-to-comprehend-pointers)
    1. [5. Difficulty Seeing Through Recursion](#5-difficulty-seeing-through-recursion)
    1. [6. Distrust Of Code](#6-distrust-of-code)
-1. [🆗 Signs You're a **Mediocre** Programmer](#%f0%9f%86%97-signs-youre-a-mediocre-programmer)
+1. [🆗 **Signs You're a Mediocre Programmer**](#%f0%9f%86%97-signs-youre-a-mediocre-programmer)
    1. [1. Inability to Think in Sets](#1-inability-to-think-in-sets)
    1. [2. Lack of Critical Thinking](#2-lack-of-critical-thinking)
    1. [3. Pinball Programming](#3-pinball-programming)
    1. [4. Unfamiliar with the Principles of Security](#4-unfamiliar-with-the-principles-of-security)
    1. [5. Code is a Mess](#5-code-is-a-mess)
-1. [🚫 Signs You **Shouldn't Be a Programmer**](#%f0%9f%9a%ab-signs-you-shouldnt-be-a-programmer)
+1. [🚫 **Signs You Shouldn't Be a Programmer**](#%f0%9f%9a%ab-signs-you-shouldnt-be-a-programmer)
    1. [1. Inability to Determine the Order of Program Execution](#1-inability-to-determine-the-order-of-program-execution)
    1. [2. Insufficient Ability to Think Abstractly](#2-insufficient-ability-to-think-abstractly)
    1. [3. Collyer Brothers Syndrome](#3-collyer-brothers-syndrome)
    1. [4. Dysfunctional Sense of Causality](#4-dysfunctional-sense-of-causality)
    1. [5. Indifference to Outcomes](#5-indifference-to-outcomes)
-1. [👍 Signs You're a **Good** Programmer](#%f0%9f%91%8d-signs-youre-a-good-programmer)
+1. [👍 **Signs You're a Good Programmer**](#%f0%9f%91%8d-signs-youre-a-good-programmer)
    1. [1. The Instinct to Experiment First](#1-the-instinct-to-experiment-first)
    1. [2. Emotional Detachment from Code and Design](#2-emotional-detachment-from-code-and-design)
    1. [3. Eager to Fix What Isn't Broken](#3-eager-to-fix-what-isnt-broken)
    1. [4. Fascinated by the Incomprehensible](#4-fascinated-by-the-incomprehensible)
    1. [5. Compelled to Teach](#5-compelled-to-teach)
-1. [⭐️ Signs You're a **Fantastic** Programmer](#%e2%ad%90%ef%b8%8f-signs-youre-a-fantastic-programmer)
+1. [⭐️ **Signs You're a Fantastic Programmer**](#%e2%ad%90%ef%b8%8f-signs-youre-a-fantastic-programmer)
    1. [1. Incorruptible Patience](#1-incorruptible-patience)
    1. [2. A Destructive Pursuit of Perfection](#2-a-destructive-pursuit-of-perfection)
    1. [3. Encyclopedic Grasp of the Platform](#3-encyclopedic-grasp-of-the-platform)
    1. [4. Thinks in Code](#4-thinks-in-code)
    1. [5. When in Rome, Does as Romans Do](#5-when-in-rome-does-as-romans-do)
    1. [6. Creates Their Own Tools](#6-creates-their-own-tools)
-1. [📈 Signs You're **Destined for More**](#%f0%9f%93%88-signs-youre-destined-for-more)
+1. [📈 **Signs You're Destined for More**](#%f0%9f%93%88-signs-youre-destined-for-more)
    1. [1. Indifferent to Hierarchy](#1-indifferent-to-hierarchy)
    1. [2. Excited by Failure](#2-excited-by-failure)
    1. [3. Indifferent to Circumstances](#3-indifferent-to-circumstances)
@@ -43,7 +43,7 @@
    1. [5. Substitutes Impulse for Commitment](#5-substitutes-impulse-for-commitment)
    1. [6. Driven by Experiences](#6-driven-by-experiences)
 
-## 👎 Signs You're a **Bad** Programmer
+## 👎 Signs You're a Bad Programmer
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer)
 
@@ -171,7 +171,7 @@ Get your feet wet and be prepared for some stack overflows. Begin by writing cod
 
 Are you being paid by the line? Are you carrying over old habits from a language with a weak type system? If neither, then this condition is similar to the inability to reason about code, but it seems that it isn't reasoning that's impaired, but trust and comfort with the language. Some of the symptoms are more like "comfort code" that doesn't survive logical analysis, but that the programmer felt compelled to write anyway. The only remedy may be more time to build up familiarity.
 
-## 🆗 Signs You're a **Mediocre** Programmer
+## 🆗 Signs You're a Mediocre Programmer
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer#TOC-Signs-that-you-are-a-mediocre-programmer)
 
@@ -293,7 +293,7 @@ The vast majority of security failures traceable to code have been due to silly 
 
 Programmers in a hurry (or The Zone) commit all these crimes and come back to clean it up later, but a bad programmer is just sloppy. Sometimes it helps to use an IDE that can fix indentation and whitespace ("pretty print") with a shortcut key, but I've seen programmers who can even bludgeon Visual Studio's insistence on proper indentation by messing around with the code too much.
 
-## 🚫 Signs You **Shouldn't Be a Programmer**
+## 🚫 Signs You Shouldn't Be a Programmer
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer#TOC-Signs-that-you-shouldn-t-be-a-programmer)
 
@@ -358,7 +358,7 @@ Programming could still be a hobby for you, but it would be in society's best in
 - Your user interfaces do not make the difficulty of accidentally invoking a function proportionate to its destructiveness (eg: the "Delete Database" button is next to "Save", just as big, has no confirmation step and no undo)
 - You don't use whitespace, indentation or comments
 
-## 👍 Signs You're a **Good** Programmer
+## 👍 Signs You're a Good Programmer
 
 🔗 [Original Link]((https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-good-programmer))
 
@@ -501,7 +501,7 @@ The next year I tried again, but this time I had an iPad and used Keynote to put
 
 The experience of doing an awful job the first time informed my next attempt, and now that I've done it three or four more times I find I'm getting slightly better. Not only that, I now know ten times more about the subject because I studied like crazy to help temper my fear of being asked a difficult question. Teaching teaches the teacher.
 
-## ⭐️ Signs You're a **Fantastic** Programmer
+## ⭐️ Signs You're a Fantastic Programmer
 
 🔗 [Original Link]((https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-good-programmer#TOC-Signs-that-you-re-a-fantastic-programmer))
 
@@ -645,7 +645,7 @@ The simpler it is, the easier to modularize. The easier to modularize, the easie
 - Extends their IDE/Editor with custom macros
 - There's a Radio Shack project enclosure on their desk with a bunch of 7-segment displays showing the number of issues assigned to them in the bug tracker
 
-## 📈 Signs You're **Destined for More**
+## 📈 Signs You're Destined for More
 
 🔗 [Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-good-programmer#TOC-Signs-that-you-re-destined-for-more)
 

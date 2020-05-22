@@ -1,55 +1,53 @@
-# Am I Good at Coding?
-
-Read this to find out!
+# Programming: How Do I Know I'm Any Good?
 
 <!-- omit in toc -->
 ## Table of Contents
 
-1. [👎 **Signs You're a Bad Programmer**](#%f0%9f%91%8e-signs-youre-a-bad-programmer)
-   1. [1. Inability to Reason About Code](#1-inability-to-reason-about-code)
-   1. [2. Poor Understanding of the Language's Programming Model](#2-poor-understanding-of-the-languages-programming-model)
-   1. [3. Deficient Research Skills / Chronically Poor Knowledge of the Platform's Features](#3-deficient-research-skills--chronically-poor-knowledge-of-the-platforms-features)
-   1. [4. Inability to Comprehend Pointers](#4-inability-to-comprehend-pointers)
-   1. [5. Difficulty Seeing Through Recursion](#5-difficulty-seeing-through-recursion)
-   1. [6. Distrust Of Code](#6-distrust-of-code)
-1. [🆗 **Signs You're a Mediocre Programmer**](#%f0%9f%86%97-signs-youre-a-mediocre-programmer)
-   1. [1. Inability to Think in Sets](#1-inability-to-think-in-sets)
-   1. [2. Lack of Critical Thinking](#2-lack-of-critical-thinking)
-   1. [3. Pinball Programming](#3-pinball-programming)
-   1. [4. Unfamiliar with the Principles of Security](#4-unfamiliar-with-the-principles-of-security)
-   1. [5. Code is a Mess](#5-code-is-a-mess)
-1. [🚫 **Signs You Shouldn't Be a Programmer**](#%f0%9f%9a%ab-signs-you-shouldnt-be-a-programmer)
-   1. [1. Inability to Determine the Order of Program Execution](#1-inability-to-determine-the-order-of-program-execution)
-   1. [2. Insufficient Ability to Think Abstractly](#2-insufficient-ability-to-think-abstractly)
-   1. [3. Collyer Brothers Syndrome](#3-collyer-brothers-syndrome)
-   1. [4. Dysfunctional Sense of Causality](#4-dysfunctional-sense-of-causality)
-   1. [5. Indifference to Outcomes](#5-indifference-to-outcomes)
-1. [👍 **Signs You're a Good Programmer**](#%f0%9f%91%8d-signs-youre-a-good-programmer)
-   1. [1. The Instinct to Experiment First](#1-the-instinct-to-experiment-first)
-   1. [2. Emotional Detachment from Code and Design](#2-emotional-detachment-from-code-and-design)
-   1. [3. Eager to Fix What Isn't Broken](#3-eager-to-fix-what-isnt-broken)
-   1. [4. Fascinated by the Incomprehensible](#4-fascinated-by-the-incomprehensible)
-   1. [5. Compelled to Teach](#5-compelled-to-teach)
-1. [⭐️ **Signs You're a Fantastic Programmer**](#%e2%ad%90%ef%b8%8f-signs-youre-a-fantastic-programmer)
-   1. [1. Incorruptible Patience](#1-incorruptible-patience)
-   1. [2. A Destructive Pursuit of Perfection](#2-a-destructive-pursuit-of-perfection)
-   1. [3. Encyclopedic Grasp of the Platform](#3-encyclopedic-grasp-of-the-platform)
-   1. [4. Thinks in Code](#4-thinks-in-code)
-   1. [5. When in Rome, Does as Romans Do](#5-when-in-rome-does-as-romans-do)
-   1. [6. Creates Their Own Tools](#6-creates-their-own-tools)
-1. [📈 **Signs You're Destined for More**](#%f0%9f%93%88-signs-youre-destined-for-more)
-   1. [1. Indifferent to Hierarchy](#1-indifferent-to-hierarchy)
-   1. [2. Excited by Failure](#2-excited-by-failure)
-   1. [3. Indifferent to Circumstances](#3-indifferent-to-circumstances)
-   1. [4. Unswayed by Obligations](#4-unswayed-by-obligations)
-   1. [5. Substitutes Impulse for Commitment](#5-substitutes-impulse-for-commitment)
-   1. [6. Driven by Experiences](#6-driven-by-experiences)
+1. [👎 Signs You're a Bad Programmer](#%f0%9f%91%8e-signs-youre-a-bad-programmer)
+   1. [Inability to Reason About Code](#inability-to-reason-about-code)
+   1. [Poor Understanding of the Language's Programming Model](#poor-understanding-of-the-languages-programming-model)
+   1. [Deficient Research Skills / Chronically Poor Knowledge of the Platform's Features](#deficient-research-skills--chronically-poor-knowledge-of-the-platforms-features)
+   1. [Inability to Comprehend Pointers](#inability-to-comprehend-pointers)
+   1. [Difficulty Seeing Through Recursion](#difficulty-seeing-through-recursion)
+   1. [Distrust Of Code](#distrust-of-code)
+1. [🆗 Signs You're a Mediocre Programmer](#%f0%9f%86%97-signs-youre-a-mediocre-programmer)
+   1. [Inability to Think in Sets](#inability-to-think-in-sets)
+   1. [Lack of Critical Thinking](#lack-of-critical-thinking)
+   1. [Pinball Programming](#pinball-programming)
+   1. [Unfamiliar with the Principles of Security](#unfamiliar-with-the-principles-of-security)
+   1. [Code is a Mess](#code-is-a-mess)
+1. [🚫 Signs You Shouldn't Be a Programmer](#%f0%9f%9a%ab-signs-you-shouldnt-be-a-programmer)
+   1. [Inability to Determine the Order of Program Execution](#inability-to-determine-the-order-of-program-execution)
+   1. [Insufficient Ability to Think Abstractly](#insufficient-ability-to-think-abstractly)
+   1. [Collyer Brothers Syndrome](#collyer-brothers-syndrome)
+   1. [Dysfunctional Sense of Causality](#dysfunctional-sense-of-causality)
+   1. [Indifference to Outcomes](#indifference-to-outcomes)
+1. [👍 Signs You're a Good Programmer](#%f0%9f%91%8d-signs-youre-a-good-programmer)
+   1. [The Instinct to Experiment First](#the-instinct-to-experiment-first)
+   1. [Emotional Detachment from Code and Design](#emotional-detachment-from-code-and-design)
+   1. [Eager to Fix What Isn't Broken](#eager-to-fix-what-isnt-broken)
+   1. [Fascinated by the Incomprehensible](#fascinated-by-the-incomprehensible)
+   1. [Compelled to Teach](#compelled-to-teach)
+1. [⭐️ Signs You're a Fantastic Programmer](#%e2%ad%90%ef%b8%8f-signs-youre-a-fantastic-programmer)
+   1. [Incorruptible Patience](#incorruptible-patience)
+   1. [A Destructive Pursuit of Perfection](#a-destructive-pursuit-of-perfection)
+   1. [Encyclopedic Grasp of the Platform](#encyclopedic-grasp-of-the-platform)
+   1. [Thinks in Code](#thinks-in-code)
+   1. [When in Rome, Does as Romans Do](#when-in-rome-does-as-romans-do)
+   1. [Creates Their Own Tools](#creates-their-own-tools)
+1. [📈 Signs You're Destined for More](#%f0%9f%93%88-signs-youre-destined-for-more)
+   1. [Indifferent to Hierarchy](#indifferent-to-hierarchy)
+   1. [Excited by Failure](#excited-by-failure)
+   1. [Indifferent to Circumstances](#indifferent-to-circumstances)
+   1. [Unswayed by Obligations](#unswayed-by-obligations)
+   1. [Substitutes Impulse for Commitment](#substitutes-impulse-for-commitment)
+   1. [Driven by Experiences](#driven-by-experiences)
 
 ## 👎 Signs You're a Bad Programmer
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer)
 
-### 1. Inability to Reason About Code
+### Inability to Reason About Code
 
 Reasoning about code means being able to follow the execution path ("running the program in your head") while knowing what the goal of the code is.
 
@@ -67,7 +65,7 @@ Reasoning about code means being able to follow the execution path ("running the
 
 *The goal is to reach a point where you no longer need the debugger to be able to follow the flow of code in your head, and where you are patient enough to think about what the code is doing to the state of the program.* The reward is the ability to identify redundant and unnecessary code, as well as how to find bugs in existing code without having to re-implement the whole routine from scratch.
 
-### 2. Poor Understanding of the Language's Programming Model
+### Poor Understanding of the Language's Programming Model
 
 *Object Oriented Programming is an example of a language model, as is Functional or Declarative programming.* They're each significantly different from procedural or imperative programming, just as procedural programming is significantly different from assembly or GOTO-based programming. Then there are languages which follow a major programming model (such as OOP) but introduce their own improvements such as list comprehensions, generics, duck-typing, etc.
 
@@ -88,23 +86,23 @@ If your skills deficiency is a product of ineffective teaching or studying, then
 
 #### OOP
 
-1. Phase 1: "OOP is just records with methods"
-2. Phase 2: "OOP methods are just functions running in a mini-program with its own global variables"
-3. Phase 3: "The global variables are called fields, some of which are private and invisible from outside the mini-program"
-4. Phase 4: "The idea of having private and public elements is to hide implementation details and expose a clean interface, and this is called Encapsulation"
-5. Phase 5: "Encapsulation means my business logic doesn't need to be polluted with implementation details"
+Phase 1: "OOP is just records with methods"
+Phase 2: "OOP methods are just functions running in a mini-program with its own global variables"
+Phase 3: "The global variables are called fields, some of which are private and invisible from outside the mini-program"
+Phase 4: "The idea of having private and public elements is to hide implementation details and expose a clean interface, and this is called Encapsulation"
+Phase 5: "Encapsulation means my business logic doesn't need to be polluted with implementation details"
 
 *Phase 5 looks the same for all languages, since they are all really trying to get the programmer to the point where he can express the intent of the program without burying it in the specifics of how.*
 
 #### Functional
 
-1. Phase 1: "Functional programming is just doing everything by chaining deterministic functions together"
-2. Phase 2: "When the functions are deterministic the compiler can predict when it can cache results or skip evaluation, and even when it's safe to prematurely stop evaluation"
-3. Phase 3: "In order to support Lazy and Partial Evaluation, the compiler requires that functions are defined in terms of how to transform a single parameter, sometimes into another function. This is called Currying"
-4. Phase 4: "Sometimes the compiler can do the Currying for me"
-5. Phase 5: "By letting the compiler figure out the mundane details, I can write programs by describing what I want, rather than how to give it to me"
+Phase 1: "Functional programming is just doing everything by chaining deterministic functions together"
+Phase 2: "When the functions are deterministic the compiler can predict when it can cache results or skip evaluation, and even when it's safe to prematurely stop evaluation"
+Phase 3: "In order to support Lazy and Partial Evaluation, the compiler requires that functions are defined in terms of how to transform a single parameter, sometimes into another function. This is called Currying"
+Phase 4: "Sometimes the compiler can do the Currying for me"
+Phase 5: "By letting the compiler figure out the mundane details, I can write programs by describing what I want, rather than how to give it to me"
 
-### 3. Deficient Research Skills / Chronically Poor Knowledge of the Platform's Features
+### Deficient Research Skills / Chronically Poor Knowledge of the Platform's Features
 
 Modern languages and frameworks now come with an awesome breadth and depth of built-in commands and features, with some leading frameworks (Java, .Net, Cocoa) being too large to expect any programmer, even a good one, to learn in anything less than a few years. But a good programmer will search for a built-in function that does what they need before they begin to roll their own, and excellent programmers have the skill to break-down and identify the abstract problems in their task, then search for existing frameworks, patterns, models and languages that can be adapted before they even begin to design the program.
 
@@ -124,7 +122,7 @@ These are only indicative of the problem if they continue to appear in the progr
 
 *A programmer can't acquire this kind of knowledge without slowing down, and it's likely that he's been in a rush to get each function working by whatever means necessary. He needs to have the platform's technical reference handy and be able to look through it with minimal effort, which can mean either having a hard copy of it on the desk right next to the keyboard, or having a second monitor dedicated to a browser.* To get into the habit initially, he should refactor his old code with the goal of reducing its instruction count by 10:1 or more.
 
-### 4. Inability to Comprehend Pointers
+### Inability to Comprehend Pointers
 
 *If you don't understand pointers then there is a very shallow ceiling on the types of programs you can write, as the concept of pointers enables the creation of complex data structures and efficient APIs.* Managed languages use references instead of pointers, which are similar but add automatic dereferencing and prohibit pointer arithmetic to eliminate certain classes of bugs. They are still similar enough, however, that a failure to grasp the concept will be reflected in poor data-structure design and bugs that trace back to the difference between pass-by-value and pass-by-reference in method calls.
 
@@ -140,10 +138,10 @@ These are only indicative of the problem if they continue to appear in the progr
 
 #### Remedies
 
-"A friend of mine named Joe was staying somewhere else in the hotel and I didn't know his room number. But I did know which room his acquaintance, Frank, was staying in. So I went up there and knocked on his door and asked him, 'Where's Joe staying?' Frank didn't know, but he did know which room Joe's co-worker, Theodore, was staying in, and gave me that room number instead. So I went to Theodore's room and asked him where Joe was staying, and Theodore told me that Joe was in Room 414. And that, in fact, is where Joe was."
+"A friend of mine named Joe was staying somewhere else in the hotel and I didn't know his room number. But I did know which room his acquaintance, Frank, was staying in. So I went up there and knocked on his door and asked him, 'Where's Joe staying?' Frank didn't know, but he did know which room Joe's co-worker, Theodore, was staying in, and gave me that room number instead. So I went to Theodore's room and asked him where Joe was staying, and Theodore told me that Joe was in Room 41And that, in fact, is where Joe was."
 Pointers can be described with many different metaphors, and data structures into many analogies. The above is a simple analogy for a linked list, and anybody can invent their own, even if they aren't programmers. The comprehension failure doesn't occur when pointers are described, so you can't describe them any more thoroughly than they already have been. It fails when the programmer then tries to visualize what's going on in the computer's memory and gets it conflated with their understanding of regular variables, which are very similar. It may help to translate the code into a simple story to help reason about what's going on, until the distinction clicks and the programmer can visualize pointers and the data structures they enable as intuitively as scalar values and arrays.
 
-### 5. Difficulty Seeing Through Recursion
+### Difficulty Seeing Through Recursion
 
 The idea of recursion is easy enough to understand, but programmers often have problems imagining the result of a recursive operation in their minds, or how a complex result can be computed with a simple function. This makes it harder to design a recursive function because you have trouble picturing "where you are" when you come to writing the test for the base condition or the parameters for the recursive call.
 
@@ -162,7 +160,7 @@ Get your feet wet and be prepared for some stack overflows. Begin by writing cod
 
 *Your goal is to have the confidence to jump in, even if you don't have a complete sense of "where you are" in the imaginary recursive path.* Then when you need to write a function for a real project you'd begin by writing a unit test first, and proceeding with the same technique above.
 
-### 6. Distrust Of Code
+### Distrust Of Code
 
 #### Symptoms
 
@@ -177,7 +175,7 @@ Are you being paid by the line? Are you carrying over old habits from a language
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer#TOC-Signs-that-you-are-a-mediocre-programmer)
 
-### 1. Inability to Think in Sets
+### Inability to Think in Sets
 
 Transitioning from imperative programming to functional and declarative programming will immediately require you to think about operating on sets of data as your primitive, not scalar values. The transition is required whenever you use SQL with a relational database (and not as an object store), whenever you design programs that will scale linearly with multiple processors, and whenever you write code that has to execute on a SIMD-capable chip (such as modern graphics cards and video game consoles).
 
@@ -196,7 +194,7 @@ The following count only when they're seen on a platform with Declarative or Fun
 
 Funny enough, visualizing a card dealer cutting a deck of cards and interleaving the two stacks together by flipping through them with his thumbs can jolt the mind into thinking about sets and how you can operate on them in bulk.
 
-### 2. Lack of Critical Thinking
+### Lack of Critical Thinking
 
 Unless you criticize your own ideas and look for flaws in your own thinking, you will miss problems that can be fixed before you even start coding. If you also fail to criticize your own code once written, you will only learn at the vastly slower pace of trial and error. This problem originates in both lazy thinking and egocentric thinking, so its symptoms seem to come from two different directions.
 
@@ -221,7 +219,7 @@ Once you get used to other people examining your ideas, start examining your own
 
 Finally, you must have discipline. Being aware of flaws in your plan will not make you more productive unless you can muster the willpower to correct and rebuild what you're working on.
 
-### 3. Pinball Programming
+### Pinball Programming
 
 When you tilt the board just right, pull back the pin to just the right distance, and hit the flipper buttons in the right sequence, then the program runs flawlessly with the flow of execution bouncing off conditionals and careening unchecked toward the next state transition.
 
@@ -253,7 +251,7 @@ There is also a fourth, Unit Testing, which you use at design time.
 
 Using these ought to become second nature to you, like putting commas and periods in sentences. To get there, go through the above mechanisms (the ones in parenthesis) one at a time and refactor an old program to use them wherever you can cram them, even if it doesn't turn out to be appropriate (especially when they don't seem appropriate, so you also begin to understand why).
 
-### 4. Unfamiliar with the Principles of Security
+### Unfamiliar with the Principles of Security
 
 If the following symptoms weren't so dangerous they'd be little more than an issue of fit-n-finish for most programs, meaning they don't make you a bad programmer, just a programmer who shouldn't work on network programs or secure systems until he's done a bit of homework.
 
@@ -282,7 +280,7 @@ If the following symptoms weren't so dangerous they'd be little more than an iss
 
 The vast majority of security failures traceable to code have been due to silly mistakes, most of which can be avoided by screening input, using resources conservatively, using common sense, and writing code no faster than you can think and reason about it.
 
-### 5. Code is a Mess
+### Code is a Mess
 
 #### Symptoms
 
@@ -299,7 +297,7 @@ Programmers in a hurry (or The Zone) commit all these crimes and come back to cl
 
 [🔗 Original Link](https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer#TOC-Signs-that-you-shouldn-t-be-a-programmer)
 
-### 1. Inability to Determine the Order of Program Execution
+### Inability to Determine the Order of Program Execution
 
 #### Symptoms
 
@@ -313,7 +311,7 @@ Programmers in a hurry (or The Zone) commit all these crimes and come back to cl
 
 You look at the code above and aren't sure what number gets printed out at the end.
 
-### 2. Insufficient Ability to Think Abstractly
+### Insufficient Ability to Think Abstractly
 
 #### Symptoms
 
@@ -324,7 +322,7 @@ You look at the code above and aren't sure what number gets printed out at the e
 - Lisp is opaque to you
 - Cannot fathom the Church-Turing Thesis
 
-### 3. Collyer Brothers Syndrome
+### Collyer Brothers Syndrome
 
 #### Symptoms
 
@@ -334,7 +332,7 @@ You look at the code above and aren't sure what number gets printed out at the e
 - Unwilling to communicate with other people
 - Poor organization skills
 
-### 4. Dysfunctional Sense of Causality
+### Dysfunctional Sense of Causality
 
 #### Symptoms
 
@@ -344,7 +342,7 @@ You look at the code above and aren't sure what number gets printed out at the e
 - You think the presence of code in a program will affect its runtime behavior, even if it is never invoked
 - Your debugging repertoire includes rituals like shining your lucky golf ball, twisting your wedding ring, and tapping the nodding-dog toy on your monitor. And when the debugging doesn't work, you think it might be because you missed one or didn't do them in the right order
 
-### 5. Indifference to Outcomes
+### Indifference to Outcomes
 
 Programming could still be a hobby for you, but it would be in society's best interests to defend itself against your entry into the world of professional software development.
 
@@ -364,7 +362,7 @@ Programming could still be a hobby for you, but it would be in society's best in
 
 🔗 [Original Link]((https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-good-programmer))
 
-### 1. The Instinct to Experiment First
+### The Instinct to Experiment First
 
 The compiler and runtime can often answer a question faster than a human can. Rather than seek out a senior programmer and ask them "will it work if I do this?", a good programmer will just try it and see if it works before bringing their problem to someone else.
 
@@ -385,7 +383,7 @@ Are you excessively cautious? Are you only comfortable when you have permission?
 
 Note: A programmer who "suggests wacky and unrealistic solutions" is not always a bad programmer. It can be a sign of creative thinking from someone who assumes confirmation or correction will come from somewhere else down the line.
 
-### 2. Emotional Detachment from Code and Design
+### Emotional Detachment from Code and Design
 
 Code is like kleenex: you use it when it's useful and throw it away when it no longer serves. We all like to think that code-reuse is important, and while it is, it's not meant to be about raising a child. Code doesn't feel. Code doesn't care. Code will turn on you like a Frankenstein monster. Code is just bytes. Code is a liability.
 
@@ -413,7 +411,7 @@ Find the code that you're the most proud of and delete it, now re-write it from 
 - Be stupid enough to post your best code on Reddit
 - Read the bit about "Destructive pursuit of perfection" further down in this article
 
-### 3. Eager to Fix What Isn't Broken
+### Eager to Fix What Isn't Broken
 
 Programs are infrastructure: they're built to serve a specific need, but needs always change. Good programmers realize that hard-coded values buried in code are bad, that a destoryBaghdad() function is immoral, and that it's a priority to eliminate "code smells". Not for pride. Not for backslapping attaboys from your peers or the authors of methodology books. But because you will itch until it is fixed.
 
@@ -452,7 +450,7 @@ Next you should go to your last project and read through the code. Think about w
 
 Hit #5 and you can call yourself a Zen Apprentice. Do it for a decade until you do it instinctively and you can call yourself a Zen Master.
 
-### 4. Fascinated by the Incomprehensible
+### Fascinated by the Incomprehensible
 
 I am only just beginning to understand what a Fourier Transform does, but I've been studying them because I have the damn persistent feeling that I could be using them somehow. I don't know what I would use them for yet, but maybe I will someday. What I do know is that what I don't know will cost me in useless labor.
 
@@ -476,7 +474,7 @@ When you hear or read something you don't recognize then Google it or hit Wikipe
 
 Computer programming has annexed all of the sciences and the feedback loop is so wide it stuns gods. From biology we took Genetic Algorithms. From climatology we took chaos theory. Biologists now use our work to fold proteins. Climatologists now use our simulations to predict armageddon. Everything informs us, and we inform everything. Either probe the unfathomable or retire on a "blub" programmer's salary.
 
-### 5. Compelled to Teach
+### Compelled to Teach
 
 I once knew someone who thought it was good advice to "never teach everything you know" because they once lost a job after bringing a co-worker up to speed with all their skills. I stared at them with genuine incomprehension. A good manager would never get rid of someone who's not only capable of all their tasks but also demonstrates ability to train new workers. It would be like shooting the goose that lays golden eggs. If you get fired, it's probably for some other reason.
 
@@ -509,7 +507,7 @@ The experience of doing an awful job the first time informed my next attempt, an
 
 I only wish I had these traits and I can only write about them because I've observed them in others. Every now and then I have a moment where I think I'm living one of these, but those moments are rare and cherished. They are also debilitating and brush up against the stereotypes of autistic savants, trading one kind of virtue for another: if you want greatness you have to be prepared to pay.
 
-### 1. Incorruptible Patience
+### Incorruptible Patience
 
 #### Symptoms
 
@@ -525,7 +523,7 @@ I only wish I had these traits and I can only write about them because I've obse
 
 I don't know how to shut out distractions, but if I had to try I'd guess it'd involve a little bit of deference and so much fascination that it directs your imagination instead of being dictated by it. When I want to be like this I want to take life without taking it personally.
 
-### 2. A Destructive Pursuit of Perfection
+### A Destructive Pursuit of Perfection
 
 The worst optimizations favor profit over beauty, and between the two it's beauty that lasts longer. Perfection isn't the same as obsession, but they're damn close.
 
@@ -549,7 +547,7 @@ Let the spirit of the story roll around in your head for a while and think about
 
 This could be hazardous to your income, it's risky to your stock options, but when you do a job right, when you do things properly, when you complete a project the way it ought to be, then sometimes time absolves all indulgences. Sometimes the boss calls you back to the carpet to apologize to you.
 
-### 3. Encyclopedic Grasp of the Platform
+### Encyclopedic Grasp of the Platform
 
 Most programmers realize the short lifespan of their tools and don't waste much of their lives memorizing what's doomed to be obsolete. But neither do most programmers appreciate how everything in this industry is a derivative of some earlier thing, sharing syntax and constraints that will live well past our own personal expiration dates. *The best programmers have done what Oxford used to insist on: if you learn latin and mathematics then you can fuck all of that other modern nonsense, because you'll have the tools you need to understand anything.*
 
@@ -575,13 +573,13 @@ Once upon a time a novice programmer was stumped by a bug that he couldn't figur
 
 Thrilled with his belated insight he writes a blog post about it which disappears into the global ether unread by all but a handful of buddies. That night he lies awake, thinking about that bug and about integer types and the pros and cons of compiler-checked types and so-on.
 
-Ten years later our friend is the lead programmer at the firm, and one day he glances over the shoulder of a junior programmer who's showing evident frustration. Tucked down in the stdout window is a bunch of debugging traces and the number -32,762. The now-guru programmer taps the newbie on the shoulder and says "are you passing an unsigned int16 to code that's expecting a signed int16?"
+Ten years later our friend is the lead programmer at the firm, and one day he glances over the shoulder of a junior programmer who's showing evident frustration. Tucked down in the stdout window is a bunch of debugging traces and the number -32,76The now-guru programmer taps the newbie on the shoulder and says "are you passing an unsigned int16 to code that's expecting a signed int16?"
 
 *If you're not encountering problems that are difficult for you to solve then you need a change of job or hobby or scenery or something. Look for opportunities to work with something new at your job or school, try hacking your Roomba, pick a bug in an open-source project that nobody has touched for months and fix it, try answering tumbleweed questions on StackOverflow that force you to look up something you didn't know.*
 
 *If you could look inside the brain of a guru with a magic magnifying glass you might see clusters of neurons packed around the visual cortex that, like the infamous "Grandmother cells", lie dormant for months but light up when something significant comes into view such as a power of two, or a suspiciously precise delay that points to a DNS timeout, or the signature of the FDIV bug. Those "grandmother cells" can only be made the hard way.*
 
-### 4. Thinks in Code
+### Thinks in Code
 
 #### Symptoms
 
@@ -605,7 +603,7 @@ If you've heard about Sapir-Whorf or read Nineteen Eighty Four and all that jazz
 
 *Whether you have this book or not the key is to practice with coding until you can read and reason with it like your native tongue. You can't acquire this trick in 30 days, it may be more like 30 months. You'll know if you've got it when you begin to see in code as well.*
 
-### 5. When in Rome, Does as Romans Do
+### When in Rome, Does as Romans Do
 
 I don't think I live up to this because I like to use MonoTouch to write iOS apps. I do know Objective-C and can write apps in it, but my heart belongs to LINQ. If I were to suppose an exception to this rule, it would be: "but when in the Roman accounting department, does as accountants do." It is not always wrong to pick a language that fits the domain, even if there's a performance or feature disadvantage from running in an interpreter or other layer. Yet great programmers will never insulate themselves from the hardware and will learn the native language anyway. Every abstraction leaks.
 
@@ -635,7 +633,7 @@ To manage a single product written to multiple platforms you need to abstract yo
 
 The simpler it is, the easier to modularize. The easier to modularize, the easier to separate concerns. The easier to separate concerns, the less has to change to fix bugs and add features. The less has to change, the easier to translate those changes to another system. Don't rely on automatic methods--it's like relying on a cat to tie your shoelaces.
 
-### 6. Creates Their Own Tools
+### Creates Their Own Tools
 
 #### Symptoms
 
@@ -653,7 +651,7 @@ The simpler it is, the easier to modularize. The easier to modularize, the easie
 
 These are not always the traits of "good" programmers, they're the traits of people who go beyond programming and change industries, some of them are even detrimental to what an employer would consider "good". If any of the following fits you then you should start your own company. I can't say if it'll benefit you to squander a few years in the bowels of a corporate beast to "learn the ropes", because if you exhibit these traits then I doubt it will be worth it. You are Steve Jobs or Bill Gates or their successors, and there's no way to learn these traits either because if you don't have them, then you ain't ever gonna.
 
-### 1. Indifferent to Hierarchy
+### Indifferent to Hierarchy
 
 *Richard Feynman once pointed out that "it doesn't matter who your dad knows", if something is wrong then it's wrong no matter who says its right. Don't fear the consequences to your career, you''ll find another job. Society never wastes real talent.*
 
@@ -666,7 +664,7 @@ These are not always the traits of "good" programmers, they're the traits of peo
 - Re-organizing the workspace "Peopleware" style, against company policy
 - Helps themselves to the boss's private stash of bottled water
 
-### 2. Excited by Failure
+### Excited by Failure
 
 Most of us learn from failure, but most of us also fear it. Even fewer of us have so much faith in their innate ability to cope and adapt that failure is actually seductive to them, and they must tempt more. They don't deliberately try to fail, they just feel instinctively that failure can be as beneficial to them as it was to Spencer Silver.
 
@@ -679,7 +677,7 @@ Most of us learn from failure, but most of us also fear it. Even fewer of us hav
 - Owns schwag from Dr. Koop, Enron, Pets.Com, excite, RIM and Yahoo!
 - Founded a second start-up with the essence of their first start-up's failure
 
-### 3. Indifferent to Circumstances
+### Indifferent to Circumstances
 
 _"The mind is its own place, and in itself can make a heaven of hell, a hell of heaven."_
 
@@ -692,7 +690,7 @@ _"The mind is its own place, and in itself can make a heaven of hell, a hell of 
 - Makes the best damn PB&J you've ever tasted, can prepare ramen sous-vide style with a ziplock bag and a space heater
 - Cashes-in their 401k to fund their next venture
 
-### 4. Unswayed by Obligations
+### Unswayed by Obligations
 
 *Obligations are a social construct, and some see them as props for the lazy.* While that's a dishonest oversimplification, some make it a point to break free and do something different. We'd still be bashing rocks together if they didn't.
 
@@ -705,7 +703,7 @@ _"The mind is its own place, and in itself can make a heaven of hell, a hell of 
 - Has deeply religious parents but doesn't attend church
 - Uses the free return-address envelope stickers given out by a cancer charity, frowns when you ask how much they gave
 
-### 5. Substitutes Impulse for Commitment
+### Substitutes Impulse for Commitment
 
 Companies are formed to 1: reduce the cost of a transaction, and 2: provide customer support. Our stereotypical "free spirit" isn't very good at the last one, but that's why they sell their stock to The Suits and fly away to build another nest.
 
@@ -716,7 +714,7 @@ Companies are formed to 1: reduce the cost of a transaction, and 2: provide cust
 - Dedicates books/product launches/office buildings to close persons who didn't show-up for the ceremony
 - Recruits a steadier person to run day-to-day operations
 
-### 6. Driven by Experiences
+### Driven by Experiences
 
 The biggest programming challenges are still unknown; they're not quite the same as solving P=NP and more like figuring out how to get your customer laid. So somebody reacts boric acid and silicon oil, and that's nice, but it took a toy shop owner to turn it into Silly Putty.
 
@@ -728,3 +726,4 @@ The biggest programming challenges are still unknown; they're not quite the same
 - Has eaten Ikizukuri or Fugu
 - Laughs knowingly at the "strawberry cough" scene in Children of Men
 - N.B.: While the toy-shop owner figured out that Silly Putty could be a toy, it took someone who was already $12K in debt to survive the silicone shortages of the Korean War before becoming rich. Not even the most inspired programmers, inventors, or entrepreneurs live in a vacuum. Someone invents it, another figures out what to do with it, and somebody else figures how to turn it into a business. Just look at the gadget you're using to read this article.
+
